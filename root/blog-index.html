@@ -1,0 +1,21 @@
+---
+layout: mainLinks
+title: guesst // blog-index
+---
+
+## blog
+
+i deleted all my social media in december of 2023 because it was killing my brain and making me hate myself. before i deleted my socials i started blogging because i have always been fascinated with the original web 2 infrastructure and the concept of un conglomerated sharing. i have continued that process and i make posts which you can read / watch / look at here.
+
+<ul class="carrotList">
+  {% for post in site.categories.blog %}
+    <li>
+      <p>{{ post.date | date_to_string }} : <a href="{{ post.url }}">{{ post.title }}</a></p>
+    </li>
+  {% endfor %}
+</ul>
+
+## 🚧 🚧 🚧
+this is not the full list of all of my posts. it is kinda taxing to convert them all from my previous website to my new one because i switched from writing my whole website in static html to building my site with [jekyll](https://jekyllrb.com/) at the suggestion of my awesome friend [jacob](https://jelias.me/)!
+
+in the mean time you can see my old old posts (formally called biproducts) by visiting [this archive site](https://playful-elf-104234.netlify.app/biproduct/biproductindex) i created to memorialize the work i did on my first site.

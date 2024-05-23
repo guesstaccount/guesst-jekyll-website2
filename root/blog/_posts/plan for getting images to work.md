@@ -1,0 +1,1 @@
+just drag and drop the image into the editor when i am building the site, and then create a js script that changes the html of the image link to be the new assets location on site build.

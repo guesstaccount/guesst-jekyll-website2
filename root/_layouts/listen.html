@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ page.title }}</title>
+        <link rel="icon" type="image/svg" href="../assets/images/guesst-logo-2024" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Share+Tech+Mono&display=swap">
+        <script src="/assets/js/script.js"></script>
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css">
+    </head>
+    <body>
+        <section class="mainSection">
+            {% include nav.html %}  
+            <center>
+            {% include logo.html %}
+            <div class="listenUlSmacker">
+                <h1 style="margin: 20px 0%;">{{ page.songTitle }}</h1>
+                <h3 style="font-size: xx-large;color: grey; margin: 20px 0px;">{{ page.artist }}</h3>
+                <p>![[{{ page.coverPath }}]]</p>
+                <h3>listen on:</h3>
+                <ul>
+                    <li><a href="/assets/files/{{ page.download }}" download>free download</a></li>
+                    <li><a href="{{ page.soundcloud }}">soundcloud</a></li>
+                    <li><a href="{{ page.bandcamp }}">bandcamp</a></li>
+                    <li><a href="{{ page.youtube }}">youtube</a></li>
+                    <li><a href="{{ page.spotify }}">spotify</a></li>
+                    <li><a href="{{ page.apple }}">apple</a></li>
+                </ul>
+                <h3>talk to me</h3>
+                <ul>
+                    <li><a target="_blank" rel="noopener noreferrer" href="http://eepurl.com/huQD5X">get notified of future releases</a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="mailto:guesstmusic@gmail.com">guesstmusic@gmail.com</a></li>
+                </ul>
+                </center>
+                {{ content }}
+            </div>
+        </section>
+    </body>
+</html>

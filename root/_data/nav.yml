@@ -1,0 +1,12 @@
+- name: home
+  link: /
+- name: listen
+  link: /listen.html
+# - name: look
+#   link: /look.html
+- name: blog
+  link: /blog-index.html
+- name: tour
+  link: /tour.html
+- name: contact
+  link: /contact.html
