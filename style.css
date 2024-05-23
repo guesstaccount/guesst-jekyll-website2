@@ -8,14 +8,14 @@
 }
 
 body {
-background-color: #222222;
-color: white;
-font-family: 'Electrolize', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 1.2rem;
-display: flex;
-justify-content: center;
+    background-color: #222222;
+    color: white;
+    font-family: 'Electrolize', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
 }
 
 a {
@@ -260,7 +260,7 @@ h3 {
     }
 
     body {
-        
+        font-family: 'Electrolize', sans-serif;
     }
 
     .nav {
