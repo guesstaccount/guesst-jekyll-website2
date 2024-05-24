@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Electrolize';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+    font-display: swap;
+}
+
 .logo {
     padding: 5%;
     width: 6rem;
