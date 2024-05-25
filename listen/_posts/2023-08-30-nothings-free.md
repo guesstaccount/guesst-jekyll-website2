@@ -1,5 +1,5 @@
 ---
-title: guesst // listen // nothings free (feat. Gemeo)
+title: guesst // nothings free (feat. Gemeo)
 layout: listen
 songTitle: nothings free (feat. Gemeo)
 artist: guesst x Seong

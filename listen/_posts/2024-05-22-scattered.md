@@ -1,5 +1,5 @@
 ---
-title: guesst // listen // scattered
+title: guesst // scattered
 layout: listen
 songTitle: scattered ep
 artist: Alter. & guesst

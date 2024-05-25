@@ -1,5 +1,5 @@
 ---
-title: guesst // listen // keep the party goin
+title: guesst // keep the party goin
 layout: listen
 songTitle: keep the party goin
 artist: guesst

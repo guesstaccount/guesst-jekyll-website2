@@ -250,7 +250,15 @@ h3 {
     padding: 5%;
 } */
 
-@media (max-width: 868px) {
+.secretTitleSequence {
+    display: none;
+}
+
+.secretTitleSequence h1 {
+    margin-bottom: 0px;
+}
+
+@media (max-width: 950px) {
     h1 {
         font-size: 3.5rem;
     }
@@ -277,8 +285,12 @@ h3 {
         font-size: 1.4rem;
     }
 
-    .titleSequence .logo {
+    .titleSequence {
         display: none;
+    }
+
+    .secretTitleSequence {
+        display: inline;
     }
 
     .nav a {

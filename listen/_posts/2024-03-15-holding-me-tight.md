@@ -1,5 +1,5 @@
 ---
-title: guesst // listen // holding me tight
+title: guesst // holding me tight
 layout: listen
 songTitle: holding me tight
 artist: guesst x semi-cycle

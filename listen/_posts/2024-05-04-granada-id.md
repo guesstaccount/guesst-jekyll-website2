@@ -1,5 +1,5 @@
 ---
-title: guesst // listen // granada id
+title: guesst // granada id
 layout: listen
 songTitle: granada id
 artist: guesst
