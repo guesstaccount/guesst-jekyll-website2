@@ -7,6 +7,8 @@ title: guesst // listen
 
 i would prefer you listen to my music by downloading it for free below in the releases section and listening to it on your device of choice. if you can afford it, i would ask that you pay whatever you think is reasonable for the music to help me keep making it 🦋.
 
+[bandcamp](guesstaccount.bandcamp.com){:target="_blank" rel=“noreferrer noopener”}
+
 [patreon style subscription](https://square.link/u/Mhc0OF7O){:target="_blank" rel=“noreferrer noopener”}
 
 [one time payment](https://square.link/u/Wdq6mOFc){:target="_blank" rel=“noreferrer noopener”}
