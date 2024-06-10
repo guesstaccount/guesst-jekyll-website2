@@ -20,9 +20,26 @@ images
 
 # guesst is a live performer
 
-when i first started the guesst project, i felt conflicted: should i focus on dj centered dance music or write pop music and other vocal/songwriting centric genres? i decided to go with... both. you can expect a guesst vocal performance show to have 100% original works in at least six genres.
+when i first started the guesst project, i felt conflicted: should i focus on dj centered dance music or write pop music and other vocal/songwriting centric genres? i decided to go with... both. you can expect a guesst vocal performance show to have 100% original works + flips and remixes in at least six genres.
 
-## rock angelz tour (hartford, ct)
+## noteable shows:
+2023
+- [rock angelz tour 2.0](https://x.com/rockangelzstage/status/1681346228418756613/photo/1)
+- [subculture party](https://www.instagram.com/p/CuhxbLIP-6Q/)
+- [capitol hill block party](https://www.instagram.com/p/Cu4oiEwsEjg/?img_index=1)
+
+2022
+- [rock angelz tour](https://x.com/rockangelzstage/status/1526246471351287814/photo/1)
+
+
+![image](https://files.guesst.net/file/guesst-files/guesst-main-page.jpg){: .blogImage}
+![image](https://<hostname>.<domain>/file/<bucketname>/<filename>)
+![image](https://files.guesst.net/file/guesst-files/press-kit/press-kit-bass-canyon-2.jpeg){: .blogImage}
+![https://f002.backblazeb2.com/file/guesst-files/press-kit/press-kit-bass-canyon.jpeg]
+![https://f002.backblazeb2.com/file/guesst-files/press-kit/press-kit-rock-angelz-tour-heaven-skate-park.jpeg]
+![https://f002.backblazeb2.com/file/guesst-files/press-kit/press-kit-rock-angelz-tour-heaven-skate-park2.jpeg]
+![https://f002.backblazeb2.com/file/guesst-files/press-kit/press-kit-rock-angelz-tour-rockwell.jpeg]
+![https://f002.backblazeb2.com/file/guesst-files/press-kit/press-kit-rock-angelz-tour-rockwell2.jpeg]
 
 ## rock angelz tour (boston, ma)
 
