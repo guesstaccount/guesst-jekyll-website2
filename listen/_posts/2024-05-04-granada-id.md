@@ -4,7 +4,7 @@ layout: listen
 songTitle: granada id
 artist: guesst
 coverPath: granada-id-cover.jpeg
-download: guesst-granada-id.aif
+download: /assets/files/guesst-granada-id.aif
 soundcloud: https://soundcloud.com/guesstaccount/granada-id
 bandcamp: https://guesstaccount.bandcamp.com/track/granada-id-2
 youtube: https://youtu.be/9T8-mxBep5k?si=bWz08_QvPYITHRku

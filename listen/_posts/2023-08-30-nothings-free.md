@@ -4,7 +4,7 @@ layout: listen
 songTitle: nothings free (feat. Gemeo)
 artist: guesst x Seong
 coverPath: nothings-free-cover.jpeg
-download: guesst-x-seong-nothings-free-feat-gemeo.aif
+download: /assets/files/guesst-x-seong-nothings-free-feat-gemeo.aif
 soundcloud: https://soundcloud.com/guesstaccount/nothings-free
 bandcamp: https://guesstaccount.bandcamp.com/track/nothings-free-feat-gemeo
 youtube: https://music.youtube.com/watch?v=xRHkhOqpTTU&si=dy79StxpiRo7bpKL

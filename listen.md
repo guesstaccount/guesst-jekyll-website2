@@ -5,7 +5,7 @@ title: guesst // listen
 
 ## listen to my music
 
-i would prefer you listen to my music by downloading it for free below in the releases section and listening to it on your device of choice. if you can afford it, i would ask that you pay whatever you think is reasonable for the music to help me keep making it 🦋.
+i would prefer you listen to my music by downloading it for free on bandcamp or below in the releases section and listening to it on your device of choice. if you can afford it, i would ask that you pay whatever you think is reasonable for the music to help me keep making it 🦋.
 
 [bandcamp](guesstaccount.bandcamp.com){:target="_blank" rel=“noreferrer noopener”}
 

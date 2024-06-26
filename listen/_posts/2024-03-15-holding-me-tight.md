@@ -4,7 +4,7 @@ layout: listen
 songTitle: holding me tight
 artist: guesst x semi-cycle
 coverPath: holding-me-tight-cover.jpeg
-download: guesst-holding-me-tight.aif
+download: /assets/files/guesst-holding-me-tight.aif
 soundcloud: https://soundcloud.com/guesstaccount/holding-me-tight-w-semicycle/
 bandcamp: https://guesstaccount.bandcamp.com/track/holding-me-tight
 youtube: https://youtu.be/PZo6jDjE_uc?si=OdKh2mlMmyorF2EM

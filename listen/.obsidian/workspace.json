@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-03-15-holding-me-tight.md",
+                "file": "_posts/2024-05-04-granada-id.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-03-15-holding-me-tight.md",
+                "file": "_posts/2024-05-04-granada-id.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-03-15-holding-me-tight.md",
+                "file": "_posts/2024-05-04-granada-id.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-03-15-holding-me-tight.md"
+                "file": "_posts/2024-05-04-granada-id.md"
               }
             }
           }
@@ -148,16 +148,27 @@
   },
   "active": "6d081eb1bc7b69a6",
   "lastOpenFiles": [
+    "_posts/2024-05-22-scattered.md",
+    "_posts/2024-07-05-dont-let-me-go.md",
+    "_posts/2023-07-26-unfinished-unpublished.md",
+    "_posts/2024-05-04-granada-id.md",
+    "_posts/2024-04-10-fmSMATE.md",
+    "_posts/2024-03-15-holding-me-tight.md",
+    "_posts/2023-09-27-keep-the-party-goin.md",
     "_posts/2023-08-30-nothings-free.md",
+    "_posts/2023-08-04-blue-air.md",
+    "_posts/2023-03-29-glue.md",
+    "_posts/2023-02-01-never-guessed.md",
+    "_posts/2022-12-07-whats-changed.md",
+    "_posts/2022-06-15-crazy-in-the-best-way.md",
+    "_posts/2022-05-11-lovesick.md",
+    "_posts/2022-04-07-shut-up-start-talking.md",
+    "_posts/2021-12-17-splat-com.md",
     "_posts/2023-00-00-nothings-free.md",
     "_posts/2023-00-00-nothings-free",
-    "_posts/2023-09-27-keep-the-party-goin.md",
     "_posts/2023-09-27-keep-the-party-goin",
-    "_posts/2024-05-04-granada-id.md",
     "_posts/2024-05-04-granada-id",
-    "_posts/2024-04-10-fmSMATE.md",
     "2024-01-01-TEMPLATE.md",
-    "_posts/2024-03-15-holding-me-tight.md",
     "holding-me-tight-cover.jpeg"
   ]
 }
