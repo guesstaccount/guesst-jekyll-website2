@@ -307,4 +307,13 @@ h3 {
     .title, .subtitle h2 {
         font-size: 20px;
     }
+    
+    .mainSection {
+        max-width: 90%;
+        padding: 0%;
+    }
+
+    .nav a {
+        padding: 0% 1.5%;
+    }
   }

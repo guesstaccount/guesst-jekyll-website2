@@ -5,7 +5,7 @@ title: guesst // listen
 
 ## listen to my music
 
-i would prefer you listen to my music by downloading it for free on bandcamp or below in the releases section and listening to it on your device of choice. if you can afford it, i would ask that you pay whatever you think is reasonable for the music to help me keep making it 🦋.
+i would prefer you listen to my music by downloading it for free on [bandcamp](guesstaccount.bandcamp.com){:target="_blank" rel=“noreferrer noopener”} or below in the releases section and listening to it on your device of choice. if you can afford it, i would ask that you pay whatever you think is reasonable for the music to help me keep making it 🦋.
 
 [bandcamp](guesstaccount.bandcamp.com){:target="_blank" rel=“noreferrer noopener”}
 
@@ -39,3 +39,5 @@ i believe that art consumers will support and appreciate art creators and that a
 
 - scarcity mindsets that reinforce toxic competitive zero sum ideologies wherein artists are pitted against eachother fighting for scraps while the leadership of monopolistic corporations take the lionshare of revenue generated from the art.
 {: .carrotList}
+
+i believe that the artists, employees, and listeners define the music industry: together, we can build a culture that we want to see. all that is necessary is to divest in capitalistic structures, support radical new approaches, and above all, help one another without promise of compensation, because its the right thing to do.
