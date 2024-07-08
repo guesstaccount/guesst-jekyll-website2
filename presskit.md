@@ -16,7 +16,7 @@ i have experience with open format, dubstep, house, techno, drum & bass (favorit
 
 [book me for a dj set](mailto:booking@guesst.net)
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/7Lzv_OzyzGE?si=X-6aZV5X6KpXUamL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/nh8yw1Q_FH8" title="T.P.Y.K Sessions Ep. 001 - guesst" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## guesst is a live performer
 
