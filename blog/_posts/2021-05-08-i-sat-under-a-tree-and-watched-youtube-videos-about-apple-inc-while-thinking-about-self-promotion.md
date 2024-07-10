@@ -13,9 +13,10 @@ i don’t know. super weird that i have to be observed in order for my efforts t
 
 im hella hungry. check back later. maybe.
 
-![[bp3_sitting_under_a_tree_in_vista_hermosa_park.jpg]]
+![](https://files.guesst.net/file/guesst-files/blog/bp3_sitting_under_a_tree_in_vista_hermosa_park.jpg)
 
 saturday, 8 may 2021, 12:50
+{:.dateandloc }
 
 tv couch @ dtla apartment sitting next to gav
 
@@ -40,17 +41,17 @@ okay, a couple more things before i sign off:
 
 look at this picture of peyton from yesterday. we went and got burgers because neither of us had eaten all day. \#early20s?
 
-![[bp3_peyton_sitting_on_a_ledge_eating_vurger_guys.jpg]]
+![](https://files.guesst.net/file/guesst-files/blog/bp3_peyton_sitting_on_a_ledge_eating_vurger_guys.jpg)
 
 after burgers, we went to target because target is god. i dropped my salsa in the isle and spilled. it was mildly embarrasing, but i bought the salsa and we left. on the way out i was like yooooo take a picture of my by this "guest" sign so i can turn it into a "guesst" sign and it'll be cool. peyton being the dope friend she is, took the photo and here it is in all its edited glory:
 
-![[bp3_guesst_elevator_edit.jpg]]
+![](https://files.guesst.net/file/guesst-files/blog/bp3_guesst_elevator_edit.jpg)
 
 okay and lastly, [Barren Gates](https://www.instagram.com/barrengates/) and i are releasing a new tune together soon which im hyped about. its very linkin parky imo. here's a sneak peak at what might end up being the album cover if Barren ends up liking it.
 
 EDIT: while writing this i heard back from him and this will in fact, not be the album artwork for the single lol. but u get to see it anyway! yay for artistic process!
 
-![[false-verdict-album-art.jpeg]]
+![](https://files.guesst.net/file/guesst-files/blog/false-verdict-album-art.jpeg)
 
 songs i was listening to while writing this that stand out:
 <iframe src="https://open.spotify.com/embed/track/6HeCFmoXkd7jn2DZd2hwW9" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>

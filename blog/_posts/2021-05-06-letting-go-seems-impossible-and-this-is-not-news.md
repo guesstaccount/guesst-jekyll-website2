@@ -1,9 +1,8 @@
 ---
 layout: post
 title: letting go seems impossible and this is not news
-location: waiting room @ urgent care little tokyo
+location: 18:44 || waiting room @ urgent care little tokyo
 ---
-18:44
 
 its been a fucking weird day. i woke up and accidentally stumbled across a picture of a person i miss very much, which kind of sent me into a bit of a spiral im not gonna lie.
 
@@ -19,12 +18,12 @@ how do i love myself?
 
 how do i know if my decisions are in my best interests or simply self serving?
 
-![[bp2_elysian_trees.jpg]]
+![](https://files.guesst.net/file/guesst-files/blog/bp2_elysian_trees.jpg)
 
 
-![[bp2_elysian_water_bottle_and_journal.jpg]]
+![](https://files.guesst.net/file/guesst-files/blog/bp2_elysian_water_bottle_and_journal.jpg)
 
-friday, 07 may 2021 12:04 - couch @ dtla apartment
+friday, 07 May 2021 - 12:04 \|\| couch @ dtla apartment
 {: .dateandloc }
 
 i spent a lot of yesterday crying in the park. i spent a lot of today crying in the park. and on my walk home. and on my roommates bed when i got home.

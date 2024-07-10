@@ -54,6 +54,8 @@ function imageClassify() {
         var paragraphs = document.getElementsByTagName('p');
         console.log(paragraphs);
 
+        // first were gonna do it for all the text ones
+
         // Regular expression to match the format ![[SOMETEXT.jpg]]
         var regex = /!\[\[(.*?).(jpg|jpeg|png)\]\]/i;
 
@@ -67,6 +69,19 @@ function imageClassify() {
                 p.classList.add(classToAdd);
             }
         }
+
+        // now were gonna do it for all the actual md image ones
+
+        var images = document.getElementsByTagName('img');
+            console.log(images);
+            
+            // Loop through all <img> elements
+            for (var i = 0; i < images.length; i++) {
+                // avoid changing the class of the logo image
+                if (images[i].className != 'logo') {
+                    images[i].classList.add(classToAdd);
+                }
+            }
     }
 }
 

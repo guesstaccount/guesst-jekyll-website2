@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a3a3064af914dff2",
+        "id": "5b6b68482d0e42fe",
         "type": "tabs",
         "children": [
           {
-            "id": "6d081eb1bc7b69a6",
+            "id": "1300d33f03842b7f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-07-05-dont-let-me-go.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-05-dont-let-me-go.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-05-dont-let-me-go.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/2024-07-05-dont-let-me-go.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,10 +138,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6d081eb1bc7b69a6",
+  "active": "1300d33f03842b7f",
   "lastOpenFiles": [
-    "_posts/2024-05-22-scattered.md",
     "_posts/2024-07-05-dont-let-me-go.md",
+    "_posts/2024-05-22-scattered.md",
     "_posts/2024-05-04-granada-id.md",
     "_posts/2023-07-26-unfinished-unpublished.md",
     "_posts/2024-04-10-fmSMATE.md",

@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7056682392bab401",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-11-09-no-socials.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "be0aae6ff9cde3b9",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2021-05-06-01-making-a-website-i-guess.md",
+                "file": "_posts/2023-11-09-no-socials.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2021-05-06-01-making-a-website-i-guess.md",
+                "file": "_posts/2023-11-09-no-socials.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2021-05-06-01-making-a-website-i-guess.md"
+                "file": "_posts/2023-11-09-no-socials.md"
               }
             }
           }
@@ -147,15 +159,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "33d1a1b127f2d1d3",
+  "active": "7056682392bab401",
   "lastOpenFiles": [
+    "_posts/2024-02-19-new-logo-familiar-lessons.md",
+    "_posts/new.md",
+    "_posts/2023-11-11-internet-crawling-in-my-post-meta-era.md",
+    "_posts/2023-00-00-internet-crawling-in-my-post-meta-era.md",
+    "_posts/2023-00-00-internet crawling in my post meta era.md",
+    "_posts/2023-00-00-log2.md",
+    "_posts/2023-00-00-log2",
+    "_posts/2021-05-08-i-sat-under-a-tree-and-watched-youtube-videos-about-apple-inc-while-thinking-about-self-promotion.md",
+    "_posts/2023-11-09-no-socials.md",
+    "_posts/2021-05-06-letting-go-seems-impossible-and-this-is-not-news.md",
+    "_posts/2021-05-06-01-making-a-website-i-guess.md",
+    "log1.html",
     "2024-01-01-TEMPLATE.md",
     "2024-01-01-CONSTRUCTION-SITE.md",
     "_posts/IMG_1183.jpeg",
     "_posts/2024-05-08-test.md",
-    "_posts/2021-05-06-01-making-a-website-i-guess.md",
-    "_posts/2021-05-08-i-sat-under-a-tree-and-watched-youtube-videos-about-apple-inc-while-thinking-about-self-promotion.md",
-    "_posts/2021-05-06-letting-go-seems-impossible-and-this-is-not-news.md",
     "_posts/false-verdict-album-art.jpeg",
     "_posts/IMG_1183 2.jpeg",
     "_posts/IMG_1183 Background Removed.png",
