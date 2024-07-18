@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', function () {
     justPegEm();
 
     convertToImage();
+
+    picGrid();
 });
 
 function convertToImage() {
@@ -179,4 +181,117 @@ function justPegEm() {
     }, 8);
 
 
+}
+
+function picGridOld() {
+    document.querySelectorAll('.pic-grid-item').forEach(item => {
+        item.addEventListener('click', function() {
+          document.getElementById('lightbox').style.display = 'flex';
+      
+          const type = this.getAttribute('data-type');
+          if (type === 'image') {
+            document.getElementById('lightbox-img').style.display = 'block';
+            document.getElementById('lightbox-video').style.display = 'none';
+            document.getElementById('lightbox-img').src = this.src;
+          } else if (type === 'video') {
+            document.getElementById('lightbox-img').style.display = 'none';
+            document.getElementById('lightbox-video').style.display = 'block';
+            document.getElementById('lightbox-video-source').src = this.querySelector('source').src;
+            document.getElementById('lightbox-video').load();
+          }
+        });
+      });
+      
+      document.querySelector('.close').addEventListener('click', function() {
+        document.getElementById('lightbox').style.display = 'none';
+      });
+      
+      document.getElementById('lightbox').addEventListener('click', function(event) {
+        if (event.target === this) {
+          this.style.display = 'none';
+        }
+      });
+      
+}
+
+function picGrid() {
+  let currentIndex = 0;
+  const items = document.querySelectorAll('.pic-grid-item');
+
+  function showLightbox(index) {
+    const item = items[index];
+    const type = item.getAttribute('data-type');
+    const src = item.getAttribute('data-src');
+
+    document.getElementById('lightbox').style.display = 'flex';
+
+    if (type === 'image') {
+      document.getElementById('lightbox-img').style.display = 'block';
+      document.getElementById('lightbox-video').style.display = 'none';
+      document.getElementById('lightbox-img').src = src;
+    } else if (type === 'video') {
+      document.getElementById('lightbox-img').style.display = 'none';
+      document.getElementById('lightbox-video').style.display = 'block';
+      document.getElementById('lightbox-video-source').src = src;
+      document.getElementById('lightbox-video').load();
+      document.getElementById('lightbox-video').controls = true; // Show controls in lightbox
+    }
+  }
+
+  function closeLightbox() {
+    document.getElementById('lightbox').style.display = 'none';
+  }
+
+  function navigateLightbox(direction) {
+    if (direction === 'left') {
+      currentIndex = (currentIndex > 0) ? currentIndex - 1 : items.length - 1;
+    } else if (direction === 'right') {
+      currentIndex = (currentIndex + 1) % items.length;
+    }
+    showLightbox(currentIndex);
+  }
+
+    items.forEach((item, index) => {
+      if (item.querySelector('video')) {
+        const video = item.querySelector('video');
+        video.controls = false; // Hide controls in the grid
+        item.addEventListener('click', () => {
+          currentIndex = index;
+          showLightbox(index);
+        });
+      } else {
+        item.addEventListener('click', () => {
+          currentIndex = index;
+          showLightbox(index);
+        });
+      }
+    });
+
+  document.querySelector('.close').addEventListener('click', closeLightbox);
+
+  document.getElementById('lightbox').addEventListener('click', function(event) {
+    if (event.target === this) {
+      closeLightbox();
+    }
+  });
+
+  document.querySelector('.arrow.left').addEventListener('click', function() {
+    navigateLightbox('left');
+  });
+
+  document.querySelector('.arrow.right').addEventListener('click', function() {
+    navigateLightbox('right');
+  });
+
+  document.addEventListener('keydown', function(event) {
+    if (document.getElementById('lightbox').style.display === 'flex') {
+      if (event.key === 'Escape') {
+        closeLightbox();
+      } else if (event.key === 'ArrowLeft') {
+        navigateLightbox('left');
+      } else if (event.key === 'ArrowRight') {
+        navigateLightbox('right');
+      }
+    }
+  });
 }

@@ -4,7 +4,7 @@ layout: listen
 songTitle: whats changed
 artist: guesst x underexposed
 coverPath: whats-changed-cover.jpg
-download: /assets/files/guesst-x-underexposed-whats-changed.aiff
+download: https://files.guesst.net/file/guesst-files/music/guesst-x-underexposed-whats-changed.aiff
 soundcloud: https://soundcloud.com/guesstaccount/whats-changed
 bandcamp: https://guesstaccount.bandcamp.com/track/whats-changed-2
 youtube: https://music.youtube.com/watch?v=LK1a3k6NowI&si=U6E7Omv_WsUp9bKI

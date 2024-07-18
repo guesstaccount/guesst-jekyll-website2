@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-10-grand-theft-wheel.md",
+                "file": "_posts/2024-02-19-new-logo-familiar-lessons.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-10-grand-theft-wheel.md",
+                "file": "_posts/2024-02-19-new-logo-familiar-lessons.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-10-grand-theft-wheel.md",
+                "file": "_posts/2024-02-19-new-logo-familiar-lessons.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-10-grand-theft-wheel.md"
+                "file": "_posts/2024-02-19-new-logo-familiar-lessons.md"
               }
             }
           }
@@ -148,9 +148,9 @@
   },
   "active": "2db00489feb83183",
   "lastOpenFiles": [
-    "_posts/2021-05-06-01-making-a-website-i-guess.md",
     "_posts/2024-07-10-grand-theft-wheel.md",
     "_posts/2024-02-19-new-logo-familiar-lessons.md",
+    "_posts/2021-05-06-01-making-a-website-i-guess.md",
     "_posts/2023-11-09-no-socials.md",
     "_posts/new.md",
     "_posts/2023-11-11-internet-crawling-in-my-post-meta-era.md",
