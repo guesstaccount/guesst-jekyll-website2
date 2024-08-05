@@ -3,7 +3,7 @@ title: guesst // shut up // start talking
 layout: listen
 songTitle: shut up // start talking
 artist: Alter. x guesst
-coverPath: shut-up-start-talking-cover.jpeg
+coverPath: https://files.guesst.net/file/guesst-files/album-art/shut-up-start-talking-cover.jpeg
 download: https://files.guesst.net/file/guesst-files/music/alter-guesst-shut-up-start-talking.aiff
 soundcloud: https://soundcloud.com/guesstaccount/shut-up-start-talking-alter-x-guesst
 bandcamp: https://guesstaccount.bandcamp.com/track/shut-up-start-talking

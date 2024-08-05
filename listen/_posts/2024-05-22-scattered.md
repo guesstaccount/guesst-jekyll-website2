@@ -3,7 +3,7 @@ title: guesst // scattered
 layout: listen
 songTitle: scattered ep
 artist: Alter. & guesst
-coverPath: scattered-cover.jpg
+coverPath: https://files.guesst.net/file/guesst-files/album-art/scattered-cover.jpg
 download: https://files.guesst.net/file/guesst-files/alter-x-guesst-scattered.zip
 soundcloud: https://soundcloud.com/guesstaccount/sets/scattered-ep-alter-guesst
 bandcamp: https://guesstaccount.bandcamp.com/album/scattered

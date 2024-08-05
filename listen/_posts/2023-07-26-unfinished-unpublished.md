@@ -3,7 +3,7 @@ title: guesst // unfinished > unpublished
 layout: listen
 songTitle: unfinished > unpublished
 artist: guesst
-coverPath: unfinished-unpublished-cover.jpeg
+coverPath: https://files.guesst.net/file/guesst-files/album-art/unfinished-unpublished-cover.jpeg
 download: https://files.guesst.net/file/guesst-files/guesst-unfinished-unpublished.zip
 soundcloud: https://soundcloud.com/guesstaccount/sets/published-finshed
 bandcamp: 

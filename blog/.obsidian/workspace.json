@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e91c3b264d48d6f4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +157,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2db00489feb83183",
+  "active": "e91c3b264d48d6f4",
   "lastOpenFiles": [
     "_posts/2024-07-10-grand-theft-wheel.md",
     "_posts/2024-02-19-new-logo-familiar-lessons.md",

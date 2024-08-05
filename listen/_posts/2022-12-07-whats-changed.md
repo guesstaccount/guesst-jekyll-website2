@@ -3,7 +3,7 @@ title: guesst // whats changed
 layout: listen
 songTitle: whats changed
 artist: guesst x underexposed
-coverPath: whats-changed-cover.jpg
+coverPath: https://files.guesst.net/file/guesst-files/album-art/whats-changed-cover.jpg
 download: https://files.guesst.net/file/guesst-files/music/guesst-x-underexposed-whats-changed.aiff
 soundcloud: https://soundcloud.com/guesstaccount/whats-changed
 bandcamp: https://guesstaccount.bandcamp.com/track/whats-changed-2

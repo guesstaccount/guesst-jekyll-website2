@@ -19,7 +19,7 @@ i would prefer you listen to my music by downloading it for free on [bandcamp](g
 <ul class="releaseGrid">
   {% for post in site.categories.listen %}
     <li>
-      <a href="{{ post.url }}"><img class="releaseListImage" src="/assets/images/{{ post.coverPath }}" alt="{{ post.title }}"></a>
+      <a href="{{ post.url }}"><img class="releaseListImage" src="{{ post.coverPath }}" alt="{{ post.title }}"></a>
     </li>
   {% endfor %}
 </ul>

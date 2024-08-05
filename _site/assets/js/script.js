@@ -13,6 +13,8 @@ document.addEventListener('DOMContentLoaded', function () {
     convertToImage();
 
     picGrid();
+
+    albumArtB2();
 });
 
 function convertToImage() {
@@ -294,4 +296,18 @@ function picGrid() {
       }
     }
   });
+}
+
+function albumArtB2() {
+  console.log('b2 on');
+  if (window.location.pathname.includes('/listen/')) {
+      const images = document.querySelectorAll('img.listenAlbumArt');
+      images.forEach(img => {
+          img.onerror = function() {
+              if (img.src.startsWith('/assets/images')) {
+                  img.src = img.src.replace('/assets/images', '');
+              }
+          };
+      });
+  }
 }
