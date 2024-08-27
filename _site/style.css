@@ -393,3 +393,22 @@ h3 {
         padding: 0% 1.5%;
     }
   }
+
+  /* bandsintown widget */
+  .bit-mobile-date {
+    font-size: 16px;
+  }
+
+  .bit-venue {
+    font-size: 16px;
+  }
+
+  .bit-streamingText {
+    font-size: 16px;
+  }
+
+  .bit-rsvp-text {
+    font-size: 16px;
+  }
+
+  
