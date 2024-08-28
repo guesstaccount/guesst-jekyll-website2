@@ -199,15 +199,18 @@ h3 {
     font-size: 1.4rem;
 }
 
-/* .bodyContainer {
-    padding: 5%;
-    max-width: 50rem;
-} */
+.bit-play-my-city-heading-text {
+    display: none;
+}
+
+.bit-play-my-city-wrapper {
+    padding: 0px !important;
+}
 
 .mainSection {
     padding: 0% 20%;
     width: 100%;
-    max-width: 40rem;
+    max-width: 42rem;
     justify-content: space-evenly;
 }
 
