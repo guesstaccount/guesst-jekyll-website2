@@ -3,15 +3,16 @@ layout: mainLinks
 title: guesst // club amateur
 ---
 
-## club amateur
+## amateurs club   
 
 <img src="https://files.guesst.net/file/guesst-files/misc-web-images/club-amateur-poster.jpeg" alt="Club Amateur Poster" class="blogImage">
 
 
-club amateur is a weekly communal art and learning event.
+amateurs club is a weekly communal art and learning event.
 - come when you want, dont when you dont. 
 - come if you want to relax with people after the week.
-- come if you want to learn something new. come if you want to see people do what they love.
+- come if you want to learn something new.
+- come if you want to see people do what they love.
 - come for the weekly communion. this form will serve as our rsvp and planner for who is coming and what they will bring.
 {: .carrotList }
 
