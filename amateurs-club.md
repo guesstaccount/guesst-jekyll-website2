@@ -1,6 +1,6 @@
 ---
 layout: mainLinks
-title: guesst // club amateur
+title: guesst // amateurs club
 ---
 
 ## amateurs club   
