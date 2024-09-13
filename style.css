@@ -16,8 +16,8 @@
 }
 
 body {
-    /* background-color: #222222; */
-    color: rgb(67, 67, 67) !important; 
+    background-color: #222222;
+    color: rgb(255, 255, 255) !important;
     font-family: 'Electrolize', sans-serif;
     font-style: normal;
     font-weight: normal;
