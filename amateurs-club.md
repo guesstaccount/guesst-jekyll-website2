@@ -5,7 +5,9 @@ title: guesst // amateurs club
 
 ## amateurs club   
 
-<img src="https://files.guesst.net/file/guesst-files/misc-web-images/club-amateur-poster.jpeg" alt="Club Amateur Poster" class="blogImage">
+u found the old link! u must really be a real one :) [heres the new page](https://planet-home-jekyll-site.pages.dev/amateurs-club)
+
+<!-- <img src="REDACTED" alt="Club Amateur Poster" class="amateursClubImage">
 
 
 amateurs club is a weekly communal art and learning event.
@@ -13,11 +15,12 @@ amateurs club is a weekly communal art and learning event.
 - come if you want to relax with people after the week.
 - come if you want to learn something new.
 - come if you want to see people do what they love.
+- come to cowork on your artistic projects
 - come for the weekly communion.
 {: .carrotList }
 
-this form will serve as our rsvp and planner for who is coming and what they will bring.it is yours as it is ours. please try to keep signups to around 15 ppl maximum per week, we wanna make sure there is enough space for people to fully engage with one another. we hope this will be a space of learning, community, and ritual. see you there <3
+this form will serve as our rsvp and planner for who is coming and what they will bring. please try to keep signups to around 15 ppl maximum per week, we wanna make sure there is enough space for people to fully engage with one another. we hope this will be a space of learning, community, and ritual. see you there <3
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/appLKheCnPwzGQm3g/shrddVoybMIpSJdBR?layout=card" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
-[heres the sign up sheet](https://airtable.com/appLKheCnPwzGQm3g/pagrcvEUwXel2vqYW/form) (password is: planethome)
+[heres the sign up sheet](https://airtable.com/appLKheCnPwzGQm3g/pagrcvEUwXel2vqYW/form) (password is: planethome) -->

@@ -16,8 +16,8 @@
 }
 
 body {
-    background-color: #222222;
-    color: white;
+    /* background-color: #222222; */
+    color: rgb(67, 67, 67 !important; 
     font-family: 'Electrolize', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -231,6 +231,12 @@ h3 {
 .blogImage {
     width: 100%;
     max-width: 100%;
+}
+
+.amateursClubImage {
+    width: 100%;
+    max-height: 40rem;
+    object-fit: cover;
 }
 
 /* #performanceCard:first-of-type {

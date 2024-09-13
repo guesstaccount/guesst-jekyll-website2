@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-02-19-new-logo-familiar-lessons.md",
+                "file": "_posts/2024-09-13-i-love-coding.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "e91c3b264d48d6f4",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-02-19-new-logo-familiar-lessons.md",
+                "file": "_posts/2024-09-13-i-love-coding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-02-19-new-logo-familiar-lessons.md",
+                "file": "_posts/2024-09-13-i-love-coding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-02-19-new-logo-familiar-lessons.md"
+                "file": "_posts/2024-09-13-i-love-coding.md"
               }
             }
           }
@@ -157,11 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e91c3b264d48d6f4",
+  "active": "2db00489feb83183",
   "lastOpenFiles": [
-    "_posts/2024-07-10-grand-theft-wheel.md",
-    "_posts/2024-02-19-new-logo-familiar-lessons.md",
+    "2024-01-01-TEMPLATE.md",
+    "_posts/2024-09-13-i-love-coding.md",
     "_posts/2021-05-06-01-making-a-website-i-guess.md",
+    "_posts/2024-02-19-new-logo-familiar-lessons.md",
+    "_posts/2024-07-10-grand-theft-wheel.md",
     "_posts/2023-11-09-no-socials.md",
     "_posts/new.md",
     "_posts/2023-11-11-internet-crawling-in-my-post-meta-era.md",
@@ -172,7 +163,6 @@
     "_posts/2021-05-08-i-sat-under-a-tree-and-watched-youtube-videos-about-apple-inc-while-thinking-about-self-promotion.md",
     "_posts/2021-05-06-letting-go-seems-impossible-and-this-is-not-news.md",
     "log1.html",
-    "2024-01-01-TEMPLATE.md",
     "2024-01-01-CONSTRUCTION-SITE.md",
     "_posts/IMG_1183.jpeg",
     "_posts/2024-05-08-test.md",
