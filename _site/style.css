@@ -35,6 +35,14 @@ a {
     padding: 0%;
 }
 
+.listenTitle {
+    font-size: 3.2rem;
+}
+
+.centerListenImageContainer {
+    max-width: 320px;
+}
+
 /* .indexUl, .indexUl ul, .releaseGrid ul {
     padding: 0 !important;
 } */
@@ -269,6 +277,8 @@ h3 {
 
 .listenText {
     max-width: 400px;
+    margin: 0 auto; /* Center the container */
+    text-align: left; /* Keep text alignment to the left */
 }
 
 /* PIC GRID */
@@ -317,6 +327,30 @@ h3 {
 #lightbox-video {
     display: none;
 }
+
+.dlButton {
+    background-color: #00DFFF; /* Same blue color as links */
+    color: black; /* Black text */
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 1rem; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 3D look */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+.dlButton a {
+    color: black; /* Black text */
+    text-decoration: none;    
+    text-align: center; /* Center text */
+    display: block; /* Make the anchor a block element to center it */
+}
+
+.dlButton:hover {
+    transform: translateY(-2px); /* Slight lift on hover */
+    background-color: #0099cc; /* Darker blue on hover */
+}
   
 .close,
 .arrow {
@@ -353,6 +387,10 @@ h3 {
     }
     h3 {
         font-size: 1.16rem;
+    }
+
+    .listenTitle {
+        font-size: 2.2rem;
     }
 
     .releaseGrid {

@@ -43,12 +43,33 @@
     <img class="logo" src="/assets/images/guesst-logo-2024.svg" alt="guesst logo">
 </div>
             <div class="listenUlSmacker">
-            <h1 style="margin: 20px 0%;">nothings free (feat. Gemeo)</h1>
+            <h1 class="listenTitle" style="margin: 20px 0%;">nothings free (feat. Gemeo)</h1>
                 <h3 style="font-size: xx-large;color: grey; margin: 20px 0px;">guesst x Seong</h3>
-                <img src="https://files.guesst.net/file/guesst-files/album-art/nothings-free-cover.jpeg" alt="">
+                <div class="centerListenImageContainer">
+                    <img src="https://files.guesst.net/file/guesst-files/album-art/nothings-free-cover.jpeg" alt="">
+                    <div class="lightbox" id="lightbox" style="display: none;">
+                        <div class="lightbox-content">
+                            <div class="listenText" id="popupText">
+                                <p>all my songs are free to download, but you can pay <a href="/listen.html">here</a>, or by buying on <a href="https://guesstaccount.bandcamp.com" target="_blank" rel="noopener noreferrer">bandcamp</a>.</p>
+                                <p>support me for free by helping me grow my audience:</p>
+                                <ul class="carrotList">
+                                    <li><a href="http://eepurl.com/huQD5X" target="_blank" rel="noopener noreferrer">join my mailing list</a></li>
+                                    <li><a href="spotifyspotify:artist:6JN0LuZjEtRULBROXulK81" target="_blank" rel="noopener noreferrer">follow on Spotify</a></li>
+                                    <li><a href="https://soundcloud.com/guesstaccount" target="_blank" rel="noopener noreferrer">follow on SoundCloud</a></li>
+                                    <li><a href="https://guesstaccount.bandcamp.com" target="_blank" rel="noopener noreferrer">follow on Bandcamp</a></li>
+                                </ul>
+                                <div class="dlButton"><a href="https://files.guesst.net/file/guesst-files/music/guesst-x-seong-nothings-free-feat-gemeo.aif" download id="continueDownload">continue with download</a></div>
+                            </div>
+                            <span class="close" id="closeLightbox">&times;</span>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin: 20px;">
+                    <button class="dlButton" id="freeDownloadBtn">free download</button>
+                </div>
                 <h3>listen on:</h3>
                 <ul>
-                    <li><a href="https://files.guesst.net/file/guesst-files/music/guesst-x-seong-nothings-free-feat-gemeo.aif" download>free download</a></li>
+                    <!-- <li></li> -->
                     <li><a href="https://soundcloud.com/guesstaccount/nothings-free" target="_blank" rel="noopener noreferrer">soundcloud</a></li>
                     <li><a href="https://guesstaccount.bandcamp.com/track/nothings-free-feat-gemeo" target="_blank" rel="noopener noreferrer">bandcamp</a></li>
                     <li><a href="https://music.youtube.com/watch?v=xRHkhOqpTTU&si=dy79StxpiRo7bpKL" target="_blank" rel="noopener noreferrer">youtube</a></li>
@@ -60,15 +81,64 @@
                     <li><a target="_blank" rel="noopener noreferrer" href="http://eepurl.com/huQD5X">get notified of future releases</a></li>
                     <li><a target="_blank" rel="noopener noreferrer" href="mailto:hello@guesst.net">hello@guesst.net</a></li>
                 </ul>
-                <h3>pls read!!</h3>
-                <div class="listenText">
-                    <p>all my songs are free to download, but if you want to support me you can do so with the payment links on <a href="/listen.html">listen.html</a>, or by buying my records on bandcamp.</p>
-                    <p>if you do not plan to purchase the songs, i would really appreciate it if you would get on my <a href="http://eepurl.com/huQD5X"target="_blank" rel="noopener noreferrer">mailing list</a> and/or follow me on <a href="spotifyspotify:artist:6JN0LuZjEtRULBROXulK81" target="_blank" rel="noopener noreferrer">spotify</a>, <a href="https://soundcloud.com/guesstaccount" target="_blank" rel="noopener noreferrer">soundcloud</a>, and <a href="https://guesstaccount.bandcamp.com" target="_blank" rel="noopener noreferrer">bandcamp</a> so that i can reach a greater audience with future releases. :)</p>
-                </div>
-                </center>
+            </center>
                 
 
             </div>
         </section>
     </body>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DL Button');
+            const freeDownloadBtn = document.getElementById('freeDownloadBtn');
+            const lightbox = document.getElementById('lightbox');
+            const closeLightbox = document.getElementById('closeLightbox');
+            const continueDownload = document.getElementById('continueDownload');
+
+            freeDownloadBtn.onclick = function() {
+                lightbox.style.display = 'block';
+                freeDownloadBtn.style.display = 'none'; // Hide the free download button
+            };
+
+            closeLightbox.onclick = function() {
+                lightbox.style.display = 'none';
+                freeDownloadBtn.style.display = 'block'; // Show the free download button
+            };
+
+            continueDownload.onclick = function() {
+                lightbox.style.display = 'none';
+                freeDownloadBtn.style.display = 'block'; // Show the free download button
+            };
+        });
+    </script>
+    <style>
+        .lightbox {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        .lightbox-content {
+            background: #3a3a3a; /* Change this to match your website's background color */
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            position: relative;
+            max-width: 600px; /* Optional: limit the width of the lightbox */
+            width: 90%; /* Responsive width */
+        }
+        .close {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 30px;
+            cursor: pointer;
+        }
+    </style>
 </html>

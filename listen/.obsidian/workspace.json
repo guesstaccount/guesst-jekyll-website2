@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8d5642df8e5b1447",
+        "id": "a81a8c43224ff3b3",
         "type": "tabs",
         "children": [
           {
-            "id": "25419629c642b23e",
+            "id": "9e2bb36b172a5e1a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2022-12-07-whats-changed.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5,
-    "collapsed": true
+    "width": 245.5
   },
   "right": {
     "id": "4710bed6a194ae22",
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-12-07-whats-changed.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-12-07-whats-changed.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/2022-12-07-whats-changed.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,10 +138,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "25419629c642b23e",
+  "active": "9e2bb36b172a5e1a",
   "lastOpenFiles": [
-    "_posts/2023-07-26-unfinished-unpublished.md",
+    "2024-01-01-TEMPLATE.md",
+    "_posts/2024-01-01-tat.md",
     "_posts/2021-12-17-splat-com.md",
+    "_posts/2022-12-07-whats-changed.md",
+    "_posts/2023-07-26-unfinished-unpublished.md",
     "_posts/2022-04-07-shut-up-start-talking.md",
     "_posts/2024-05-22-scattered.md",
     "_posts/2023-08-30-nothings-free.md",
@@ -165,12 +159,10 @@
     "_posts/2024-07-17-aileron.md",
     "_posts/2022-06-15-crazy-in-the-best-way.md",
     "_posts/2023-08-04-blue-air.md",
-    "_posts/2022-12-07-whats-changed.md",
     "_posts/2023-00-00-nothings-free.md",
     "_posts/2023-00-00-nothings-free",
     "_posts/2023-09-27-keep-the-party-goin",
     "_posts/2024-05-04-granada-id",
-    "2024-01-01-TEMPLATE.md",
     "holding-me-tight-cover.jpeg"
   ]
 }
