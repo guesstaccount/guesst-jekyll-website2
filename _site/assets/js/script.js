@@ -1,16 +1,13 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // testing 123
-    console.log('im running!');
-
     // blogImageify();
 
     // albumArtify();
 
     imageClassify();
 
-    justPegEm();
+    // justPegEm();
 
-    convertToImage();
+    // convertToImage();
 
     picGrid();
 

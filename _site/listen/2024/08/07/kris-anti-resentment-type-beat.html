@@ -3,28 +3,54 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{ page.title }}</title>
+        <title>anti resentment type beat</title>
         <link rel="icon" type="image/svg" href="../assets/images/guesst-logo-2024" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Share+Tech+Mono&display=swap" rel="stylesheet" crossorigin="anonymous">
         <script src="/assets/js/script.js"></script>
-        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css">
+        <link rel="stylesheet" type="text/css" href="/style.css">
     </head>
     <body>
         <section class="mainSection">
-            {% include nav.html %}  
+            <nav>
+    <div class="nav">
+        
+            <a href="/">
+                <p>home</p>
+            </a>
+        
+            <a href="/listen.html">
+                <p>listen</p>
+            </a>
+        
+            <a href="/presskit.html">
+                <p>presskit</p>
+            </a>
+        
+            <a href="/shows.html">
+                <p>shows</p>
+            </a>
+        
+            <a href="/blog-index.html">
+                <p>blog</p>
+            </a>
+        
+    </div>
+</nav>  
             <center>
-            {% include logo.html %}
+            <div class="guesstlogo">
+    <img class="logo" src="/assets/images/guesst-logo-2024.svg" alt="guesst logo">
+</div>
             <div class="listenUlSmacker">
-            <h1 class="listenTitle" style="margin: 20px 0%;">{{ page.songTitle }}</h1>
-                <h3 style="font-size: xx-large;color: grey; margin: 20px 0px;">{{ page.artist }}</h3>
+            <h1 class="listenTitle" style="margin: 20px 0%;">anti resentment type beat</h1>
+                <h3 style="font-size: xx-large;color: grey; margin: 20px 0px;">semi-cycle x guesst</h3>
                 <div class="centerListenImageContainer">
-                    <img src="{{ page.coverPath }}" alt="">
+                    <img src="https://files.guesst.net/file/guesst-files/album-art/anti%20resentment%20type%20beat%20art5.jpg" alt="">
                     <div class="lightbox" id="lightbox" style="display: none;">
                         <div class="lightbox-content">
                             <div class="listenText" id="popupText">
-                                <p>all my songs are free to download, but you can pay <a href="{{ site.origin }}/listen.html">here</a>, or by buying on <a href="https://guesstaccount.bandcamp.com" target="_blank" rel="noopener noreferrer">bandcamp</a>.</p>
+                                <p>all my songs are free to download, but you can pay <a href="/listen.html">here</a>, or by buying on <a href="https://guesstaccount.bandcamp.com" target="_blank" rel="noopener noreferrer">bandcamp</a>.</p>
                                 <p>support me for free by helping me grow my audience:</p>
                                 <ul class="carrotList">
                                     <li><a href="http://eepurl.com/huQD5X" target="_blank" rel="noopener noreferrer">join my mailing list</a></li>
@@ -32,7 +58,7 @@
                                     <li><a href="https://soundcloud.com/guesstaccount" target="_blank" rel="noopener noreferrer">follow on SoundCloud</a></li>
                                     <li><a href="https://guesstaccount.bandcamp.com" target="_blank" rel="noopener noreferrer">follow on Bandcamp</a></li>
                                 </ul>
-                                <div class="dlButton"><a href="{{ page.download }}" download id="continueDownload">continue with download</a></div>
+                                <div class="dlButton"><a href="https://files.guesst.net/file/guesst-files/music/kris%20anti%20resentment%20type%20beat4.aif" download id="continueDownload">continue with download</a></div>
                             </div>
                             <span class="close" id="closeLightbox">&times;</span>
                         </div>
@@ -44,11 +70,11 @@
                 <h3>listen on:</h3>
                 <ul>
                     <!-- <li></li> -->
-                    <li><a href="{{ page.soundcloud }}" target="_blank" rel="noopener noreferrer">soundcloud</a></li>
-                    <li><a href="{{ page.bandcamp }}" target="_blank" rel="noopener noreferrer">bandcamp</a></li>
-                    <li><a href="{{ page.youtube }}" target="_blank" rel="noopener noreferrer">youtube</a></li>
-                    <li><a href="{{ page.spotify }}" target="_blank" rel="noopener noreferrer">spotify</a></li>
-                    <li><a href="{{ page.apple }}" target="_blank" rel="noopener noreferrer">apple</a></li>
+                    <li><a href="https://soundcloud.com/guesstaccount/kris-anti-resentment-type-beat?si=d6b9dfbe1b0a4739941f61bb5c1decc5&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank" rel="noopener noreferrer">soundcloud</a></li>
+                    <li><a href="https://guesstaccount.bandcamp.com/track/anti-resentment-type-beat" target="_blank" rel="noopener noreferrer">bandcamp</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=6t0Y4mNnAX8&pp=ygUgZ3Vlc3N0IGFudGkgcmVzZW50bWVudCB0eXBlIGJlYXQ%3D" target="_blank" rel="noopener noreferrer">youtube</a></li>
+                    <li><a href="https://open.spotify.com/track/6Dzc8I5dM2mKlanPU3bhr6?si=5ea2b07e0dd44f26" target="_blank" rel="noopener noreferrer">spotify</a></li>
+                    <li><a href="https://music.apple.com/us/album/anti-resentment-type-beat-single/1759721311" target="_blank" rel="noopener noreferrer">apple</a></li>
                 </ul>
                 <h3>talk to me</h3>
                 <ul>
@@ -56,7 +82,8 @@
                     <li><a target="_blank" rel="noopener noreferrer" href="mailto:hello@guesst.net">hello@guesst.net</a></li>
                 </ul>
             </center>
-                {{ content }}
+                
+
             </div>
         </section>
     </body>

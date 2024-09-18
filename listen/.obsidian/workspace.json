@@ -11,8 +11,12 @@
             "id": "9e2bb36b172a5e1a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-08-07-kris-anti-resentment-type-beat.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/2024-08-07-kris-anti-resentment-type-beat.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/2024-08-07-kris-anti-resentment-type-beat.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/2024-08-07-kris-anti-resentment-type-beat.md"
+              }
             }
           }
         ]
@@ -141,6 +149,7 @@
   "active": "9e2bb36b172a5e1a",
   "lastOpenFiles": [
     "2024-01-01-TEMPLATE.md",
+    "_posts/2024-08-07-kris-anti-resentment-type-beat.md",
     "_posts/2024-01-01-tat.md",
     "_posts/2021-12-17-splat-com.md",
     "_posts/2022-12-07-whats-changed.md",

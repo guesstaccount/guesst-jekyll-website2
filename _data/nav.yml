@@ -4,9 +4,11 @@
   link: /listen.html
 # - name: look
 #   link: /look.html
+- name: presskit
+  link: /presskit.html
+- name: shows
+  link: /shows.html
+# - name: contact
+#   link: /contact.html
 - name: blog
   link: /blog-index.html
-- name: tour
-  link: /tour.html
-- name: contact
-  link: /contact.html

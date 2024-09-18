@@ -15,6 +15,11 @@
     font-size: 3rem;
 }
 
+.subtitle a {
+    text-decoration: none;
+    color: white;
+}
+
 body {
     background-color: #222222;
     color: rgb(255, 255, 255) !important;
@@ -247,6 +252,26 @@ h3 {
     object-fit: cover;
 }
 
+.contactDiv {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    text-align: center; /* Center text alignment */
+    padding: 20px;
+}
+
+.contactDiv img {
+    display: block;
+    max-width: 100px;
+    min-width: 60px;
+    height: fit-content;
+}
+
+/* #bell-icon {
+    height: 40px;
+} */
+
 /* #performanceCard:first-of-type {
     display: none;
 } */
@@ -429,6 +454,10 @@ h3 {
   @media (max-width: 487px) {
     .title, .subtitle h2 {
         font-size: 20px;
+    }
+
+    .nav {
+        font-size: 1.2rem;
     }
     
     .mainSection {

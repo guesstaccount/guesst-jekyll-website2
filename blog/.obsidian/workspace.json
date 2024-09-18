@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b54d65aed701522a",
+        "id": "d567530a01599ec2",
         "type": "tabs",
         "children": [
           {
-            "id": "d161a26742326541",
+            "id": "7898cc80f1067ec3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,7 +138,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d161a26742326541",
+  "active": "7898cc80f1067ec3",
   "lastOpenFiles": [
     "_posts/2024-09-13-i-love-coding.md",
     "2024-01-01-TEMPLATE.md",
