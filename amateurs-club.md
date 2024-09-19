@@ -3,8 +3,6 @@ layout: mainLinks
 title: guesst // amateurs club
 ---
 
-## amateurs club   
-
 u found the old link! u must really be a real one :) [heres the new page](https://planethome.media/amateurs-club)
 
 <!-- <img src="REDACTED" alt="Club Amateur Poster" class="amateursClubImage">

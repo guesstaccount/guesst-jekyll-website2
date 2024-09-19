@@ -1,0 +1,16 @@
+title: guesst
+description: guesst is a trans/agender multigenre multimedia artist.
+url: "https://guesst.net"  # Your site's URL
+baseurl: ""
+
+build_settings:
+  markdown: kramdown  # Markdown processor
+  theme: minima  # Theme to use
+
+plugins:
+  - jekyll-feed  # For RSS feed
+  - jekyll-seo-tag  # For SEO tags
+
+other_settings:
+  permalink: pretty  # Permalink style
+  exclude: [Gemfile, Gemfile.lock, README.md]  # Files to exclude from the build

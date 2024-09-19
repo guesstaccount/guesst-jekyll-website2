@@ -1,6 +1,6 @@
 ---
 layout: mainLinks
-title: guesst // presskit
+title: presskit 📘
 ---
 
 <center>
@@ -24,7 +24,7 @@ i am well acquainted with standard club setup, but i can play on any hardware, a
 
 ## guesst is a live performer
 
-when i first started the guesst project, i felt conflicted: should i focus on dj centered dance music or write pop music and other vocal/songwriting centric genres? i decided to go with... both. you can expect a guesst vocal performance show to have 100% original works + flips and remixes in at least six genres.
+electronic? pop? emo? how abouttttt... all of the above. you can expect a guesst vocal performance show to have 100% original works + flips and remixes in at least six genres.
 
 <a href='&#109;ailt&#111;&#58;bo%6Fki&#110;&#37;67&#64;%&#54;7&#117;&#101;s&#37;73&#116;%2E&#110;&#101;&#116;'>b&#111;&#111;&#107;ing&#64;gue&#115;st&#46;net</a>
 
@@ -32,9 +32,11 @@ when i first started the guesst project, i felt conflicted: should i focus on dj
 
 ## need a whole lineup?
 
-i have connections with upwards of 10 artists who can play at notice. i can put the lineup together and make the flyer.
+i have connections with countless artists across genres who can play at notice. i can put the lineup together and make the flyer.
 
-<a href='&#109;ailt&#111;&#58;bo%6Fki&#110;&#37;67&#64;%&#54;7&#117;&#101;s&#37;73&#116;%2E&#110;&#101;&#116;'>lets make a night to remember</a> 
+<a href='&#109;ailt&#111;&#58;bo%6Fki&#110;&#37;67&#64;%&#54;7&#117;&#101;s&#37;73&#116;%2E&#110;&#101;&#116;'>lets make a night to remember</a>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/6JN0LuZjEtRULBROXulK81?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <!-- ## guesst is a producer / mix engineer
 

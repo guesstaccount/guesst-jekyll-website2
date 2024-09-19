@@ -1,6 +1,6 @@
 ---
 layout: mainLinks
-title: guesst // listen
+title: listen 🎧
 ---
 
 ## listen to my music
