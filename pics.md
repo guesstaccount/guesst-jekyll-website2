@@ -6,7 +6,7 @@ title: pics
 ## fake self hosted Instagram
 
 <div class="pic-grid">
-  {% for media in site.data.media %}
+  {% for media in site.data.finsta %}
     {% if media.type == "image" %}
       <div class="pic-grid-item" data-type="image" data-src="{{ media.src }}">
         <img src="{{ media.src }}" alt="{{ media.alt }}">

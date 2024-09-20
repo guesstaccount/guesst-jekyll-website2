@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
 function convertToImage() {
     // Select all <p> elements with the class 'blogImage' or 'listenAlbumArt'
     const elements = document.querySelectorAll('p.blogImage, p.listenAlbumArt');
+    console.log(elements);
 
     elements.forEach(element => {
         // Extract the file name from the content inside the <p> tag
@@ -25,7 +26,7 @@ function convertToImage() {
 
         if (matches && matches[1]) {
             const fileName = matches[1];
-            const imagePath = `/assets/images/${fileName}`;
+            const imagePath = `{{ site.baseurl }}/assets/images/${fileName}`;
 
             // Create a new <img> element
             const imgElement = document.createElement('img');
@@ -73,7 +74,7 @@ function imageClassify() {
 
         // now were gonna do it for all the actual md image ones
 
-        var images = document.getElementsByTagName('img');
+        var images = document.querySelectorAll('img:not(.exclude-icon)');
             console.log(images);
             
             // Loop through all <img> elements
@@ -141,11 +142,15 @@ function justPegEm() {
     setTimeout(function () {
 
         // Select all images on the page with the listenAlbumArt class
-        const images = document.querySelectorAll("img.listenAlbumArt, img.blogImage, img.releaseListImage, img.discogImage");
+        const images = document.querySelectorAll(
+            "img.listenAlbumArt, " +
+            "img.blogImage, " +
+            "img.releaseListImage, " +
+            "img.discogImage, "
+        );
         console.log(images);
 
         images.forEach(function (image) {
-            console.log('im in');
             // Function to handle missing resource and change src to .jpeg
             const handleMissingResource = (img) => {
                 if (img.src.endsWith(".jpg")) {

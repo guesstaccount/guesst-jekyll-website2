@@ -9,6 +9,39 @@ title: presskit 📘
 
 <br>
 
+<table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+    <tbody>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;"><a href="spotify:artist:6JN0LuZjEtRULBROXulK81" target="_blank" rel="noopener noreferrer"><img src="{{ site.baseurl }}/assets/images/spotify-logo.svg"></a></td>
+            <td style="border: 1px solid #ddd; padding: 8px;">15k monthly listeners</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">
+                <a href="https://youtube.com/guesstaccount" target="_blank" rel="noopener noreferrer">
+                    <img src="{{ site.baseurl }}/assets/images/youtube-logo.svg">
+                </a>
+            </td>
+            <td style="border: 1px solid #ddd; padding: 8px;">951 subscribers</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">
+                <a href="https://soundcloud.com/guesstaccount" target="_blank" rel="noopener noreferrer">
+                    <img src="{{ site.baseurl }}/assets/images/soundcloud-logo.svg">
+                </a>
+            </td>
+            <td style="border: 1px solid #ddd; padding: 8px;">650 followers</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">
+                <a href="http://eepurl.com/huQD5X" target="_blank" rel="noopener noreferrer">
+                    <img src="{{ site.baseurl }}/assets/images/email-icon2.svg">
+                </a>
+            </td>
+            <td style="border: 1px solid #ddd; padding: 8px;">146 contacts</td>
+        </tr>
+    </tbody>
+</table>
+
 ## guesst is a dj
 
 i am well acquainted with standard club setup, but i can play on any hardware, as well as bring my own if needed.
@@ -26,7 +59,7 @@ i am well acquainted with standard club setup, but i can play on any hardware, a
 
 electronic? pop? emo? how abouttttt... all of the above. you can expect a guesst vocal performance show to have 100% original works + flips and remixes in at least six genres.
 
-<a href='&#109;ailt&#111;&#58;bo%6Fki&#110;&#37;67&#64;%&#54;7&#117;&#101;s&#37;73&#116;%2E&#110;&#101;&#116;'>b&#111;&#111;&#107;ing&#64;gue&#115;st&#46;net</a>
+<a href='&#109;ailt&#111;&#58;bo%6Oki&#110;&#37;67&#64;%&#54;7&#117;&#101;s&#37;73&#116;%2E&#110;&#101;&#116;'>b&#111;&#111;&#107;ing&#64;gue&#115;st&#46;net</a>
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/MGEBhwZxif0?si=0LZpTxoM4EIw-YRz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -34,7 +67,41 @@ electronic? pop? emo? how abouttttt... all of the above. you can expect a guesst
 
 i have connections with countless artists across genres who can play at notice. i can put the lineup together and make the flyer.
 
-<a href='&#109;ailt&#111;&#58;bo%6Fki&#110;&#37;67&#64;%&#54;7&#117;&#101;s&#37;73&#116;%2E&#110;&#101;&#116;'>lets make a night to remember</a>
+<a href='&#109;ailt&#111;&#58;bo%6Oki&#110;&#37;67&#64;%&#54;7&#117;&#101;s&#37;73&#116;%2E&#110;&#101;&#116;'>lets make a night to remember</a>
+
+## crowd
+
+im new to chicago, so i don't have a full grasp yet of my pull in this city, but historically i have been able to bring **15-20** people to shows. if other artists in my friend group are playing, i think we can bring about **30**.
+
+<!-- <div class="pic-grid">
+  {% for media in site.data.epkphotos %}
+    {% if media.type == "image" %}
+      <div class="pic-grid-item" data-type="image" data-src="{{ media.src }}">
+        <img src="{{ media.src }}" alt="{{ media.alt }}">
+      </div>
+    {% elsif media.type == "video" %}
+      <div class="pic-grid-item" data-type="video" data-src="{{ media.src }}">
+        <video controls>
+          <source src="{{ media.src }}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<div id="lightbox" class="lightbox">
+  <span class="close">&times;</span>
+  <span class="arrow left">&#10094;</span>
+  <span class="arrow right">&#10095;</span>
+  <img class="lightbox-content" id="lightbox-img">
+  <video class="lightbox-content" id="lightbox-video" controls>
+    <source id="lightbox-video-source" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div> -->
+
+## featured tracks
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/6JN0LuZjEtRULBROXulK81?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
@@ -42,7 +109,7 @@ i have connections with countless artists across genres who can play at notice. 
 
 i have been working in digital audio workstations since i was 12 years old (10 if u count my standalone recording thingy). i have mixed and produced rock, electronic, pop, hyperpop, neo-soul, shoegaze, and more. i would be honored to work on your project with you :)
 
-<a href='&#109;ailt&#111;&#58;bo%6Fki&#110;&#37;67&#64;%&#54;7&#117;&#101;s&#37;73&#116;%2E&#110;&#101;&#116;'>b&#111;&#111;&#107;ing&#64;gue&#115;st&#46;net</a>
+<a href='&#109;ailt&#111;&#58;bo%6Oki&#110;&#37;67&#64;%&#54;7&#117;&#101;s&#37;73&#116;%2E&#110;&#101;&#116;'>b&#111;&#111;&#107;ing&#64;gue&#115;st&#46;net</a>
 
 some of my favorite mixes / production i have done:
 
