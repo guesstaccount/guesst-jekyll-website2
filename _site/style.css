@@ -482,6 +482,11 @@ h3 {
     .nav a {
         padding: 0% 1.5%;
     }
+
+    .press-kit-icon {
+        min-width: 40px;
+    }
+
   }
 
   /* bandsintown widget */
@@ -500,5 +505,7 @@ h3 {
   .bit-rsvp-text {
     font-size: 16px;
   }
+
+  
 
   

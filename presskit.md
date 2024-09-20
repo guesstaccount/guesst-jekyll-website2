@@ -12,13 +12,13 @@ title: presskit 📘
 <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
     <tbody>
         <tr>
-            <td style="border: 1px solid #ddd; padding: 8px;"><a href="spotify:artist:6JN0LuZjEtRULBROXulK81" target="_blank" rel="noopener noreferrer"><img src="{{ site.baseurl }}/assets/images/spotify-logo.svg"></a></td>
+            <td style="border: 1px solid #ddd; padding: 8px;"><a href="spotify:artist:6JN0LuZjEtRULBROXulK81" target="_blank" rel="noopener noreferrer"><img class="press-kit-icon" src="{{ site.baseurl }}/assets/images/spotify-logo.svg"></a></td>
             <td style="border: 1px solid #ddd; padding: 8px;"><a href="spotify:artist:6JN0LuZjEtRULBROXulK81" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:white;">15k monthly listeners</a></td>
         </tr>
         <tr>
             <td style="border: 1px solid #ddd; padding: 8px;">
                 <a href="https://youtube.com/guesstaccount" target="_blank" rel="noopener noreferrer">
-                    <img src="{{ site.baseurl }}/assets/images/youtube-logo.svg">
+                    <img class="press-kit-icon" src="{{ site.baseurl }}/assets/images/youtube-logo.svg">
                 </a>
             </td>
             <td style="border: 1px solid #ddd; padding: 8px;">
@@ -28,7 +28,7 @@ title: presskit 📘
         <tr>
             <td style="border: 1px solid #ddd; padding: 8px;">
                 <a href="https://soundcloud.com/guesstaccount" target="_blank" rel="noopener noreferrer">
-                    <img src="{{ site.baseurl }}/assets/images/soundcloud-logo.svg">
+                    <img class="press-kit-icon" src="{{ site.baseurl }}/assets/images/soundcloud-logo.svg">
                 </a>
             </td>
             <td style="border: 1px solid #ddd; padding: 8px;"><a href="https://soundcloud.com/guesstaccount" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:white;">650 followers</a></td>
@@ -36,7 +36,7 @@ title: presskit 📘
         <tr>
             <td style="border: 1px solid #ddd; padding: 8px;">
                 <a href="http://eepurl.com/huQD5X" target="_blank" rel="noopener noreferrer">
-                    <img src="{{ site.baseurl }}/assets/images/email-icon2.svg">
+                    <img class="press-kit-icon" src="{{ site.baseurl }}/assets/images/email-icon2.svg">
                 </a>
             </td>
             <td style="border: 1px solid #ddd; padding: 8px;"><a href="http://eepurl.com/huQD5X" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:white;">146 contacts</a></td>
