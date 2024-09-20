@@ -13,7 +13,7 @@ title: presskit 📘
     <tbody>
         <tr>
             <td style="border: 1px solid #ddd; padding: 8px;"><a href="spotify:artist:6JN0LuZjEtRULBROXulK81" target="_blank" rel="noopener noreferrer"><img src="{{ site.baseurl }}/assets/images/spotify-logo.svg"></a></td>
-            <td style="border: 1px solid #ddd; padding: 8px;">15k monthly listeners</td>
+            <td style="border: 1px solid #ddd; padding: 8px;"><a href="spotify:artist:6JN0LuZjEtRULBROXulK81" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:white;">15k monthly listeners</a></td>
         </tr>
         <tr>
             <td style="border: 1px solid #ddd; padding: 8px;">
@@ -21,7 +21,9 @@ title: presskit 📘
                     <img src="{{ site.baseurl }}/assets/images/youtube-logo.svg">
                 </a>
             </td>
-            <td style="border: 1px solid #ddd; padding: 8px;">951 subscribers</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">
+              <a href="https://youtube.com/guesstaccount" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:white;">951 subscribers</a>
+            </td>
         </tr>
         <tr>
             <td style="border: 1px solid #ddd; padding: 8px;">
@@ -29,7 +31,7 @@ title: presskit 📘
                     <img src="{{ site.baseurl }}/assets/images/soundcloud-logo.svg">
                 </a>
             </td>
-            <td style="border: 1px solid #ddd; padding: 8px;">650 followers</td>
+            <td style="border: 1px solid #ddd; padding: 8px;"><a href="https://soundcloud.com/guesstaccount" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:white;">650 followers</a></td>
         </tr>
         <tr>
             <td style="border: 1px solid #ddd; padding: 8px;">
@@ -37,7 +39,7 @@ title: presskit 📘
                     <img src="{{ site.baseurl }}/assets/images/email-icon2.svg">
                 </a>
             </td>
-            <td style="border: 1px solid #ddd; padding: 8px;">146 contacts</td>
+            <td style="border: 1px solid #ddd; padding: 8px;"><a href="http://eepurl.com/huQD5X" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:white;">146 contacts</a></td>
         </tr>
     </tbody>
 </table>
@@ -71,7 +73,7 @@ i have connections with countless artists across genres who can play at notice. 
 
 ## crowd
 
-im new to chicago, so i don't have a full grasp yet of my pull in this city, but historically i have been able to bring **15-20** people to shows. if other artists in my friend group are playing, i think we can bring about **30**.
+im new to chicago, so i don't have a full grasp yet of my pull in this city, but historically i have been able to bring **15-20** people to shows. on a bill with some of my other performer contacts, i think we can bring about **30**.
 
 <!-- <div class="pic-grid">
   {% for media in site.data.epkphotos %}
