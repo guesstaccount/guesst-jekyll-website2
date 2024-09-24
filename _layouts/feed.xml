@@ -1,0 +1,19 @@
+{% if post.layout == 'listen' %}
+  <title>{{ post.songTitle }} - {{ post.artist }}</title>
+  <description>
+    <![CDATA[
+      <img src="{{ post.coverPath }}" alt="Cover Image" />
+      <ul>
+        <li><a href="{{ post.download }}">download</a></li>
+        <li><a href="{{ post.soundcloud }}">soundcloud</a></li>
+        <li><a href="{{ post.bandcamp }}">bandcamp</a></li>
+        <li><a href="{{ post.youtube }}">youtube</a></li>
+        <li><a href="{{ post.spotify }}">spotify</a></li>
+        <li><a href="{{ post.apple }}">apple</a></li>
+      </ul>
+    ]]>
+  </description>
+{% else %}
+  <title>{{ post.title }}</title>
+    <description>{{ post.content | xml_escape }}</description>
+{% endif %}
