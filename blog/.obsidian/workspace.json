@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d567530a01599ec2",
+        "id": "5884a2b832268bae",
         "type": "tabs",
         "children": [
           {
-            "id": "7898cc80f1067ec3",
+            "id": "877b6ffb636fbba1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -65,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "be0aae6ff9cde3b9",
@@ -138,7 +139,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7898cc80f1067ec3",
+  "active": "877b6ffb636fbba1",
   "lastOpenFiles": [
     "_posts/2024-09-13-i-love-coding.md",
     "2024-01-01-TEMPLATE.md",

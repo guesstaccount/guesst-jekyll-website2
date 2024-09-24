@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a81a8c43224ff3b3",
+        "id": "f7d7e50db4781c9f",
         "type": "tabs",
         "children": [
           {
-            "id": "9e2bb36b172a5e1a",
+            "id": "848046b55673b37a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-07-kris-anti-resentment-type-beat.md",
+                "file": "_posts/2024-09-25-r-u-free-tmrw.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 245.5,
+    "collapsed": true
   },
   "right": {
     "id": "4710bed6a194ae22",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-07-kris-anti-resentment-type-beat.md",
+                "file": "_posts/2024-09-25-r-u-free-tmrw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-08-07-kris-anti-resentment-type-beat.md",
+                "file": "_posts/2024-09-25-r-u-free-tmrw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-07-kris-anti-resentment-type-beat.md"
+                "file": "_posts/2024-09-25-r-u-free-tmrw.md"
               }
             }
           }
@@ -146,10 +147,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9e2bb36b172a5e1a",
+  "active": "848046b55673b37a",
   "lastOpenFiles": [
-    "2024-01-01-TEMPLATE.md",
+    "_posts/2024-09-25-r-u-free-tmrw.md",
     "_posts/2024-08-07-kris-anti-resentment-type-beat.md",
+    "2024-01-01-TEMPLATE.md",
     "_posts/2024-01-01-tat.md",
     "_posts/2021-12-17-splat-com.md",
     "_posts/2022-12-07-whats-changed.md",
