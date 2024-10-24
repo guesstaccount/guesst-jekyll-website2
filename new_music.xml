@@ -16,6 +16,8 @@ layout: null
         <description>
           <![CDATA[
             <img src="{{ release.coverPath }}" alt="Cover Image" />
+            {{ release.content }}
+            <a href='mai&#108;to&#58;he&#37;6Clo&#64;g&#117;es&#37;73%74&#46;net' target="_blank" rel="noopener noreferrer">let me know what you think!</a>
             <p>all my songs are free to download, but you can pay <a href="https://guesst.net/listen.html">here</a>, or by buying on <a href="https://guesstaccount.bandcamp.com" target="_blank" rel="noopener noreferrer">bandcamp</a>.</p>
             <p>support me for free by helping me grow my audience:</p>
             <ul class="carrotList">

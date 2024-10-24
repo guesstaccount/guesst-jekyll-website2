@@ -11,3 +11,6 @@ youtube: https://www.youtube.com/watch?v=6t0Y4mNnAX8&pp=ygUgZ3Vlc3N0IGFudGkgcmVz
 spotify: https://open.spotify.com/track/6Dzc8I5dM2mKlanPU3bhr6?si=5ea2b07e0dd44f26
 apple: https://music.apple.com/us/album/anti-resentment-type-beat-single/1759721311
 ---
+new track with my friend [semi-cycle](https://soundcloud.com/semi-cycle)
+
+we made this in like twenty minutes after having a hard conversation about how we were accidentally building resentment for one another, and we wanted to not fuckin do that.
