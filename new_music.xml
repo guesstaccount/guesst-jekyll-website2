@@ -16,6 +16,14 @@ layout: null
         <description>
           <![CDATA[
             <img src="{{ release.coverPath }}" alt="Cover Image" />
+            <p>all my songs are free to download, but you can pay <a href="https://guesst.net/listen.html">here</a>, or by buying on <a href="https://guesstaccount.bandcamp.com" target="_blank" rel="noopener noreferrer">bandcamp</a>.</p>
+            <p>support me for free by helping me grow my audience:</p>
+            <ul class="carrotList">
+                <li><a href="http://eepurl.com/huQD5X" target="_blank" rel="noopener noreferrer">join my mailing list</a></li>
+                <li><a href="spotify:artist:6JN0LuZjEtRULBROXulK81" target="_blank" rel="noopener noreferrer">follow on Spotify</a></li>
+                <li><a href="https://soundcloud.com/guesstaccount" target="_blank" rel="noopener noreferrer">follow on SoundCloud</a></li>
+                <li><a href="https://guesstaccount.bandcamp.com" target="_blank" rel="noopener noreferrer">follow on Bandcamp</a></li>
+            </ul>
             <ul>
               <li><a href="{{ release.download }}">download</a></li>
               <li><a href="{{ release.soundcloud }}">soundcloud</a></li>
