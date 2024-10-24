@@ -1,0 +1,34 @@
+---
+layout: null
+---
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>{{ site.title }} - new music feed</title>
+    <link>{{ site.url }}</link>
+    <description>subscribe to get notifications for new guesst releases.</description>
+    {% assign releases = site.categories.listen %}
+    {% for release in releases %}
+      <item>
+        <title>{{ release.songTitle }} - {{ release.artist }}</title>
+        <link>{{ site.url }}{{ release.url }}</link>
+        <description>
+          <![CDATA[
+            <img src="{{ release.coverPath }}" alt="Cover Image" />
+            <ul>
+              <li><a href="{{ release.download }}">download</a></li>
+              <li><a href="{{ release.soundcloud }}">soundcloud</a></li>
+              <li><a href="{{ release.bandcamp }}">bandcamp</a></li>
+              <li><a href="{{ release.youtube }}">youtube</a></li>
+              <li><a href="{{ release.spotify }}">spotify</a></li>
+              <li><a href="{{ release.apple }}">apple</a></li>
+            </ul>
+          ]]>
+        </description>
+        {% assign date_string = release.path | split: '/' | last | split: '-' | slice: 0, 3 | join: '-' %}
+        <pubDate>{{ date_string | date: "%Y-%m-%d" }}</pubDate>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>

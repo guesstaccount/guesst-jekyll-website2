@@ -13,13 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-09-24-success-as-a-function-of-time.md",
+                "file": "_posts/2024-10-18-subvert-fm.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "2024-10-18-subvert-fm"
+            }
+          },
+          {
+            "id": "63404e9b16eb2c90",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.4"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.4"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -39,7 +54,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabeticalReverse"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +71,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +81,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-09-24-success-as-a-function-of-time.md",
+                "file": "_posts/2024-10-18-subvert-fm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +114,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2024-10-18-subvert-fm"
             }
           },
           {
@@ -102,10 +125,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-09-24-success-as-a-function-of-time.md",
+                "file": "_posts/2024-10-18-subvert-fm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2024-10-18-subvert-fm"
             }
           },
           {
@@ -116,7 +141,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +152,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-09-24-success-as-a-function-of-time.md"
-              }
+                "file": "_posts/2024-10-18-subvert-fm.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2024-10-18-subvert-fm"
             }
           }
         ]
@@ -146,12 +175,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "877b6ffb636fbba1",
+  "active": "63404e9b16eb2c90",
   "lastOpenFiles": [
-    "_posts/2024-09-13-i-love-coding.md",
-    "_posts/2024-09-24-success-as-a-function-of-time.md",
-    "2024-01-01-TEMPLATE.md",
+    "PNG image.png",
+    "Untitled.md",
+    "_posts/2024-10-18-subvert-fm.md",
     "_posts/2021-05-06-01-making-a-website-i-guess.md",
+    "_posts/2024-09-24-success-as-a-function-of-time.md",
+    "_posts/2024-09-13-i-love-coding.md",
+    "2024-01-01-TEMPLATE.md",
     "_posts/2024-02-19-new-logo-familiar-lessons.md",
     "_posts/2024-07-10-grand-theft-wheel.md",
     "_posts/2023-11-09-no-socials.md",
