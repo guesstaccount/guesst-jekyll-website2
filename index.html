@@ -1,22 +1,52 @@
 ---
 layout: home2
 title: home 🪐
+hide_nav: true
 ---
 
 <!-- /assets/images/guesst-main-page.jpg -->
 
-![image of guessts face](https://files.guesst.net/file/guesst-files/guesst-main-page.jpg)
-{: .homeImage }
+<div class="homeImage">
+    <a href="/listen">
+        <img src="{{ site.baseurl }}/assets/images/guesst-main-page.jpg" alt="image of guessts face">
+    </a>
+</div>
 
-<h2><center>trans/agender multigenre multimedia artist.</center></h2>
+<center>
+    <div class="homeNav">
+        <ul>
+            <li><a href="/listen">listen</a></li>
+            <li><a href="/presskit">presskit</a></li>
+            <li><a href="/shows.html">shows</a></li>
+            <li><a href="/blog">blog</a></li>
+            <li><a href='m&#97;&#105;lt&#111;&#58;h&#101;llo&#64;&#103;u&#37;&#54;5sst&#46;&#37;6&#69;&#37;&#54;5t'>contact</a></li>
+            <!-- <li><a href="http://eepurl.com/huQD5X">email / text list</a></li> -->
+        </ul>
+    </div>
+</center>
 
-i don't have social media but you can still:
-- [follow me](http://eepurl.com/huQD5X) on my email list
-- [message me](mailto:hello@guesst.net) via my email
-- [internet stalk me](blog-index.html) via my blog
-- [book me](presskit.html) via my press kit
-- [listen to my music](listen.html) via this website (cool!)
-{: .carrotList }
+<!-- <h2><center>trans/agender multigenre multimedia artist.</center></h2> -->
+
+<!-- listen to my newest release:
+
+{% assign sorted_releases = site.categories.listen | sort: 'date' | reverse %}
+
+<div class="recent-releases-grid">
+    {% assign counter = 0 %}
+    {% for release in sorted_releases %}
+        {% if counter < 3 %}
+            <div class="release-item">
+                <a href="{{ release.url }}">
+                    {% if release.coverPath %}
+                        <img src="{{ release.coverPath }}" alt="{{ release.title }}" width="100%">
+                    {% endif %}
+                </a>
+            </div>
+            {% assign counter = counter | plus: 1 %}
+        {% endif %}
+    {% endfor %}
+</div> -->
+
 
 <!-- <p>no socials, just music.</p> -->
 <!-- <br>

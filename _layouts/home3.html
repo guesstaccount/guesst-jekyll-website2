@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ site.title }} - {{ page.title }}</title>
+        <link rel="icon" type="image/svg" href="../assets/images/guesst-logo-2024" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Share+Tech+Mono&display=swap" rel="stylesheet" crossorigin="anonymous">
+        <link rel="alternate" type="application/rss+xml" title="blog feed" href="{{ site.url }}/feed.xml" />
+        <link rel="alternate" type="application/rss+xml" title="new music feed" href="{{ site.url }}/new_music.xml" />
+        <script src="/assets/js/script.js"></script>
+        <link rel="stylesheet" type="text/css" href="/style.css">
+        <!-- ?v={{ site.time | date: '%s' }} -->
+    </head>
+    <body>
+        <section class="mainSection">
+            <!-- {% include nav.html %}   -->
+            <div class="secretTitleSequence">
+                <center>
+                    <!-- {% include logo.html %} -->
+                    <h1>guesst</h1>
+                    <h3>(of planet home)</h3>
+                </center>
+            </div>
+            <div class="bodyContainer">
+                {{ content | markdownify }}
+            </div>
+            {{ content }}
+            <div class="contactDiv">
+                <br>
+                <a href='http://eepurl.com/huQD5X' target="_blank" rel="noopener noreferrer">
+                    <img class="exclude-icon" id="bell-icon" src="{{ site.baseurl }}/assets/images/bell-icon.svg" alt="subscribe Icon" />
+                </a>
+                <a href='mai&#108;to&#58;he&#37;6Clo&#64;g&#117;es&#37;73%74&#46;net' target="_blank" rel="noopener noreferrer">
+                    <img class="exclude-icon" src="{{ site.baseurl }}/assets/images/email-icon-attempt.svg" alt="Email Icon" />
+                </a>
+                <!-- <a href='https://discord.gg/BM9xuRKCD5' target="_blank" rel="noopener noreferrer"></a>
+                    <img class="exclude-icon" src="{{ site.baseurl }}/assets/images/discord.svg" alt="Discord Icon" />
+                </a> -->
+                <a href='spotify:artist:6JN0LuZjEtRULBROXulK81' target="_blank" rel="noopener noreferrer">
+                    <img class="exclude-icon" src="{{ site.baseurl }}/assets/images/spotify.svg" alt="Spotify Icon" />
+                </a>
+                <a href='https://soundcloud.com/guesstaccount' target="_blank" rel="noopener noreferrer">
+                    <img class="exclude-icon" src="{{ site.baseurl }}/assets/images/soundcloud.svg" alt="SoundCloud Icon" />
+                </a>
+                <a href='https://instagram.com/guesstaccount' target="_blank" rel="noopener noreferrer">
+                    <img class="exclude-icon" src="{{ site.baseurl }}/assets/images/instagram.svg" alt="Instagram Icon" />
+                </a>
+                <a href='https://guesstaccount.bandcamp.com' target="_blank" rel="noopener noreferrer">
+                    <img class="exclude-icon" src="{{ site.baseurl }}/assets/images/bandcamp.svg" alt="Bandcamp Icon" />
+                </a>
+                <!-- <a href='https://music.apple.com/us/artist/guesst/1550552183' target="_blank" rel="noopener noreferrer">
+                    <img class="exclude-icon" src="{{ site.baseurl }}/assets/images/apple.svg" alt="Apple Icon" />
+                </a> -->
+                <a href='https://youtube.com/guesstaccount' target="_blank" rel="noopener noreferrer">
+                    <img class="exclude-icon" src="{{ site.baseurl }}/assets/images/youtube-logo.svg" alt="Youtube Icon" />
+                </a>
+                <br>
+            </div>
+        </section>
+    </body>
+</html>

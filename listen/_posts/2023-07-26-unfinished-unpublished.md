@@ -4,7 +4,7 @@ layout: listen
 songTitle: unfinished > unpublished
 artist: guesst
 coverPath: https://files.guesst.net/file/guesst-files/album-art/unfinished-unpublished-cover.jpeg
-download: https://files.guesst.net/file/guesst-files/guesst-unfinished-unpublished.zip
+download: https://files.guesst.net/file/guesst-files/music/guesst-unfinished-unpublished.zip
 soundcloud: https://soundcloud.com/guesstaccount/sets/published-finshed
 bandcamp: 
 youtube: https://music.youtube.com/playlist?list=OLAK5uy_l2BKpIQNka6zLR4Xh2pg8GAt4MqBdBBoo&si=aDlyqE1wE-sQuDat

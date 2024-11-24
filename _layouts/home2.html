@@ -13,3 +13,7 @@ layout: default
 <div class="bodyContainer">
     {{ content | markdownify }}
 </div>
+
+{% unless page.hide_nav %}
+  {% include navigation.html %}
+{% endunless %}

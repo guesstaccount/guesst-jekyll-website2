@@ -11,6 +11,53 @@
     width: 6rem;
 }
 
+.authorNoteButton {
+    background-color: transparent;
+    color: #00DFFF;
+    border: 2px solid #00DFFF;
+    padding: 10px 20px;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: lowercase;
+    margin: 20px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.authorNoteButton:hover {
+    background-color: #00DFFF;
+    color: #222222;
+    transform: translateY(-2px);
+    box-shadow: 0 0 15px rgba(0, 223, 255, 0.4);
+}
+
+.authorNoteButton:active {
+    transform: translateY(1px);
+}
+
+.authorNoteButton::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        120deg,
+        transparent,
+        rgba(0, 223, 255, 0.2),
+        transparent
+    );
+    transition: 0.5s;
+}
+
+.authorNoteButton:hover::before {
+    left: 100%;
+}
+
+
 .postTitle h1 {
     font-size: 3rem;
 }
@@ -245,12 +292,23 @@ h3 {
 }
 
 .homeImage img {
-    width: 100%;
-    padding-right: 5%;
+    width: 50%;
     max-width: 100%;
-    max-height: 27rem;
+    aspect-ratio: 1/1;
     object-fit: cover;
-    object-position: 0px -70px;
+    object-position: center;
+    display: block;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.homeNav {
+    text-decoration: none;
+}
+
+.homeNav ul {
+    list-style-type: none;
+    padding-bottom: 40px;
 }
 
 .blogImage {
@@ -276,10 +334,18 @@ h3 {
 
 .contactDiv img {
     display: block;
-    max-width: 100px;
+    max-width: 80px;
     min-width: 60px;
-    height: fit-content;
-    max-height: 80px;
+    height: 50px;
+    padding: 0 10px;
+}
+
+@media (max-width: 787px) {
+    .contactDiv img {
+        min-width: 30px;
+        height: 35px;
+        padding: 0 5px;
+    }
 }
 
 /* #bell-icon {
@@ -426,6 +492,11 @@ h3 {
     }
     h3 {
         font-size: 1.16rem;
+    }
+
+    .homeImage img {
+        width: 100%;
+        padding: 0px;
     }
 
     .listenTitle {

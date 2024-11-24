@@ -75,7 +75,7 @@ i have connections with countless artists across genres who can play at notice. 
 
 im new to chicago, so i don't have a full grasp yet of my pull in this city, but historically i have been able to bring **15-20** people to shows. on a bill with some of my other performer contacts, i think we can bring about **30**.
 
-<!-- <div class="pic-grid">
+<div class="pic-grid">
   {% for media in site.data.epkphotos %}
     {% if media.type == "image" %}
       <div class="pic-grid-item" data-type="image" data-src="{{ media.src }}">
@@ -101,7 +101,7 @@ im new to chicago, so i don't have a full grasp yet of my pull in this city, but
     <source id="lightbox-video-source" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-</div> -->
+</div>
 
 ## featured tracks
 

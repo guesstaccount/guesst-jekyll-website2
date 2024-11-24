@@ -11,11 +11,13 @@
         <link rel="alternate" type="application/rss+xml" title="blog feed" href="http://localhost:4000/feed.xml" />
         <link rel="alternate" type="application/rss+xml" title="new music feed" href="http://localhost:4000/new_music.xml" />
         <script src="/assets/js/script.js"></script>
-        <link rel="stylesheet" type="text/css" href="/style.css?v=1729792514">
+        <link rel="stylesheet" type="text/css" href="/style.css">
+        <!-- ?v=1732438653 -->
     </head>
     <body>
         <section class="mainSection">
-            <nav>
+            
+                <nav>
     <div class="nav">
         
             <a href="/">
@@ -40,19 +42,37 @@
         
     </div>
 </nav>  
+            
             <center style="padding: 12px 0px;"><div class="guesstlogo">
     <img class="logo" src="/assets/images/guesst-logo-2024.svg" alt="guesst logo">
 </div></center>
 <div class="bodyContainer">
-    <h2 id="listen-to-my-music">listen to my music</h2>
+    <center>
+    <button onclick="toggleAuthorNote()" class="authorNoteButton">optional reading...</button>
+</center>
 
-<p>i would prefer you listen to my music by downloading it for free on <a href="guesstaccount.bandcamp.com" target="_blank">bandcamp</a> or below in the releases section and listening to it on your device of choice. if you can afford it, i would ask that you pay whatever you think is reasonable for the music to help me keep making it 🦋.</p>
+<div id="authorNote" style="display: none;">
+    <h2>listen to my music</h2>
 
-<p><a href="guesstaccount.bandcamp.com" target="_blank">buy on bandcamp</a></p>
+    <p>i would prefer you listen to my music by downloading it for free on <a href="guesstaccount.bandcamp.com" target="_blank" rel="noreferrer noopener">bandcamp</a> or below in the releases section and listening to it on your device of choice. if you can afford it, i would ask that you pay whatever you think is reasonable for the music to help me keep making it 🦋.</p>
 
-<p><a href="https://square.link/u/Mhc0OF7O" target="_blank">pay me a subscription</a></p>
+    <p><a href="guesstaccount.bandcamp.com" target="_blank" rel="noreferrer noopener">buy on bandcamp</a></p>
 
-<p><a href="https://square.link/u/Wdq6mOFc" target="_blank">pay me once</a></p>
+    <p><a href="https://square.link/u/Mhc0OF7O" target="_blank" rel="noreferrer noopener">pay me a subscription</a></p>
+
+    <p><a href="https://square.link/u/Wdq6mOFc" target="_blank" rel="noreferrer noopener">pay me once</a></p>
+</div>
+
+<script>
+function toggleAuthorNote() {
+    var note = document.getElementById("authorNote");
+    if (note.style.display === "none") {
+        note.style.display = "block";
+    } else {
+        note.style.display = "none";
+    }
+}
+</script>
 
 <h2 id="releases">releases</h2>
 
@@ -166,11 +186,29 @@
                 <a href='http://eepurl.com/huQD5X' target="_blank" rel="noopener noreferrer">
                     <img class="exclude-icon" id="bell-icon" src="/assets/images/bell-icon.svg" alt="subscribe Icon" />
                 </a>
-                <!-- <a href="https://guesst.net"><center><div class="guesstlogo">
-    <img class="logo" src="/assets/images/guesst-logo-2024.svg" alt="guesst logo">
-</div></center></a> -->
                 <a href='mai&#108;to&#58;he&#37;6Clo&#64;g&#117;es&#37;73%74&#46;net' target="_blank" rel="noopener noreferrer">
                     <img class="exclude-icon" src="/assets/images/email-icon-attempt.svg" alt="Email Icon" />
+                </a>
+                <!-- <a href='https://discord.gg/BM9xuRKCD5' target="_blank" rel="noopener noreferrer"></a>
+                    <img class="exclude-icon" src="/assets/images/discord.svg" alt="Discord Icon" />
+                </a> -->
+                <a href='spotify:artist:6JN0LuZjEtRULBROXulK81' target="_blank" rel="noopener noreferrer">
+                    <img class="exclude-icon" src="/assets/images/spotify.svg" alt="Spotify Icon" />
+                </a>
+                <a href='https://soundcloud.com/guesstaccount' target="_blank" rel="noopener noreferrer">
+                    <img class="exclude-icon" src="/assets/images/soundcloud.svg" alt="SoundCloud Icon" />
+                </a>
+                <a href='https://instagram.com/guesstaccount' target="_blank" rel="noopener noreferrer">
+                    <img class="exclude-icon" src="/assets/images/instagram.svg" alt="Instagram Icon" />
+                </a>
+                <a href='https://guesstaccount.bandcamp.com' target="_blank" rel="noopener noreferrer">
+                    <img class="exclude-icon" src="/assets/images/bandcamp.svg" alt="Bandcamp Icon" />
+                </a>
+                <!-- <a href='https://music.apple.com/us/artist/guesst/1550552183' target="_blank" rel="noopener noreferrer">
+                    <img class="exclude-icon" src="/assets/images/apple.svg" alt="Apple Icon" />
+                </a> -->
+                <a href='https://youtube.com/guesstaccount' target="_blank" rel="noopener noreferrer">
+                    <img class="exclude-icon" src="/assets/images/youtube-logo.svg" alt="Youtube Icon" />
                 </a>
                 <br>
             </div>

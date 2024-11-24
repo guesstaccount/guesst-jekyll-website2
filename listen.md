@@ -3,15 +3,32 @@ layout: mainLinks
 title: listen 🎧
 ---
 
-## listen to my music
+<center>
+    <button onclick="toggleAuthorNote()" class="authorNoteButton">optional reading...</button>
+</center>
 
-i would prefer you listen to my music by downloading it for free on [bandcamp](guesstaccount.bandcamp.com){:target="_blank" rel=“noreferrer noopener”} or below in the releases section and listening to it on your device of choice. if you can afford it, i would ask that you pay whatever you think is reasonable for the music to help me keep making it 🦋.
+<div id="authorNote" style="display: none;">
+    <h2>listen to my music</h2>
 
-[buy on bandcamp](guesstaccount.bandcamp.com){:target="_blank" rel=“noreferrer noopener”}
+    <p>i would prefer you listen to my music by downloading it for free on <a href="guesstaccount.bandcamp.com" target="_blank" rel="noreferrer noopener">bandcamp</a> or below in the releases section and listening to it on your device of choice. if you can afford it, i would ask that you pay whatever you think is reasonable for the music to help me keep making it 🦋.</p>
 
-[pay me a subscription](https://square.link/u/Mhc0OF7O){:target="_blank" rel=“noreferrer noopener”}
+    <p><a href="guesstaccount.bandcamp.com" target="_blank" rel="noreferrer noopener">buy on bandcamp</a></p>
 
-[pay me once](https://square.link/u/Wdq6mOFc){:target="_blank" rel=“noreferrer noopener”}
+    <p><a href="https://square.link/u/Mhc0OF7O" target="_blank" rel="noreferrer noopener">pay me a subscription</a></p>
+
+    <p><a href="https://square.link/u/Wdq6mOFc" target="_blank" rel="noreferrer noopener">pay me once</a></p>
+</div>
+
+<script>
+function toggleAuthorNote() {
+    var note = document.getElementById("authorNote");
+    if (note.style.display === "none") {
+        note.style.display = "block";
+    } else {
+        note.style.display = "none";
+    }
+}
+</script>
 
 
 ## releases
