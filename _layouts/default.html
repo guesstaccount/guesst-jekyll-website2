@@ -15,7 +15,7 @@
         <!-- ?v={{ site.time | date: '%s' }} -->
     </head>
     <body>
-        <section class="mainSection">
+        <section class="{{ page.layout }} mainSection">
             {% unless page.hide_nav %}
                 {% include nav.html %}  
             {% endunless %}
