@@ -1,8 +1,10 @@
 ---
 layout: post
 title: internet crawling in my post meta era
-location: 21:31 @ airbnb in la condesa, cdmx
 ---
+{{ page.date | date_to_string }} - 21:31 | airbnb in la condesa, cdmx
+{: .dateandloc }
+
 dude im ngl im kinda stoked.
 
 so i dont have insta to fill my time anymore, and i am conciously working to not substitute it with youtube. so what am i doing online? dude im fuckin surfing.

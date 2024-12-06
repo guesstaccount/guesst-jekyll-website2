@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>guesst - blog</title>
+    <description>guesst is a trans/agender multigenre multimedia artist.</description>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed/blog.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>test</title>
+        <link>http://localhost:4000/blog/2024/12/06/test.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2024/12/06/test.html</guid>
+        <pubDate>Fri, 06 Dec 2024 00:00:00 -0600</pubDate>
+        <description>&lt;table class=&quot;dateandloc&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;dec 6 2024 - 03:51&lt;/td&gt;
+      &lt;td&gt;my bed&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;i wish i was asleep but its fine&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>success as a function of time</title>
+        <link>http://localhost:4000/blog/2024/09/24/success-as-a-function-of-time.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2024/09/24/success-as-a-function-of-time.html</guid>
+        <pubDate>Tue, 24 Sep 2024 00:00:00 -0500</pubDate>
+        <description>&lt;table class=&quot;dateandloc&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;24 Sep 2024 - 19:02&lt;/td&gt;
+      &lt;td&gt;my desk @ my apartment&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;i often try to remind myself that success is a function of time. the longer you work at something the more full and lush it becomes. i almost just wrote “profitable” which… we’re gonna unpack right now.&lt;/p&gt;
+
+&lt;p&gt;for a while whenever i would look at my music project and think i wasn’t making progress, i would look at this sort of meteoric rise i had from the end of 2019 until january of 2021. i kept telling myself: “its gonna keep going up. you have just cracked it and now its just going up from here.”&lt;/p&gt;
+
+&lt;p&gt;i am feeling a bit somber. for some time now my “progress” or “success” has been diminishing &lt;em&gt;by dollar amount per month&lt;/em&gt;. heres a graph of my distrokid earnings over my career as a musician:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://files.guesst.net/file/guesst-files/blog/distrokid-earnings.jpeg&quot; alt=&quot;graph of my distrokid earnings&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;its been definitely decreasing since 2021. at first it was just a little lull met with a big up spike again but for a while now i have felt, at least monetarily, like i’m not going up anymore.&lt;/p&gt;
+
+&lt;p&gt;i think im especially afraid / concerned / hurt that you can notice a huge correlational downturn after december of 2023 when i deleted my instagram and twitter. its hard to swallow, but at a certain level im sure that the micro interactions i got from just being in peoples feed helped them pay more attention to me. i was just in the fabric and now i am not.&lt;/p&gt;
+
+&lt;p&gt;in a lot of ways its actually pretty impressive that i have still managed to have the maintained success that i have had considering that the only way you will see my stuff these days is through the music platform follow features (which on spotify and soundcloud areeeeeeeeee not always a reliable way to reach people. not necessarily high converting) or my email list which i have only really had rolling for the last six months i reckon.&lt;/p&gt;
+
+&lt;p&gt;it is hard to not feel a little 😔 at this. but i have some good news:&lt;/p&gt;
+
+&lt;ul class=&quot;carrotList&quot;&gt;
+  &lt;li&gt;im still making things i like&lt;/li&gt;
+  &lt;li&gt;im feeling really well and safe and healthy (except that transphobic shit that happened to me the other day but thats for another story)&lt;/li&gt;
+  &lt;li&gt;i can dj whenever i want&lt;/li&gt;
+  &lt;li&gt;i have a &lt;a href=&quot;https://planethome.media/amateurs-club&quot;&gt;weekly art party&lt;/a&gt; where im meeting such lovely people and deepening my connection with my community&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;i think… i think the money might not matter. i think the fame might not matter. i think that the numbers went down because they were always inflated by something that drained me. this doesn’t drain me. it fills me. i get to really sort out my thoughts and people get to interact with it if they want, not because they have to.&lt;/p&gt;
+
+&lt;p&gt;im really inspired by rss feeds, although i will say im very anti-xml and wish that &lt;a href=&quot;https://www.jsonfeed.org/&quot;&gt;JSON feed&lt;/a&gt; was more popular. i have just started playing around with &lt;a href=&quot;https://feedly.com/&quot;&gt;feedly&lt;/a&gt; and my initial impression is really positive but at the end of the day i really just want this baked into my browser. maybe &lt;a href=&quot;https://thebrowser.company/&quot;&gt;the browser company&lt;/a&gt; can figure it out with arc.&lt;/p&gt;
+
+&lt;p&gt;until then, ill just keep makin my little posts and sharing them with my friends through email. it will become clear what the move is as time continues forward. and if the worst thing that happens is that i get to clear my brain load with some public journalling… well that just aint a bad thing at all&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://files.guesst.net/file/guesst-files/blog/DSC01290.jpeg&quot; alt=&quot;me kissing niko&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;stay up wil, king mode.&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>i love coding</title>
+        <link>http://localhost:4000/blog/2024/09/13/i-love-coding.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2024/09/13/i-love-coding.html</guid>
+        <pubDate>Fri, 13 Sep 2024 00:00:00 -0500</pubDate>
+        <description>&lt;table class=&quot;dateandloc&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;13 Sep 2024 - 11:14&lt;/td&gt;
+      &lt;td&gt;big desk @ bucktown apt, chicago&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;i have been having an absolute blast the past few days coding :)&lt;/p&gt;
+
+&lt;p&gt;it is SOO fun to me! i mean just look at this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://files.guesst.net/file/guesst-files/blog/i-love-coding-screenshot.png&quot; alt=&quot;screenshot of wilsons desktop&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;i guess if you don’t know what you are looking at you might not know why this feels so cool to me but what can you do.&lt;/p&gt;
+
+&lt;p&gt;there is something so limitless about it. i truly feel like i can accomplish anything that i want to. and especially with chatGPT, as long as i have the time and the desire to learn, i really can deploy any sort of application on the internet. im obviously primarily interested in static sites, but the fact that it doesn’t have to stop there is so inspiring to me.&lt;/p&gt;
+
+&lt;p&gt;honestly i need to cut this entry short so that i can clean my house before &lt;a href=&quot;https://planet-home-jekyll-site.pages.dev/amateurs-club&quot;&gt;amateurs club&lt;/a&gt; tonight. iykyk&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://f002.backblazeb2.com/file/guesst-files/blog/wilson-surprise-selfie-main-room-by-big-desk.jpeg&quot; alt=&quot;wilson surprise selfie&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;bye wil, love ya!&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>grand theft wheel</title>
+        <link>http://localhost:4000/blog/2024/07/10/grand-theft-wheel.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2024/07/10/grand-theft-wheel.html</guid>
+        <pubDate>Wed, 10 Jul 2024 00:00:00 -0500</pubDate>
+        <description>&lt;table class=&quot;dateandloc&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10 Jul 2024 - 11:14&lt;/td&gt;
+      &lt;td&gt;cafe allez in bucktown, chicago&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;i woke up today to my partner and i’s wheels stolen off our bikes.&lt;/p&gt;
+
+&lt;p&gt;ofc i was initially, very pissed off and violated and angry feeling… but the longer i sat in bed and stewed, the more i turned to sadness. i have been thinking often lately about the injustice of the world and how i get to have things that many people just never even remotely consider to be a possibility for themself.&lt;/p&gt;
+
+&lt;p&gt;i am &lt;em&gt;incredibly&lt;/em&gt; privileged. and im not tryna say this in some middle class guilt kinda way, but more in like a gratitude and rededication towards my values and making the world better kind of way.&lt;/p&gt;
+
+&lt;p&gt;to be real, for about 20 minutes i just kept thinking about how i wanted to reach out to the people that stole them and have a conversation. im not even rly sure how much i would be able to help – obviously this is an issue that isn’t going to end with a one time donation etc. – but yeah i just rly wanted to understand / gain more insight.&lt;/p&gt;
+
+&lt;p&gt;now im at cafe allez. its beautiful here. im grateful for the friends i have made who work here, for the ability for me to come here with my computer and make a lofi beat, get some work done, generally just look around and see the beauty in the world.&lt;/p&gt;
+
+&lt;p&gt;heres a pic of me doin that: 
+&lt;img src=&quot;https://files.guesst.net/file/guesst-files/blog/C9C1D9FD-900E-4431-B287-0ECEC2304D2E_1_102_o.jpeg&quot; alt=&quot;wide angle selfie photo. wilson looking at the camera, their computer is on a table in a coffee shop. you can see a larger table in the background with other people working on their computers and chatting.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;my partner wants to go get new wheels and stuff right now so im gonna sign off. might be back later to add to this post, but who knows! im just getting back into this stuff :)&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>new logo! familiar lessons</title>
+        <link>http://localhost:4000/blog/2024/02/19/new-logo-familiar-lessons.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2024/02/19/new-logo-familiar-lessons.html</guid>
+        <pubDate>Mon, 19 Feb 2024 00:00:00 -0600</pubDate>
+        <description>&lt;table class=&quot;dateandloc&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;19 Feb 2024 - 11:40pm&lt;/td&gt;
+      &lt;td&gt;apt in bucktown, chicago&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;hi!&lt;/p&gt;
+
+&lt;p&gt;its been a week. been djing a lot, im in a band now (more info when we’re prepared to drop), working on a bunch of music collaborations, outsourced some help on show visuals, finally building a website for &lt;a href=&quot;https://planethome.media&quot;&gt;planethome.media&lt;/a&gt; (under construction as of writing this). all stuff that i am really excited to work on, but im def feeling a bit stressed to get it all done.&lt;/p&gt;
+
+&lt;p&gt;i will say the good thing abt stress is that i feel like i am a pretty capable person so when shit starts going wild, i feel maybe a bit chaotic, but ultimately i always pull through and i have a fucking fantastic community that i can lean on to get stuff done too. thats a real blessing, to have ppl who you can share the load with.&lt;/p&gt;
+
+&lt;p&gt;one really awesome side effect of all these things im working on is i took the time to really look at my logo and refine it a bit. heres what i came up with:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/guesst-logo-2024.svg&quot; alt=&quot;guesst logo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;rn i cant figure out a way to make that any smaller so sorry if it takes up your whole screen.&lt;/p&gt;
+
+&lt;p&gt;one thing i kept worrying about during the process of making this was that i was gonna make the wrong decision and be “stuck” with my current logo. oh word, like how i am “stuck” with my current logo? crazy because i just replaced it on my website and now im not stuck. wild how that works.&lt;/p&gt;
+
+&lt;p&gt;snark aside, just want to put a reminder here for myself and for everyone else who reads this that art has no rules. branding has rules, but i want my branding to be art… which has no rules. so by proxy, branding has no rules. fuck yeah. lawyered.&lt;/p&gt;
+
+&lt;p&gt;speaking of the “process” of making this thing, check out all the different variations of this fuckin thing i made:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://files.guesst.net/file/guesst-files/blog/guesst-logo-2024-iteration-screenshot.jpeg&quot; alt=&quot;a screenshot of wilsons desktop. featured prominently is the design software &apos;affinity designer&apos; with a document full of a bunch of iterations of the guesst logo.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;and yes i absolutely studied skrillexs logos to figure out what i like in a logo, its important to take inspiration from things u like! one of of my fav quotes i came across recently is “copy your idols: you arent good enough at copying to make it the same, and so you will accidentally make something original in the process.”&lt;/p&gt;
+
+&lt;p&gt;i think thats all for now. listening to this song rn:&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;200&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allow=&quot;autoplay&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1669910367&amp;amp;color=%23ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
+&lt;div style=&quot;font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;&quot;&gt;&lt;a href=&quot;https://soundcloud.com/liquicityrecords&quot; title=&quot;Liquicity Records&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;Liquicity Records&lt;/a&gt; · &lt;a href=&quot;https://soundcloud.com/liquicityrecords/andromedik-lexurus-adrenaline&quot; title=&quot;Andromedik &amp;amp; Lexurus - Adrenaline feat. Nu-La&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;Andromedik &amp;amp; Lexurus - Adrenaline feat. Nu-La&lt;/a&gt;&lt;/div&gt;
+
+&lt;p&gt;peace&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>internet crawling in my post meta era</title>
+        <link>http://localhost:4000/blog/2023/11/11/internet-crawling-in-my-post-meta-era.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2023/11/11/internet-crawling-in-my-post-meta-era.html</guid>
+        <pubDate>Sat, 11 Nov 2023 00:00:00 -0600</pubDate>
+        <description>&lt;table class=&quot;dateandloc&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;11 Nov 2023 - 21:31&lt;/td&gt;
+      &lt;td&gt;airbnb in la condesa, cdmx&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;dude im ngl im kinda stoked.&lt;/p&gt;
+
+&lt;p&gt;so i dont have insta to fill my time anymore, and i am conciously working to not substitute it with youtube. so what am i doing online? dude im fuckin surfing.&lt;/p&gt;
+
+&lt;p&gt;its so cool i feel like this is the feeling i have been chasing for a long ass time now. whenever i think conceptually about the internet it seems so fucking cool – this massive node group where each node is an idea and an expression of data which is an expression of people and idk it just feels awesome!&lt;/p&gt;
+
+&lt;p&gt;instagram always felt so homogeonous to me and it incentivized me to be homogoenous as well! it incentivized me to focus on being hot or being cool, and if i strived for either of them i ended up feeling hollow (with the small exception of my little dopamine treats when ppl would comment or like my shit).&lt;/p&gt;
+
+&lt;p&gt;but dude, today? this evening? i fuckin just crawled the internet. i don’t even know how i got from a to b but i found some interesting ass shit.&lt;/p&gt;
+
+&lt;p&gt;like theres this project(?) called &lt;a href=&quot;https://legacy.donotresearch.net/about/&quot;&gt;Do Not Research&lt;/a&gt; and i just dug around and read some of the entries. super cool shit i love it when people publish in interesting ways on the internet. it feels so much freer than posting in this highly restricted format of insta or twitter or youtube or whatever the fuck where the parameters of how u can express are locked.&lt;/p&gt;
+
+&lt;p&gt;i also stumbled across &lt;a href=&quot;http://whpk.org/resources/signal/signal-mag.pdf&quot;&gt;this magazine&lt;/a&gt; by a chicago radio station and read this article in it (Streaming the Mean - Theo Becli, page 5) about spotify and algorithmic music discovery.&lt;/p&gt;
+
+&lt;p&gt;i thought it was a largely pretty good take, but i would probably go one step more optimistic with it (a “yes and” approach if u will) and say that algorithmic music discovery isn’t bad, its just one way that i can discover new things. still highly agree that music discovery through people and artistic curation tends to resonate really strongly, but i also have found some of my favorite artists through the spotify algorithm AND I THINK this is because of its “cultural awareness.” what i mean by this is that like my music is associated with dj re:code because we are friends and have toured together, but not necessarily because we sound similar.&lt;/p&gt;
+
+&lt;p&gt;anyway heres a picture of me at this very moment.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://files.guesst.net/file/guesst-files/blog/Photo_on_11-11-23_at_9.52_PM.jpg&quot; alt=&quot;Photo on 11-11-23 at 9.52 PM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;byeeee&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>no socials</title>
+        <link>http://localhost:4000/blog/2023/11/09/no-socials.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2023/11/09/no-socials.html</guid>
+        <pubDate>Thu, 09 Nov 2023 00:00:00 -0600</pubDate>
+        <description>&lt;table class=&quot;dateandloc&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;09 Nov 2023 - 11:01&lt;/td&gt;
+      &lt;td&gt;airbnb in la condesa, cdmx&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;i deleted my instagram yesterday. not like a deactivation, like a full blown deletion.
+tbh the writing has been on the wall for years at this point.&lt;/p&gt;
+
+&lt;p&gt;i legit wrote an entire album about how internet presentation made me feel sick. when i was doing the biproducts more frequently, i really had a sense of accomplishment. i hope this new version of biproducts can give me the same “life cataloging” benefits of instagram without any of the insane body image issues and comparative garbage.&lt;/p&gt;
+
+&lt;p&gt;i dont have much to write today, so im gonna sign off quickly here, but im gonna go find a photo of me first.&lt;/p&gt;
+
+&lt;p&gt;this is a selfie i took in the mirror of the airbnb im staying in in la condesa, cdmx right now. i was kinda feeling myself which is always a good feeling.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://files.guesst.net/file/guesst-files/blog/wilson_cdmx_la_condesa_mirror_selfie_airbnb.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;this is the view from the roof of the place we are staying. so gorgoues. very grateful to be able to experience this and get deep into the roots of my feelings in such a beautiful place.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://files.guesst.net/file/guesst-files/blog/view_from_la_condesa_airbnb_roof.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;also this is the playlist of music i was listning to while making this:&lt;/p&gt;
+
+&lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/playlist/2dBqhtu3hsI0WCeXywWmRx?utm_source=generator&amp;amp;theme=0&quot; width=&quot;100%&quot; height=&quot;352&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;thats it for now. take care of yourself and your mental health and make sure to eat some oatmeal and listen to an album all the way through.&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>i sat under a tree and watched youtube videos about apple inc while thinking about self promotion</title>
+        <link>http://localhost:4000/blog/2021/05/08/i-sat-under-a-tree-and-watched-youtube-videos-about-apple-inc-while-thinking-about-self-promotion.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2021/05/08/i-sat-under-a-tree-and-watched-youtube-videos-about-apple-inc-while-thinking-about-self-promotion.html</guid>
+        <pubDate>Sat, 08 May 2021 00:00:00 -0500</pubDate>
+        <description>&lt;table class=&quot;dateandloc&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;08 May 2021 - 00:00&lt;/td&gt;
+      &lt;td&gt;standing in vista hermosa park&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;i want to be known. i want to be known for my creations. i recognize that this desire is entrenched in vanity, but i cannot seem to help but feel a twinge of frustration at myself that i am not more notable than i am at this time. i see kennyhoopla videos and i just wanna be like him. i hear rebecca black songs that weaponize pop as it was once weaponized against her and i just think these people are so fucking cool and inspiring. i want to be that person for other people, but i seem unwilling to allow myself to be without the views and the excitement that these people seem to garner around themselves.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.instagram.com/alterxyourxego/&quot;&gt;Alter.&lt;/a&gt; has said to me many times “if you build it, they will come.”&lt;/p&gt;
+
+&lt;p&gt;i love this concept. it reminds me that all we need to do to be exceptional is be ourselves. i guess in that it terrifies me that i dont often want to make things. in fact i feel quite content much of the time to just watch the same tv show over and over ago cause it makes me happy (shoutout avatar the last airbender). i think the thing that i have loved so much about this website thing so far is that in a lot of ways its free from analysis. i dont get likes or views or even comments or feedback unless someone has my number and wants to hit me up about how it inspired them (shoutout &lt;a href=&quot;https://www.instagram.com/thisdaym/&quot;&gt;Daym&lt;/a&gt;). but in the same thread, its anyonymity leaves me with a certain sense of “what the fuck am i doing spending so much time on this? no one will see it. my effort will be wasted.”&lt;/p&gt;
+
+&lt;p&gt;i don’t know. super weird that i have to be observed in order for my efforts to have been worth something.&lt;/p&gt;
+
+&lt;p&gt;im hella hungry. check back later. maybe.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://files.guesst.net/file/guesst-files/blog/bp3_sitting_under_a_tree_in_vista_hermosa_park.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;dateandloc&quot;&gt;saturday, 8 may 2021, 12:50&lt;/p&gt;
+
+&lt;p&gt;tv couch @ dtla apartment sitting next to gav&lt;/p&gt;
+
+&lt;p&gt;i got home and ate a fuckton of watermelon while watching avatar the last airbender.&lt;/p&gt;
+
+&lt;p&gt;i kind of laugh at myself whenever i write these thinking to myself “why the fuck would anyone read this” and then i remember “they wouldnt. this is for me. i love finding pieces of my mind from a different time period.”&lt;/p&gt;
+
+&lt;p&gt;while i was walking home i was thinking a lot about this blog / just art in general and how so many of us are seeking audiences for the things we make. I was talking to &lt;a href=&quot;https://www.instagram.com/alterxyourxego/&quot;&gt;Alter.&lt;/a&gt; recently (the dude has really great advice, so he’s gonna be mentioned a lot here lol), and he is convinced that good content going unpromoted will still find its audience. all it takes is a spark.&lt;/p&gt;
+
+&lt;p&gt;i love this because it reminds me to take myself less seriously. to remember that people are inherently fascinating and beautiful and that trying to “rise” to some ever furthering “top” will likely leave me unsatisfied. this is not to discredit the crucial role advertising plays and has played in exposing me to some of my favorite art, but rather to remind me that it is not simply the advertising that makes something great. oh and also that i dont need to worry about the advertising because some one else out there has a mind for it that wants to help me. all i need to do is keep being the best version of myself so that one day we can meet and make shit catch fire.&lt;/p&gt;
+
+&lt;p&gt;and just to add an example here for the sake of proving my point deeply in my head with the futile intention that i will need not remind myself of this time and time again ad infinitum:&lt;/p&gt;
+
+&lt;p&gt;wilson, you discovered avatar the last airbender — the best show of all time — because nick and quinn showed it to you in your basement room on your computer when you were 14. you then went the next 6 days consuming hours on hours of this show until you had reached its completion. you have watched, contemplated, and raved about this show for countless hours with friends and strangers since then. this show and its successor, legend of korra, have been INDISPENSABLE in your notions of identity, self worth, and morals. it also was the catalyst for a very important and beautiful friendship you had with hose member sierra. so remember that the next time you think advertising is the only way to get your art into the hands of someone for whom it may change their life.&lt;/p&gt;
+
+&lt;p&gt;ok, so how does this practically translate?&lt;/p&gt;
+
+&lt;p&gt;well, for starters, i think i am probably going to move up to a two week release schedule. just get all this shit in my backlog out so i can finally have some peace in knowing that i can release things when they have been completed. with the likely notable exception of my album. i think i want that to sit in the editorial submissions queue for a whole month. hopefully someone finds it. ¯\_(ツ)_/¯&lt;/p&gt;
+
+&lt;h2 id=&quot;okay-a-couple-more-things-before-i-sign-off&quot;&gt;okay, a couple more things before i sign off:&lt;/h2&gt;
+
+&lt;p&gt;look at this picture of peyton from yesterday. we went and got burgers because neither of us had eaten all day. #early20s?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://files.guesst.net/file/guesst-files/blog/bp3_peyton_sitting_on_a_ledge_eating_vurger_guys.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;after burgers, we went to target because target is god. i dropped my salsa in the isle and spilled. it was mildly embarrasing, but i bought the salsa and we left. on the way out i was like yooooo take a picture of my by this “guest” sign so i can turn it into a “guesst” sign and it’ll be cool. peyton being the dope friend she is, took the photo and here it is in all its edited glory:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://files.guesst.net/file/guesst-files/blog/bp3_guesst_elevator_edit.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;okay and lastly, &lt;a href=&quot;https://www.instagram.com/barrengates/&quot;&gt;Barren Gates&lt;/a&gt; and i are releasing a new tune together soon which im hyped about. its very linkin parky imo. here’s a sneak peak at what might end up being the album cover if Barren ends up liking it.&lt;/p&gt;
+
+&lt;p&gt;EDIT: while writing this i heard back from him and this will in fact, not be the album artwork for the single lol. but u get to see it anyway! yay for artistic process!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://files.guesst.net/file/guesst-files/blog/false-verdict-album-art.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;songs i was listening to while writing this that stand out:&lt;/p&gt;
+&lt;iframe src=&quot;https://open.spotify.com/embed/track/6HeCFmoXkd7jn2DZd2hwW9&quot; width=&quot;100%&quot; height=&quot;80&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+
+&lt;iframe src=&quot;https://open.spotify.com/embed/track/7aqBSlFkFw20P1UUYsP7Y6&quot; width=&quot;100%&quot; height=&quot;80&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>letting go seems impossible and this is not news</title>
+        <link>http://localhost:4000/blog/2021/05/06/letting-go-seems-impossible-and-this-is-not-news.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2021/05/06/letting-go-seems-impossible-and-this-is-not-news.html</guid>
+        <pubDate>Thu, 06 May 2021 00:00:00 -0500</pubDate>
+        <description>&lt;table class=&quot;dateandloc&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;06 May 2021 - 18:44&lt;/td&gt;
+      &lt;td&gt;waiting room @ urgent care little tokyo&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;its been a fucking weird day. i woke up and accidentally stumbled across a picture of a person i miss very much, which kind of sent me into a bit of a spiral im not gonna lie.&lt;/p&gt;
+
+&lt;p&gt;i had a doctors appointment i had to get to so i packed up my water bottle and a notebook and headed to the park to try to relax before heading in. i started writing; mostly just to get my thoughts out of my head and somewhere tangible. i have been really struggling lately with the paradox of choice we are all faced with as adults. it seems that we are now fully trusted to make whatever decisions we need to make in any given moment, which is great, except…&lt;/p&gt;
+
+&lt;p&gt;what if i have no idea what the right decision is???!!&lt;/p&gt;
+
+&lt;p&gt;faced with the realization that i am an adult, i am again reminded that no adult i have ever interacted with has ever had the answers to the questions we really want to know the answers to:&lt;/p&gt;
+
+&lt;p&gt;how do i let go of people that are no longer in my life?&lt;/p&gt;
+
+&lt;p&gt;how do i love myself?&lt;/p&gt;
+
+&lt;p&gt;how do i know if my decisions are in my best interests or simply self serving?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://files.guesst.net/file/guesst-files/blog/bp2_elysian_trees.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://files.guesst.net/file/guesst-files/blog/bp2_elysian_water_bottle_and_journal.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;table class=&quot;dateandloc&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;07 May 2021 - 12:04&lt;/td&gt;
+      &lt;td&gt;couch @ dtla apartment&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;i spent a lot of yesterday crying in the park. i spent a lot of today crying in the park. and on my walk home. and on my roommates bed when i got home.&lt;/p&gt;
+
+&lt;p&gt;its kind of funny, it seems you can be so good for so long only to stumble onto a tiny memory that can just send you spiraling about every choice you have ever made.&lt;/p&gt;
+
+&lt;p&gt;i am incredibly grateful for my life here in la. i am incredibly grateful for my friends who keep me up and keep me going. but i wont lie, a lot of days i wonder if i left behind the greatest community i have ever known to pursue something that will not bring me near as much joy as it had promised in all my imaginations of the future.&lt;/p&gt;
+
+&lt;p&gt;i am cynical lately — i feel at times like no matter how much i focus on giving to others without expectation, i will never be able to escape the understanding that what we often love in others is &lt;em&gt;the way they make us feel&lt;/em&gt;, and not that we love them as themselves. i want to believe that i may someday be able to be truly selfless for the people that i love, but i am concerned i may always selfishly crave validation / comfort / confidence in my loved ones. i suppose i just hope i can be beneficial enough to those around me that they wont be bothered by my occasional neediness. that seems to be working out okay so far. obviously i am also working on being more self sufficient but damn this shit is lonely.&lt;/p&gt;
+
+&lt;p&gt;to be honest i think i might just be spiraling. i don’t think i’ll share this link on socials. but do anyone who finds it, i hope it brings you some commraderie in knowing that everyone goes through this bullshit. none of us are immune to the pain of leaving someone behind in the hopes that we may become better versions of ourselves.&lt;/p&gt;
+
+&lt;p&gt;i just derailed a meeting with my supervisor to ask him about how he has dealt with moving on from relationships. its comforting knowing that all of my friends across a variety of age groups have the same non-answer about this — time. there is no solution that can dissolve a deep and beautiful connection forged over years; there is only time. the most difficult part of this for me is trying to figure out how not to waste time. learning when to allow myself to feel and learning when its time to just stand up and fucking distract myself.&lt;/p&gt;
+
+&lt;p&gt;i have reread this and tbh im not sure its even particularly intelligible, but im gonna go post it. hopefully its good for something in the future.&lt;/p&gt;
+
+&lt;p&gt;i was listening to some of my coworkers amazing music while writing this. thank you for writing such evocative and beautiful music. it set the mood in an undeniable way while i was writing this out. y’all are super fukcing rad. :)&lt;/p&gt;
+
+&lt;iframe src=&quot;https://open.spotify.com/embed/track/2eNz1PMz77ITiI7hzUHiKE&quot; width=&quot;100%&quot; height=&quot;80&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+
+&lt;iframe src=&quot;https://open.spotify.com/embed/track/2DD7ZFScCRMAxE7HD1e7Pc&quot; width=&quot;100%&quot; height=&quot;80&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;okay&lt;/p&gt;
+
+&lt;p&gt;bye for now&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>making a website i guess</title>
+        <link>http://localhost:4000/blog/2021/05/06/01-making-a-website-i-guess.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2021/05/06/01-making-a-website-i-guess.html</guid>
+        <pubDate>Thu, 06 May 2021 00:00:00 -0500</pubDate>
+        <description>&lt;table class=&quot;dateandloc&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;06 May 2021  - 23:46&lt;/td&gt;
+      &lt;td&gt;couch @ dtla aparment&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;so this is my first attempt at a blog. &lt;/p&gt;
+
+&lt;p&gt;its 23:46 as of the beginning of writing this, and i honestly have no idea what to say, but the dude on the &lt;a href=&quot;https://www.youtube.com/watch?v=vyVpRiqOvt4&amp;amp;t=305s&quot;&gt;youtube video that pushed me over the edge to do this&lt;/a&gt; says that gets easier. &lt;/p&gt;
+
+&lt;p&gt;i watch a lot of productivity / self help youtube lol. as you might expect, its riddled with dudes that work out and are usually white passing, but tbh i have actually learned a pretty significant amount of dope things from these dudes. like today i was watching this &lt;a href=&quot;https://www.youtube.com/user/blackboxfilmcompany&quot;&gt;Matt D’Avella&lt;/a&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=Purzzv8G66o&quot;&gt;video&lt;/a&gt; and the dude said something to the effect of “start before you’re ready” and i was like woah.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://giphy.com/embed/3rVfBUa9f0RErtMZBH&quot; width=&quot;320&quot; height=&quot;180&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;cause i’m not gonna lie to yall i have been dramatically feeling lately like i should have started a lot of things WAYYYY the fuck earlier. and the frustrating thing is is that with each thing i wish i would have began doing earlier, if i think back to when i first started doing any of it in a meaningful way, in realized i often started out of necessity. for example i got into visual art mostly because i wanted to have more control over my album artwork which i had been outsourcing to other artists for so long.&lt;/p&gt;
+
+&lt;p&gt;(working with other artists is fucking awesome and i miss doing it, but for now i can’t pay the rates i want to pay for art and also i am incredibly picky about my vibe right now for some reason lol)&lt;/p&gt;
+
+&lt;p&gt;i’m listening to my own music right now, which is kind of odd, but its nice in a way. reminds me that ultimately i’m doing this for myself because i like the sounds of computers mashing their heads together in a cacophony of clipping and “fuck you”s to any respectable mix engineer. &lt;/p&gt;
+
+&lt;iframe src=&quot;https://open.spotify.com/embed/track/74nGSq153K3M5w4ZhFWYK2&quot; width=&quot;100%&quot; height=&quot;80&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;ok-so-why-am-i-doing-this--get-to-the-point-wil-lol&quot;&gt;ok so why am i doing this – get to the point wil lol.&lt;/h2&gt;
+
+&lt;p&gt;tl;dr: documentation. i lived at this house that we all affectionately called “hose” and i remember one night i was having a conversation with my roomate s***** about how to properly spill your artwork into the world. i remember thinking how jealous i was of visual art because you could like print it out and staple it to a light post or something. its kinda like how when you see graffitied rocks in a park or something and you are like “huh, a person did that” – i wanted that for all of my art. &lt;/p&gt;
+
+&lt;p&gt;i remember thinking how there seemed no way to just spew musical art into the world in an anonymous and timeless way. without the internet anyway. ¯\_(ツ)_/¯ &lt;/p&gt;
+
+&lt;p&gt;well here i am. i wasn’t able to find a physical way to do it, but i have found a method of documenting and spewing all kinds of my art out into the world in a way that is likely just as (un-but-also-fantastically)impactful as carving my name into the sidewalk. &lt;/p&gt;
+
+&lt;p&gt;alright at this point in this writing process im listening to chlorine by wolf which i found through another song by this artist that &lt;a href=&quot;https://www.instagram.com/alterxyourxego/&quot;&gt;Alter.&lt;/a&gt; sent me. shoutout Alter.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://open.spotify.com/embed/track/2F8zOluHP8H81kkRW9d9iC&quot; width=&quot;100%&quot; height=&quot;80&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;lol by the time i finished writing that the song that Alter. sent me started playing so y’all get that too 😆&lt;/p&gt;
+
+&lt;iframe src=&quot;https://open.spotify.com/embed/track/09o11md5fskmIRdfFA7l4T&quot; width=&quot;100%&quot; height=&quot;80&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;seriously Alter., these songs are so fucking rad thank you for the recommendation. &lt;/p&gt;
+
+&lt;p&gt;ok so im gonna put a video embed here which is just some clips i took today and dear. god. please let me get better at &lt;a href=&quot;https://www.youtube.com/channel/UCtinbF-Q-fVthA0qrFQTgXQ&quot;&gt;neistat&lt;/a&gt; style filmmaking cause holy shit i am not loving how storyless my vids are right now lol. i will say i am excited to look back on this tho. &lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5JzcTDo_SWU&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;shit i guess i should probably explain whats going on in this video hahaha&lt;/p&gt;
+
+&lt;p&gt;basically i got all inspired n shit and was like “im gonna go make this website!!!” but then my brain was all “hey dude u need to finish work first” so i was like “okay time to go to the park” which is a common theme for me whenever i need to get work done. idk but something about working outside without a desk or a mouse or a keyboard or anything really just makes me the most creative and resourceful and efficient.&lt;/p&gt;
+
+&lt;p&gt;so im skating there im on my way and i realize im still carrying around like $200 in cash because i traded a friend a venmo for cash cause they needed it but tbh i dont really need cash so i was like “shiiiiii i guess i should probably go drop this with the bank”. so i headed over to chase and droppped off the coin before heading to the park filmin a couple clips, and finishing work for the day.&lt;/p&gt;
+
+&lt;p&gt;after i was done with work i switched computers to my personal, hopped on a ft call with jacques (who has been a complete angel with helping me through all my weird html/css questions), and started diving into how to make my logo stay properly centered on my site. it then got super duper cold (probably not, the sun just went down) so i went to whole foods to pick up a watermelon, came home, watched avatar the last airbender, finished up coding my website and prepping it for vlog-hood, edited this video and here we are now. :)&lt;/p&gt;
+
+&lt;p&gt;again, MASSIVE shoutout to &lt;a href=&quot;https://jacquesdebar.com&quot;&gt;jacques&lt;/a&gt; for helping me figure out how to do web stuff&lt;/p&gt;
+
+&lt;p&gt;i hope my mom reads this, love u mama&lt;/p&gt;
+
+&lt;p&gt;alright, all thats left to do now is push these changes and hope my site looks good on mobile! wish me luck!&lt;/p&gt;
+</description>
+      </item>
+    
+  </channel>
+</rss>

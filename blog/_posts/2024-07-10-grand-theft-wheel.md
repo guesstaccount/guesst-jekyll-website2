@@ -1,8 +1,10 @@
 ---
 layout: post
 title: grand theft wheel
-location: 11:14 @ cafe allez in bucktown, chicago
 ---
+{{ page.date | date_to_string }} - 11:14 | cafe allez in bucktown, chicago
+{: .dateandloc }
+
 i woke up today to my partner and i's wheels stolen off our bikes. 
 
 ofc i was initially, very pissed off and violated and angry feeling... but the longer i sat in bed and stewed, the more i turned to sadness. i have been thinking often lately about the injustice of the world and how i get to have things that many people just never even remotely consider to be a possibility for themself. 

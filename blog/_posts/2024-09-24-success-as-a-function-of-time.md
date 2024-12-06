@@ -1,8 +1,10 @@
 ---
 layout: post
 title: success as a function of time
-location: 19:02 my desk @ my apartment
 ---
+{{ page.date | date_to_string }} - 19:02 | my desk @ my apartment
+{: .dateandloc }
+
 i often try to remind myself that success is a function of time. the longer you work at something the more full and lush it becomes. i almost just wrote "profitable" which... we're gonna unpack right now.
 
 for a while whenever i would look at my music project and think i wasn't making progress, i would look at this sort of meteoric rise i had from the end of 2019 until january of 2021. i kept telling myself: "its gonna keep going up. you have just cracked it and now its just going up from here."

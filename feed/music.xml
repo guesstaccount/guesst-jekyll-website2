@@ -1,0 +1,33 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title }} - music releases</title>
+    <description>{{ site.description }}</description>
+    <link>{{ site.url }}</link>
+    <atom:link href="{{ site.url }}/feed/listen.xml" rel="self" type="application/rss+xml" />
+    {% for post in site.categories.listen limit:10 %}
+      <item>
+        <title>{{ post.songTitle }} - {{ post.artist }}</title>
+        <link>{{ site.url }}{{ post.url }}</link>
+        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <description>
+          <![CDATA[
+            <img src="{{ post.coverPath }}" alt="Cover Image" />
+            <p>{{ post.content }}</p>
+            <ul>
+              <li><a href="{{ post.download }}">download</a></li>
+              <li><a href="{{ post.soundcloud }}">soundcloud</a></li>
+              <li><a href="{{ post.bandcamp }}">bandcamp</a></li>
+              <li><a href="{{ post.youtube }}">youtube</a></li>
+              <li><a href="{{ post.spotify }}">spotify</a></li>
+              <li><a href="{{ post.apple }}">apple</a></li>
+            </ul>
+          ]]>
+        </description>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>

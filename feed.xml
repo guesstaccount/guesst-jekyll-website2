@@ -1,38 +1,255 @@
----
----
-
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title }}</title>
-    <description>{{ site.description }}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>guesst</title>
+    <description>guesst is a trans/agender multigenre multimedia artist.</description>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <link>{{ site.url }}{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        {% if post.layout == 'listen' %}
-          <title>{{ post.songTitle }} - {{ post.artist }}</title>
+        <link>http://localhost:4000/listen/2024/09/25/r-u-free-tmrw.html</link>
+        <guid isPermaLink="true">http://localhost:4000/listen/2024/09/25/r-u-free-tmrw.html</guid>
+        <pubDate>Wed, 25 Sep 2024 00:00:00 -0500</pubDate>
+        
+          <title>r u free tmrw? - guesst x underexposed</title>
           <description>
             <![CDATA[
-              <img src="{{ post.coverPath }}" alt="Cover Image" />
+              <img src="https://files.guesst.net/file/guesst-files/album-art/r%20u%20free%20tmrw%20album%20art.jpg" alt="Cover Image" />
               <ul>
-                <li><a href="{{ post.download }}">download</a></li>
-                <li><a href="{{ post.soundcloud }}">soundcloud</a></li>
-                <li><a href="{{ post.bandcamp }}">bandcamp</a></li>
-                <li><a href="{{ post.youtube }}">youtube</a></li>
-                <li><a href="{{ post.spotify }}">spotify</a></li>
-                <li><a href="{{ post.apple }}">apple</a></li>
+                <li><a href="https://files.guesst.net/file/guesst-files/music/guesst%20x%20underexposed%20-%20r%20u%20free%20tmrw%20wilmix5.aif">download</a></li>
+                <li><a href="https://soundcloud.com/guesstaccount/r-u-free-tmrw?si=82fe33fb53ba43a89846a20ce44c0913&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">soundcloud</a></li>
+                <li><a href="https://guesstaccount.bandcamp.com/track/r-u-free-tmrw">bandcamp</a></li>
+                <li><a href="https://music.youtube.com/watch?v=ppjlAF4jvUg">youtube</a></li>
+                <li><a href="https://open.spotify.com/track/2eyXd1Jg9QN308JdAdAsPe">spotify</a></li>
+                <li><a href="https://music.apple.com/us/album/r-u-free-tmrw-single/1767471447?ls=1">apple</a></li>
               </ul>
             ]]>
           </description>
-        {% else %}
-          <title>{{ post.title }}</title>
-          <description>{{ post.content | xml_escape }}</description>
-        {% endif %}
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <link>http://localhost:4000/blog/2024/09/24/success-as-a-function-of-time.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2024/09/24/success-as-a-function-of-time.html</guid>
+        <pubDate>Tue, 24 Sep 2024 00:00:00 -0500</pubDate>
+        
+          <title>success as a function of time</title>
+          <description>&lt;p&gt;i often try to remind myself that success is a function of time. the longer you work at something the more full and lush it becomes. i almost just wrote “profitable” which… we’re gonna unpack right now.&lt;/p&gt;
+
+&lt;p&gt;for a while whenever i would look at my music project and think i wasn’t making progress, i would look at this sort of meteoric rise i had from the end of 2019 until january of 2021. i kept telling myself: “its gonna keep going up. you have just cracked it and now its just going up from here.”&lt;/p&gt;
+
+&lt;p&gt;i am feeling a bit somber. for some time now my “progress” or “success” has been diminishing &lt;em&gt;by dollar amount per month&lt;/em&gt;. heres a graph of my distrokid earnings over my career as a musician:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://files.guesst.net/file/guesst-files/blog/distrokid-earnings.jpeg&quot; alt=&quot;graph of my distrokid earnings&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;its been definitely decreasing since 2021. at first it was just a little lull met with a big up spike again but for a while now i have felt, at least monetarily, like i’m not going up anymore.&lt;/p&gt;
+
+&lt;p&gt;i think im especially afraid / concerned / hurt that you can notice a huge correlational downturn after december of 2023 when i deleted my instagram and twitter. its hard to swallow, but at a certain level im sure that the micro interactions i got from just being in peoples feed helped them pay more attention to me. i was just in the fabric and now i am not.&lt;/p&gt;
+
+&lt;p&gt;in a lot of ways its actually pretty impressive that i have still managed to have the maintained success that i have had considering that the only way you will see my stuff these days is through the music platform follow features (which on spotify and soundcloud areeeeeeeeee not always a reliable way to reach people. not necessarily high converting) or my email list which i have only really had rolling for the last six months i reckon.&lt;/p&gt;
+
+&lt;p&gt;it is hard to not feel a little 😔 at this. but i have some good news:&lt;/p&gt;
+
+&lt;ul class=&quot;carrotList&quot;&gt;
+  &lt;li&gt;im still making things i like&lt;/li&gt;
+  &lt;li&gt;im feeling really well and safe and healthy (except that transphobic shit that happened to me the other day but thats for another story)&lt;/li&gt;
+  &lt;li&gt;i can dj whenever i want&lt;/li&gt;
+  &lt;li&gt;i have a &lt;a href=&quot;https://planethome.media/amateurs-club&quot;&gt;weekly art party&lt;/a&gt; where im meeting such lovely people and deepening my connection with my community&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;i think… i think the money might not matter. i think the fame might not matter. i think that the numbers went down because they were always inflated by something that drained me. this doesn’t drain me. it fills me. i get to really sort out my thoughts and people get to interact with it if they want, not because they have to.&lt;/p&gt;
+
+&lt;p&gt;im really inspired by rss feeds, although i will say im very anti-xml and wish that &lt;a href=&quot;https://www.jsonfeed.org/&quot;&gt;JSON feed&lt;/a&gt; was more popular. i have just started playing around with &lt;a href=&quot;https://feedly.com/&quot;&gt;feedly&lt;/a&gt; and my initial impression is really positive but at the end of the day i really just want this baked into my browser. maybe &lt;a href=&quot;https://thebrowser.company/&quot;&gt;the browser company&lt;/a&gt; can figure it out with arc.&lt;/p&gt;
+
+&lt;p&gt;until then, ill just keep makin my little posts and sharing them with my friends through email. it will become clear what the move is as time continues forward. and if the worst thing that happens is that i get to clear my brain load with some public journalling… well that just aint a bad thing at all&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://files.guesst.net/file/guesst-files/blog/DSC01290.jpeg&quot; alt=&quot;me kissing niko&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;stay up wil, king mode.&lt;/p&gt;
+</description>
+        
+      </item>
+    
+      <item>
+        <link>http://localhost:4000/blog/2024/09/13/i-love-coding.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2024/09/13/i-love-coding.html</guid>
+        <pubDate>Fri, 13 Sep 2024 00:00:00 -0500</pubDate>
+        
+          <title>i love coding</title>
+          <description>&lt;p&gt;i have been having an absolute blast the past few days coding :)&lt;/p&gt;
+
+&lt;p&gt;it is SOO fun to me! i mean just look at this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://files.guesst.net/file/guesst-files/blog/i-love-coding-screenshot.png&quot; alt=&quot;screenshot of wilsons desktop&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;i guess if you don’t know what you are looking at you might not know why this feels so cool to me but what can you do.&lt;/p&gt;
+
+&lt;p&gt;there is something so limitless about it. i truly feel like i can accomplish anything that i want to. and especially with chatGPT, as long as i have the time and the desire to learn, i really can deploy any sort of application on the internet. im obviously primarily interested in static sites, but the fact that it doesn’t have to stop there is so inspiring to me.&lt;/p&gt;
+
+&lt;p&gt;honestly i need to cut this entry short so that i can clean my house before &lt;a href=&quot;https://planet-home-jekyll-site.pages.dev/amateurs-club&quot;&gt;amateurs club&lt;/a&gt; tonight. iykyk&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://f002.backblazeb2.com/file/guesst-files/blog/wilson-surprise-selfie-main-room-by-big-desk.jpeg&quot; alt=&quot;wilson surprise selfie&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;bye wil, love ya!&lt;/p&gt;
+</description>
+        
+      </item>
+    
+      <item>
+        <link>http://localhost:4000/listen/2024/08/07/kris-anti-resentment-type-beat.html</link>
+        <guid isPermaLink="true">http://localhost:4000/listen/2024/08/07/kris-anti-resentment-type-beat.html</guid>
+        <pubDate>Wed, 07 Aug 2024 00:00:00 -0500</pubDate>
+        
+          <title>anti resentment type beat - semi-cycle x guesst</title>
+          <description>
+            <![CDATA[
+              <img src="https://files.guesst.net/file/guesst-files/album-art/anti%20resentment%20type%20beat%20art5.jpg" alt="Cover Image" />
+              <ul>
+                <li><a href="https://files.guesst.net/file/guesst-files/music/kris%20anti%20resentment%20type%20beat4.aif">download</a></li>
+                <li><a href="https://soundcloud.com/guesstaccount/kris-anti-resentment-type-beat?si=d6b9dfbe1b0a4739941f61bb5c1decc5&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">soundcloud</a></li>
+                <li><a href="https://guesstaccount.bandcamp.com/track/anti-resentment-type-beat">bandcamp</a></li>
+                <li><a href="https://www.youtube.com/watch?v=6t0Y4mNnAX8&pp=ygUgZ3Vlc3N0IGFudGkgcmVzZW50bWVudCB0eXBlIGJlYXQ%3D">youtube</a></li>
+                <li><a href="https://open.spotify.com/track/6Dzc8I5dM2mKlanPU3bhr6?si=5ea2b07e0dd44f26">spotify</a></li>
+                <li><a href="https://music.apple.com/us/album/anti-resentment-type-beat-single/1759721311">apple</a></li>
+              </ul>
+            ]]>
+          </description>
+        
+      </item>
+    
+      <item>
+        <link>http://localhost:4000/listen/2024/07/17/aileron.html</link>
+        <guid isPermaLink="true">http://localhost:4000/listen/2024/07/17/aileron.html</guid>
+        <pubDate>Wed, 17 Jul 2024 00:00:00 -0500</pubDate>
+        
+          <title>aileron - DJ Re:Code x guesst</title>
+          <description>
+            <![CDATA[
+              <img src="https://files.guesst.net/file/guesst-files/album-art/dj-recode-revert-punk-cover.jpg" alt="Cover Image" />
+              <ul>
+                <li><a href="https://files.guesst.net/file/guesst-files/music/needa-upload.txt">download</a></li>
+                <li><a href="https://soundcloud.com/djrecode/4-aileron-feat-guesst?in=djrecode/sets/revertpunk">soundcloud</a></li>
+                <li><a href="https://djrecode.bandcamp.com/track/aileron-feat-guesst">bandcamp</a></li>
+                <li><a href="https://music.youtube.com/watch?v=JJMxt9UMe0o&si=neEZQK0fDJefa_mk">youtube</a></li>
+                <li><a href="https://open.spotify.com/track/717bofloXWhIdb3PbYOUXp?si=fd4933e83e9d4321">spotify</a></li>
+                <li><a href="https://music.apple.com/us/album/aileron/1755034062?i=1755034312">apple</a></li>
+              </ul>
+            ]]>
+          </description>
+        
+      </item>
+    
+      <item>
+        <link>http://localhost:4000/blog/2024/07/10/grand-theft-wheel.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2024/07/10/grand-theft-wheel.html</guid>
+        <pubDate>Wed, 10 Jul 2024 00:00:00 -0500</pubDate>
+        
+          <title>grand theft wheel</title>
+          <description>&lt;p&gt;i woke up today to my partner and i’s wheels stolen off our bikes.&lt;/p&gt;
+
+&lt;p&gt;ofc i was initially, very pissed off and violated and angry feeling… but the longer i sat in bed and stewed, the more i turned to sadness. i have been thinking often lately about the injustice of the world and how i get to have things that many people just never even remotely consider to be a possibility for themself.&lt;/p&gt;
+
+&lt;p&gt;i am &lt;em&gt;incredibly&lt;/em&gt; privileged. and im not tryna say this in some middle class guilt kinda way, but more in like a gratitude and rededication towards my values and making the world better kind of way.&lt;/p&gt;
+
+&lt;p&gt;to be real, for about 20 minutes i just kept thinking about how i wanted to reach out to the people that stole them and have a conversation. im not even rly sure how much i would be able to help – obviously this is an issue that isn’t going to end with a one time donation etc. – but yeah i just rly wanted to understand / gain more insight.&lt;/p&gt;
+
+&lt;p&gt;now im at cafe allez. its beautiful here. im grateful for the friends i have made who work here, for the ability for me to come here with my computer and make a lofi beat, get some work done, generally just look around and see the beauty in the world.&lt;/p&gt;
+
+&lt;p&gt;heres a pic of me doin that: 
+&lt;img src=&quot;https://files.guesst.net/file/guesst-files/blog/C9C1D9FD-900E-4431-B287-0ECEC2304D2E_1_102_o.jpeg&quot; alt=&quot;wide angle selfie photo. wilson looking at the camera, their computer is on a table in a coffee shop. you can see a larger table in the background with other people working on their computers and chatting.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;my partner wants to go get new wheels and stuff right now so im gonna sign off. might be back later to add to this post, but who knows! im just getting back into this stuff :)&lt;/p&gt;
+</description>
+        
+      </item>
+    
+      <item>
+        <link>http://localhost:4000/listen/2024/07/05/dont-let-me-go.html</link>
+        <guid isPermaLink="true">http://localhost:4000/listen/2024/07/05/dont-let-me-go.html</guid>
+        <pubDate>Fri, 05 Jul 2024 00:00:00 -0500</pubDate>
+        
+          <title>dont let me go (Aggressive Lifeboat wkris6.2.als) - guesst</title>
+          <description>
+            <![CDATA[
+              <img src="https://files.guesst.net/file/guesst-files/album-art/dont-let-me-go-cover.jpeg" alt="Cover Image" />
+              <ul>
+                <li><a href="https://files.guesst.net/file/guesst-files/dont-let-me-go-guesst.zip">download</a></li>
+                <li><a href="https://soundcloud.com/guesstaccount/dont-let-me-go?si=37a81adfadf340d5b6c2d6c7eac356e9&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">soundcloud</a></li>
+                <li><a href="https://guesstaccount.bandcamp.com/track/dont-let-me-go-aggressive-lifeboat-wkris62-als">bandcamp</a></li>
+                <li><a href="https://music.youtube.com/playlist?list=OLAK5uy_k-8lFz5Nid7Fgh8pE2pjtZ68UpGMkIVtM&si=5fWZrqYzfSr81laG">youtube</a></li>
+                <li><a href="spotify:track:43c1ByxoS5BDDh2jPUhEWN">spotify</a></li>
+                <li><a href="https://music.apple.com/us/album/dont-let-me-go-aggressive-lifeboat-wkris6-2-als-single/1754153847">apple</a></li>
+              </ul>
+            ]]>
+          </description>
+        
+      </item>
+    
+      <item>
+        <link>http://localhost:4000/listen/2024/05/22/scattered.html</link>
+        <guid isPermaLink="true">http://localhost:4000/listen/2024/05/22/scattered.html</guid>
+        <pubDate>Wed, 22 May 2024 00:00:00 -0500</pubDate>
+        
+          <title>scattered ep - Alter. x guesst</title>
+          <description>
+            <![CDATA[
+              <img src="https://files.guesst.net/file/guesst-files/album-art/scattered-cover.jpg" alt="Cover Image" />
+              <ul>
+                <li><a href="https://files.guesst.net/file/guesst-files/music/alter-x-guesst-scattered.zip">download</a></li>
+                <li><a href="https://soundcloud.com/guesstaccount/sets/scattered-ep-alter-guesst">soundcloud</a></li>
+                <li><a href="https://guesstaccount.bandcamp.com/album/scattered">bandcamp</a></li>
+                <li><a href="https://music.youtube.com/playlist?list=OLAK5uy_kV1NN3ZgBSaxPadRN5oJ7y98Tczu60-dU&si=KPJpVFTZrBylNacB">youtube</a></li>
+                <li><a href="spotify:album:1g81vNcoSIf2adaCVacmZk">spotify</a></li>
+                <li><a href="https://music.apple.com/us/album/scattered-ep/1743633925">apple</a></li>
+              </ul>
+            ]]>
+          </description>
+        
+      </item>
+    
+      <item>
+        <link>http://localhost:4000/listen/2024/05/04/granada-id.html</link>
+        <guid isPermaLink="true">http://localhost:4000/listen/2024/05/04/granada-id.html</guid>
+        <pubDate>Sat, 04 May 2024 00:00:00 -0500</pubDate>
+        
+          <title>granada id - guesst</title>
+          <description>
+            <![CDATA[
+              <img src="https://files.guesst.net/file/guesst-files/album-art/granada-id-cover.jpeg" alt="Cover Image" />
+              <ul>
+                <li><a href="https://files.guesst.net/file/guesst-files/music/guesst-granada-id.aif">download</a></li>
+                <li><a href="https://soundcloud.com/guesstaccount/granada-id">soundcloud</a></li>
+                <li><a href="https://guesstaccount.bandcamp.com/track/granada-id-2">bandcamp</a></li>
+                <li><a href="https://youtu.be/9T8-mxBep5k?si=bWz08_QvPYITHRku">youtube</a></li>
+                <li><a href="spotify:track:2IOCFfNjO3gjIfOezoWtKg">spotify</a></li>
+                <li><a href="https://music.apple.com/us/album/granada-id/1743493584?i=1743493585">apple</a></li>
+              </ul>
+            ]]>
+          </description>
+        
+      </item>
+    
+      <item>
+        <link>http://localhost:4000/listen/2024/04/10/fmSMATE.html</link>
+        <guid isPermaLink="true">http://localhost:4000/listen/2024/04/10/fmSMATE.html</guid>
+        <pubDate>Wed, 10 Apr 2024 00:00:00 -0500</pubDate>
+        
+          <title>fmSMATE - guesst</title>
+          <description>
+            <![CDATA[
+              <img src="https://files.guesst.net/file/guesst-files/album-art/fmSMATE-cover.jpeg" alt="Cover Image" />
+              <ul>
+                <li><a href="https://files.guesst.net/file/guesst-files/music/guesst-fmSMATE.aif">download</a></li>
+                <li><a href="https://soundcloud.com/guesstaccount/fmsmate/">soundcloud</a></li>
+                <li><a href="https://guesstaccount.bandcamp.com/track/fmsmate">bandcamp</a></li>
+                <li><a href="https://music.youtube.com/watch?v=c4ki8Fydl04&si=DgXENTGEZgiprc0X">youtube</a></li>
+                <li><a href="spotify:track:0s7FEcqJ2m4sXmo8cFIFeq">spotify</a></li>
+                <li><a href="https://music.apple.com/us/album/fmsmate-single/1738984325">apple</a></li>
+              </ul>
+            ]]>
+          </description>
+        
+      </item>
+    
   </channel>
 </rss>

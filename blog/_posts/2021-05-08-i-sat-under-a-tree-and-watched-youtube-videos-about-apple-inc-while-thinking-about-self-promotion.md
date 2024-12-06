@@ -1,8 +1,10 @@
 ---
 layout: post
 title: i sat under a tree and watched youtube videos about apple inc while thinking about self promotion
-location: standing in vista hermosa park
 ---
+{{ page.date | date_to_string }} - 00:00 | standing in vista hermosa park
+{: .dateandloc }
+
 i want to be known. i want to be known for my creations. i recognize that this desire is entrenched in vanity, but i cannot seem to help but feel a twinge of frustration at myself that i am not more notable than i am at this time. i see kennyhoopla videos and i just wanna be like him. i hear rebecca black songs that weaponize pop as it was once weaponized against her and i just think these people are so fucking cool and inspiring. i want to be that person for other people, but i seem unwilling to allow myself to be without the views and the excitement that these people seem to garner around themselves.
 
 [Alter.](https://www.instagram.com/alterxyourxego/) has said to me many times “if you build it, they will come.”

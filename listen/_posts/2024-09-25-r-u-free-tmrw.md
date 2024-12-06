@@ -11,3 +11,13 @@ youtube: https://music.youtube.com/watch?v=ppjlAF4jvUg
 spotify: https://open.spotify.com/track/2eyXd1Jg9QN308JdAdAsPe
 apple: https://music.apple.com/us/album/r-u-free-tmrw-single/1767471447?ls=1
 ---
+new music!!
+
+this one is about hating being clingy and feeling like the cool new friends u made dont actually wanna hang out with you. (apologies to the new friends on the list lol)
+
+pop / bedroom pop / acoustic guitar / hip hop influenced drum production / big vocal harmonies / wilson singing falsetto
+
+hope ya like it :)
+
+\- wilson \<3
+

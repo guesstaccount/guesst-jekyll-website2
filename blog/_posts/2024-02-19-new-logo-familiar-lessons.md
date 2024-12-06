@@ -1,8 +1,10 @@
 ---
 layout: post
 title: new logo! familiar lessons
-location: 11:40pm @ apt in bucktown, chicago
 ---
+{{ page.date | date_to_string }} - 11:40pm | apt in bucktown, chicago
+{: .dateandloc }
+
 hi!
 
 its been a week. been djing a lot, im in a band now (more info when we're prepared to drop), working on a bunch of music collaborations, outsourced some help on show visuals, finally building a website for [planethome.media](https://planethome.media) (under construction as of writing this). all stuff that i am really excited to work on, but im def feeling a bit stressed to get it all done.

@@ -1,8 +1,9 @@
 ---
 layout: post
 title: making a website i guess
-location: couch @ dtla aparment
 ---
+{{ page.date | date_to_string }}  - 23:46 | couch @ dtla aparment
+{: .dateandloc }
 
 so this is my first attempt at a blog. 
 

@@ -1,8 +1,9 @@
 ---
 layout: post
 title: letting go seems impossible and this is not news
-location: 18:44 || waiting room @ urgent care little tokyo
 ---
+{{ page.date | date_to_string }} - 18:44 | waiting room @ urgent care little tokyo
+{: .dateandloc }
 
 its been a fucking weird day. i woke up and accidentally stumbled across a picture of a person i miss very much, which kind of sent me into a bit of a spiral im not gonna lie.
 
@@ -23,7 +24,7 @@ how do i know if my decisions are in my best interests or simply self serving?
 
 ![](https://files.guesst.net/file/guesst-files/blog/bp2_elysian_water_bottle_and_journal.jpg)
 
-friday, 07 May 2021 - 12:04 \|\| couch @ dtla apartment
+07 May 2021 - 12:04 | couch @ dtla apartment
 {: .dateandloc }
 
 i spent a lot of yesterday crying in the park. i spent a lot of today crying in the park. and on my walk home. and on my roommates bed when i got home.

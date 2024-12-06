@@ -1,8 +1,10 @@
 ---
 layout: post
 title: no socials
-location: 11:01 @ airbnb in la condesa, cdmx
 ---
+{{ page.date | date_to_string }} - 11:01 | airbnb in la condesa, cdmx
+{: .dateandloc }
+
 i deleted my instagram yesterday. not like a deactivation, like a full blown deletion.
 tbh the writing has been on the wall for years at this point.
 
