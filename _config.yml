@@ -8,7 +8,7 @@ build_settings:
   theme: minima  # Theme to use
 
 plugins:
-  - jekyll-feed  # For RSS feed
+  # - jekyll-feed  # For RSS feed
   - jekyll-seo-tag  # For SEO tags
 
 other_settings:
