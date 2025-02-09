@@ -11,13 +11,3 @@ youtube: https://youtu.be/IJybVTkxJQo
 spotify: https://open.spotify.com/album/3gUp0gAyzH6JmWbOl4tqlB
 apple: https://music.apple.com/us/album/difference-technology-single/1790336331
 ---
-new music!!
-
-this one is about hating being clingy and feeling like the cool new friends u made dont actually wanna hang out with you. (apologies to the new friends on the list lol)
-
-pop / bedroom pop / acoustic guitar / hip hop influenced drum production / big vocal harmonies / wilson singing falsetto
-
-hope ya like it :)
-
-\- wilson \<3
-

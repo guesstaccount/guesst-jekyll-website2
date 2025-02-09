@@ -14,8 +14,7 @@ i am well acquainted with standard club setup, but i can play on any hardware, a
 
 {: .carrotList }
 
-
-<a href='&#109;ailt&#111;&#58;bo%6Fki&#110;&#37;67&#64;%&#54;7&#117;&#101;s&#37;73&#116;%2E&#110;&#101;&#116;'>b&#111;&#111;&#107;ing&#64;gue&#115;st&#46;net</a>
+{% include email.html %}
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/nh8yw1Q_FH8" title="T.P.Y.K Sessions Ep. 001 - guesst" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -25,15 +24,15 @@ i am well acquainted with standard club setup, but i can play on any hardware, a
 
 electronic? pop? emo? how abouttttt... all of the above. you can expect a guesst vocal performance show to have 100% original works + flips and remixes in at least six genres.
 
-<a href='&#109;ailt&#111;&#58;bo%6Oki&#110;&#37;67&#64;%&#54;7&#117;&#101;s&#37;73&#116;%2E&#110;&#101;&#116;'>b&#111;&#111;&#107;ing&#64;gue&#115;st&#46;net</a>
+{% include email.html %}
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/MGEBhwZxif0?si=0LZpTxoM4EIw-YRz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## need a whole lineup?
 
-i have connections with countless artists across genres who can play at notice. i can put the lineup together and make the flyer.
+i have connections with countless artists across genres who can play at notice. i can put the lineup together and make the flyer. lets make a night to remember.
 
-<a href='&#109;ailt&#111;&#58;bo%6Oki&#110;&#37;67&#64;%&#54;7&#117;&#101;s&#37;73&#116;%2E&#110;&#101;&#116;'>lets make a night to remember</a>
+{% include email.html %}
 
 ## crowd
 

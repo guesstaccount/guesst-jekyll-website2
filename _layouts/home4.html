@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="bodyContainer">
+    <div class="homePageSize">
+        <img class="guesst-text-logo" src="{{ site.baseurl }}/assets/images/guesst-text-logo.svg" alt="">
+        {{ content | markdownify }}
+    </div>
+</div>
+
+{% unless page.hide_nav %}
+  {% include navigation.html %}
+{% endunless %}

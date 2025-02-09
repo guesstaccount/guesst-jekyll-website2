@@ -7,6 +7,28 @@
     <atom:link href="http://localhost:4000/feed/listen.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>difference technology - guesst x underexposed</title>
+        <link>http://localhost:4000/listen/2025/02/08/difference-technology.html</link>
+        <guid isPermaLink="true">http://localhost:4000/listen/2025/02/08/difference-technology.html</guid>
+        <pubDate>Sat, 08 Feb 2025 00:00:00 -0600</pubDate>
+        <description>
+          <![CDATA[
+            <img src="https://files.guesst.net/file/guesst-files/album-art/difference-technology-album-art.jpeg" alt="Cover Image" />
+            <p>
+</p>
+            <ul>
+              <li><a href="https://files.guesst.net/file/guesst-files/music/difference-technology4.aif">download</a></li>
+              <li><a href="https://soundcloud.com/guesstaccount/difference-technology?si=757da4f235394dec8d2430d2ae40a2c5&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">soundcloud</a></li>
+              <li><a href="https://guesstaccount.bandcamp.com/track/difference-technology">bandcamp</a></li>
+              <li><a href="https://youtu.be/IJybVTkxJQo">youtube</a></li>
+              <li><a href="https://open.spotify.com/album/3gUp0gAyzH6JmWbOl4tqlB">spotify</a></li>
+              <li><a href="https://music.apple.com/us/album/difference-technology-single/1790336331">apple</a></li>
+            </ul>
+          ]]>
+        </description>
+      </item>
+    
+      <item>
         <title>r u free tmrw? - guesst x underexposed</title>
         <link>http://localhost:4000/listen/2024/09/25/r-u-free-tmrw.html</link>
         <guid isPermaLink="true">http://localhost:4000/listen/2024/09/25/r-u-free-tmrw.html</guid>
@@ -210,28 +232,6 @@
               <li><a href="https://youtu.be/zkH3iCfmnNc?si=1eH7Mf-kXyMRyGDO">youtube</a></li>
               <li><a href="spotify:track:3ulu223lN6bRcQv252F8ZE">spotify</a></li>
               <li><a href="https://music.apple.com/us/album/keep-the-party-goin-single/1706823707">apple</a></li>
-            </ul>
-          ]]>
-        </description>
-      </item>
-    
-      <item>
-        <title>nothings free (feat. Gemeo) - guesst x Seong</title>
-        <link>http://localhost:4000/listen/2023/08/30/nothings-free.html</link>
-        <guid isPermaLink="true">http://localhost:4000/listen/2023/08/30/nothings-free.html</guid>
-        <pubDate>Wed, 30 Aug 2023 00:00:00 -0500</pubDate>
-        <description>
-          <![CDATA[
-            <img src="https://files.guesst.net/file/guesst-files/album-art/nothings-free-cover.jpeg" alt="Cover Image" />
-            <p>
-</p>
-            <ul>
-              <li><a href="https://files.guesst.net/file/guesst-files/music/guesst-x-seong-nothings-free-feat-gemeo.aif">download</a></li>
-              <li><a href="https://soundcloud.com/guesstaccount/nothings-free">soundcloud</a></li>
-              <li><a href="https://guesstaccount.bandcamp.com/track/nothings-free-feat-gemeo">bandcamp</a></li>
-              <li><a href="https://music.youtube.com/watch?v=xRHkhOqpTTU&si=dy79StxpiRo7bpKL">youtube</a></li>
-              <li><a href="spotify:track:0eAPwueX4jOztHFTJSogef">spotify</a></li>
-              <li><a href="https://music.apple.com/us/album/nothings-free-feat-gemeo-single/1702321481">apple</a></li>
             </ul>
           ]]>
         </description>

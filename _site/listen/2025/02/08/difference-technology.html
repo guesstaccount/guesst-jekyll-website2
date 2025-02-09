@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>difference technology</title>
+        <link rel="icon" type="image/svg" href="../assets/images/guesst-logo-2024" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Share+Tech+Mono&display=swap" rel="stylesheet" crossorigin="anonymous">
+        <script src="/assets/js/script.js"></script>
+        <link rel="stylesheet" type="text/css" href="/style.css?v=1739068288">
+    </head>
+    <body>
+        <section class="mainSection">
+            <nav>
+    <div class="nav">
+        
+            <a href="/">
+                <p>home</p>
+            </a>
+        
+            <a href="/listen.html">
+                <p>listen</p>
+            </a>
+        
+            <a href="/shows.html">
+                <p>shows</p>
+            </a>
+        
+            <a href="https://guesst.substack.com">
+                <p>blog</p>
+            </a>
+        
+            <a href="/presskit.html">
+                <p>presskit</p>
+            </a>
+        
+            <a href="mailt&#111;&#58;&#104;ell&#37;6F&#64;%&#54;&#55;&#117;e&#115;%&#55;&#51;t&#46;net">
+                <p>contact</p>
+            </a>
+        
+    </div>
+</nav>  
+            <center>
+            <div class="guesstlogo">
+    <br>
+    <a href="/">
+        <img class="logo" src="/assets/images/guesst-logo-2024.svg" alt="guesst logo">
+    </a>
+</div>
+            <div class="listenUlSmacker">
+            <h1 class="listenTitle" style="margin: 20px 0%;">difference technology</h1>
+                <h3 style="font-size: xx-large;color: grey; margin: 20px 0px;">guesst x underexposed</h3>
+                <div class="centerListenImageContainer">
+                    <img src="https://files.guesst.net/file/guesst-files/album-art/difference-technology-album-art.jpeg" alt="">
+                    <div class="lightbox" id="lightbox" style="display: none;">
+                        <div class="lightbox-content">
+                            <div class="listenText" id="popupText">
+                                <p>all my songs are free to download, but you can pay <a href="/listen.html">here</a>, or by buying on <a href="https://guesstaccount.bandcamp.com" target="_blank" rel="noopener noreferrer">bandcamp</a>.</p>
+                                <p>support me for free by helping me grow my audience:</p>
+                                <ul class="carrotList">
+                                    <li><a href="http://eepurl.com/huQD5X" target="_blank" rel="noopener noreferrer">join my mailing list</a></li>
+                                    <li><a href="spotify:artist:6JN0LuZjEtRULBROXulK81" target="_blank" rel="noopener noreferrer">follow on Spotify</a></li>
+                                    <li><a href="https://soundcloud.com/guesstaccount" target="_blank" rel="noopener noreferrer">follow on SoundCloud</a></li>
+                                    <li><a href="https://guesstaccount.bandcamp.com" target="_blank" rel="noopener noreferrer">follow on Bandcamp</a></li>
+                                </ul>
+                                <div class="dlButton"><a href="https://files.guesst.net/file/guesst-files/music/difference-technology4.aif" download id="continueDownload">continue with download</a></div>
+                            </div>
+                            <span class="close" id="closeLightbox">&times;</span>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin: 20px;">
+                    <button class="dlButton" id="freeDownloadBtn">free download</button>
+                </div>
+                <h3>listen on:</h3>
+                <ul>
+                    <!-- <li></li> -->
+                    <li><a href="https://soundcloud.com/guesstaccount/difference-technology?si=757da4f235394dec8d2430d2ae40a2c5&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank" rel="noopener noreferrer">soundcloud</a></li>
+                    <li><a href="https://guesstaccount.bandcamp.com/track/difference-technology" target="_blank" rel="noopener noreferrer">bandcamp</a></li>
+                    <li><a href="https://youtu.be/IJybVTkxJQo" target="_blank" rel="noopener noreferrer">youtube</a></li>
+                    <li><a href="https://open.spotify.com/album/3gUp0gAyzH6JmWbOl4tqlB" target="_blank" rel="noopener noreferrer">spotify</a></li>
+                    <li><a href="https://music.apple.com/us/album/difference-technology-single/1790336331" target="_blank" rel="noopener noreferrer">apple</a></li>
+                </ul>
+                <h3>talk to me</h3>
+                <ul>
+                    <li><a target="_blank" rel="noopener noreferrer" href="http://eepurl.com/huQD5X">get notified of future releases</a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="mailto:hello@guesst.net">hello@guesst.net</a></li>
+                </ul>
+            </center>
+                <!-- 
+ -->
+            </div>
+        </section>
+    </body>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DL Button');
+            const freeDownloadBtn = document.getElementById('freeDownloadBtn');
+            const lightbox = document.getElementById('lightbox');
+            const closeLightbox = document.getElementById('closeLightbox');
+            const continueDownload = document.getElementById('continueDownload');
+
+            freeDownloadBtn.onclick = function() {
+                lightbox.style.display = 'block';
+                freeDownloadBtn.style.display = 'none'; // Hide the free download button
+            };
+
+            closeLightbox.onclick = function() {
+                lightbox.style.display = 'none';
+                freeDownloadBtn.style.display = 'block'; // Show the free download button
+            };
+
+            continueDownload.onclick = function() {
+                lightbox.style.display = 'none';
+                freeDownloadBtn.style.display = 'block'; // Show the free download button
+            };
+        });
+    </script>
+    <style>
+        .lightbox {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        .lightbox-content {
+            background: #3a3a3a; /* Change this to match your website's background color */
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            position: relative;
+            max-width: 600px; /* Optional: limit the width of the lightbox */
+            width: 90%; /* Responsive width */
+        }
+        .close {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 30px;
+            cursor: pointer;
+        }
+    </style>
+</html>

@@ -12,6 +12,7 @@ layout: default
 </div>
 <div class="bodyContainer">
     {{ content | markdownify }}
+    {% include service-logos.html %}
 </div>
 
 {% unless page.hide_nav %}

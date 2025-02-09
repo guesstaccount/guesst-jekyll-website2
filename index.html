@@ -1,5 +1,5 @@
 ---
-layout: home2
+layout: home4
 title: home 🪐
 hide_nav: true
 ---
@@ -12,18 +12,28 @@ hide_nav: true
     </a>
 </div>
 
+<br>
+
 <center>
     <div class="homeNav">
         <ul>
-            <li><a href="/listen">listen</a></li>
-            <li><a href="/presskit">presskit</a></li>
-            <li><a href="/shows.html">shows</a></li>
-            <li><a href="/blog">blog</a></li>
-            <li><a href='m&#97;&#105;lt&#111;&#58;h&#101;llo&#64;&#103;u&#37;&#54;5sst&#46;&#37;6&#69;&#37;&#54;5t'>contact</a></li>
-            <!-- <li><a href="http://eepurl.com/huQD5X">email / text list</a></li> -->
+            {% for nav in site.data.nav %}
+                {% if nav.name != "home" %}
+                    <h3><li>
+                        <a href="{{ nav.link }}" 
+                           {% if nav.name == "blog" %}target="_blank" rel="noopener noreferrer"{% endif %}>
+                            {{ nav.name }}
+                        </a>
+                    </li></h3>
+                {% endif %}
+            {% endfor %}
         </ul>
     </div>
 </center>
+
+{% include substack-subscribe.html %}
+
+{% include service-logos.html %}
 
 
 <!-- <h2><center>trans/agender multigenre multimedia artist.</center></h2> -->

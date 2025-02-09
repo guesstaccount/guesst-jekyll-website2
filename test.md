@@ -2,14 +2,17 @@
 layout: mainLinks
 ---
 
-{% for song in site.data.songs %}
-<iframe width="100%" height="150" src="https://embed.odesli.co/?url={{ song.spotify }}&theme=dark" frameborder="0" allowtransparency allowfullscreen sandbox="allow-same-origin allow-scripts allow-presentation allow-popups allow-popups-to-escape-sandbox"></iframe>
-<center><a href="{{ song.dl }}"><button class="dlButton">download {{ song.title }}</button></a></center>
-<br>
-{% endfor %}
+<!-- {% include listen-logos.html %} -->
+
+<div class='releaseGrid'>
+    {% for song in site.data.songs %}
+    <a href="https://song.link/{{ song.url }}"><img width="100%" src="https://files.guesst.net/file/guesst-files/album-art/test/{{ song.title | replace: ' ', '%20' }}.jpg"></a>
+    {% endfor %}
+</div>
 
 <style>
     .dlButton {
         width:100%;
+        margin-bottom: 2px;
     }
 </style>
