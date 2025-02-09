@@ -19,12 +19,12 @@ hide_nav: true
         <ul>
             {% for nav in site.data.nav %}
                 {% if nav.name != "home" %}
-                    <h3><li>
+                    <li>
                         <a href="{{ nav.link }}" 
                            {% if nav.name == "blog" %}target="_blank" rel="noopener noreferrer"{% endif %}>
                             {{ nav.name }}
                         </a>
-                    </li></h3>
+                    </li>
                 {% endif %}
             {% endfor %}
         </ul>
