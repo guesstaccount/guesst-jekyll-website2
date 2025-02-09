@@ -12,25 +12,21 @@
         <link rel="alternate" type="application/rss+xml" title="new music feed" href="http://localhost:4000/new_music.xml" />
         <script src="/assets/js/script.js"></script>
         <link rel="stylesheet" type="text/css" href="/style.css">
-        <!-- ?v=1739069734 -->
+        <!-- ?v=1739132400 -->
     </head>
     <body>
         <section class="home4 mainSection">
             <!--  -->
             <div class="bodyContainer">
     <div class="homePageSize">
-        <img class="guesst-text-logo" src="/assets/images/guesst-text-logo.svg" alt="">
-        <!-- /assets/images/guesst-main-page.jpg -->
+        <div class="home-container">
+    <img class="guesst-text-logo" src="/assets/images/guesst-text-logo.svg" alt="" />
+    <div class="homeImage">
+        <a href="/listen">
+            <img src="/assets/images/guesst-main-page.jpg" alt="image of guessts face" />
+        </a>
+    </div>
 
-<div class="homeImage">
-    <a href="/listen">
-        <img src="/assets/images/guesst-main-page.jpg" alt="image of guessts face" />
-    </a>
-</div>
-
-<p><br /></p>
-
-<center>
     <div class="homeNav">
         <ul>
             
@@ -78,26 +74,30 @@
             
         </ul>
     </div>
-</center>
 
-<p><br /></p>
+    <br />
 <iframe id="substack-iframe" src="https://guesst.substack.com/embed" width="100%" height="120" style="border:0px solid #222222; background:#222222;" frameborder="0" scrolling="no"></iframe>
-<p><br /></p>
+<br />
 
-<script>
+<!-- <script>
     setTimeout(() => {
         const iframe = document.getElementById('substack-iframe');
         const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+        const embedInner = iframeDocument.querySelector('.embed-page-inner');
+        if (embedInner) {
+            embedInner.style.width = '110%';
+            embedInner.style.marginLeft = '-5%';
+        }
         document.querySelector('.substack-watermark').style.display = 'none';
     }, 1000);
-</script>
+</script> -->
 
-<div class="contactDiv">
+    <div class="contactDiv">
     <br />
     <a href="mai&#108;to&#58;he&#37;6Clo&#64;g&#117;es&#37;73%74&#46;net" target="_blank" rel="noopener noreferrer">
         <img class="exclude-icon" src="/assets/images/email-icon5.svg" alt="Email Icon" />
     </a>
-    <a href="https://guesst.substack.com/subscribe" target="_blank" rel="noopener noreferrer">
+    <a href="https://guesst.substack.com/" target="_blank" rel="noopener noreferrer">
         <img class="exclude-icon" id="substack-icon" src="/assets/images/substack-icon.svg" alt="subscribe Icon" />
     </a>
     <a href="https://discord.gg/BM9xuRKCD5" target="_blank" rel="noopener noreferrer">
@@ -123,100 +123,7 @@
     </a>
     <br />
 </div>
-
-<!-- <h2><center>trans/agender multigenre multimedia artist.</center></h2> -->
-
-<!-- listen to my newest release:
-
-
-
-<div class="recent-releases-grid">
-    
-    
-        
-            <div class="release-item">
-                <a href="/listen/2025/02/08/difference-technology.html">
-                    
-                        <img src="https://files.guesst.net/file/guesst-files/album-art/difference-technology-album-art.jpeg" alt="difference technology" width="100%">
-                    
-                </a>
-            </div>
-            
-        
-    
-        
-            <div class="release-item">
-                <a href="/listen/2024/09/25/r-u-free-tmrw.html">
-                    
-                        <img src="https://files.guesst.net/file/guesst-files/album-art/r%20u%20free%20tmrw%20album%20art.jpg" alt="r u free tmrw?" width="100%">
-                    
-                </a>
-            </div>
-            
-        
-    
-        
-            <div class="release-item">
-                <a href="/listen/2024/08/07/kris-anti-resentment-type-beat.html">
-                    
-                        <img src="https://files.guesst.net/file/guesst-files/album-art/anti%20resentment%20type%20beat%20art5.jpg" alt="anti resentment type beat" width="100%">
-                    
-                </a>
-            </div>
-            
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-</div> -->
-
-<!-- <p>no socials, just music.</p> -->
-<!-- <br>
-<p>listen:</p>
-<p><a target="_blank" rel="noopener noreferrer" href="http://www.soundcloud.com/guesstaccount">soundcloud</a></p>
-<p></p><a target="_blank" rel="noopener noreferrer" href="spotify:artist:6JN0LuZjEtRULBROXulK81">spotify</a></p>
-<p><a target="_blank" rel="noopener noreferrer" href="https://guesstaccount.bandcamp.com/">bandcamp</a></p>
-<p><a target="_blank" rel="noopener noreferrer" href="https://audius.co/guesst">audius</a></p>
-<br>
-<p>follow:</p>
-<p><a href="logs-index.html">logs</a></p>
-<p><a href="https://playful-elf-104234.netlify.app/biproduct/biproductindex">biproducts (deprecated)</a></p>
-<br>
-<p>contact:</p>
-<p><a href="mailto:guesstmusic@gmail.com">guesstmusic@gmail.com</a></p>
-<p><a target="_blank" rel="noopener noreferrer" href="http://eepurl.com/huQD5X">join email and text list</a></p> -->
+</div>
 
     </div>
 </div>

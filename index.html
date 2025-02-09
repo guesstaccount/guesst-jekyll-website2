@@ -4,17 +4,14 @@ title: home 🪐
 hide_nav: true
 ---
 
-<!-- /assets/images/guesst-main-page.jpg -->
+<div class="home-container">
+    <img class="guesst-text-logo" src="{{ site.baseurl }}/assets/images/guesst-text-logo.svg" alt="">
+    <div class="homeImage">
+        <a href="/listen">
+            <img src="{{ site.baseurl }}/assets/images/guesst-main-page.jpg" alt="image of guessts face">
+        </a>
+    </div>
 
-<div class="homeImage">
-    <a href="/listen">
-        <img src="{{ site.baseurl }}/assets/images/guesst-main-page.jpg" alt="image of guessts face">
-    </a>
-</div>
-
-<br>
-
-<center>
     <div class="homeNav">
         <ul>
             {% for nav in site.data.nav %}
@@ -29,48 +26,8 @@ hide_nav: true
             {% endfor %}
         </ul>
     </div>
-</center>
 
-{% include substack-subscribe.html %}
+    {% include substack-subscribe.html %}
 
-{% include service-logos.html %}
-
-
-<!-- <h2><center>trans/agender multigenre multimedia artist.</center></h2> -->
-
-<!-- listen to my newest release:
-
-{% assign sorted_releases = site.categories.listen | sort: 'date' | reverse %}
-
-<div class="recent-releases-grid">
-    {% assign counter = 0 %}
-    {% for release in sorted_releases %}
-        {% if counter < 3 %}
-            <div class="release-item">
-                <a href="{{ release.url }}">
-                    {% if release.coverPath %}
-                        <img src="{{ release.coverPath }}" alt="{{ release.title }}" width="100%">
-                    {% endif %}
-                </a>
-            </div>
-            {% assign counter = counter | plus: 1 %}
-        {% endif %}
-    {% endfor %}
-</div> -->
-
-
-<!-- <p>no socials, just music.</p> -->
-<!-- <br>
-<p>listen:</p>
-<p><a target="_blank" rel="noopener noreferrer" href="http://www.soundcloud.com/guesstaccount">soundcloud</a></p>
-<p></p><a target="_blank" rel="noopener noreferrer" href="spotify:artist:6JN0LuZjEtRULBROXulK81">spotify</a></p>
-<p><a target="_blank" rel="noopener noreferrer" href="https://guesstaccount.bandcamp.com/">bandcamp</a></p>
-<p><a target="_blank" rel="noopener noreferrer" href="https://audius.co/guesst">audius</a></p>
-<br>
-<p>follow:</p>
-<p><a href="logs-index.html">logs</a></p>
-<p><a href="https://playful-elf-104234.netlify.app/biproduct/biproductindex">biproducts (deprecated)</a></p>
-<br>
-<p>contact:</p>
-<p><a href="mailto:guesstmusic@gmail.com">guesstmusic@gmail.com</a></p>
-<p><a target="_blank" rel="noopener noreferrer" href="http://eepurl.com/huQD5X">join email and text list</a></p> -->
+    {% include service-logos.html %}
+</div>

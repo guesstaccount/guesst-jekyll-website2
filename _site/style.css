@@ -81,6 +81,8 @@ body {
     font-size: 1.2rem;
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 strong, b {
@@ -288,7 +290,7 @@ h3 {
     padding: 0% 20%;
     width: 100%;
     max-width: 48rem;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
 }
 
 .home2.mainSection {
@@ -302,7 +304,9 @@ h3 {
 }
 
 .guesst-text-logo {
-    margin: 50px 0px;
+    margin: 16px auto;
+    padding: auto;
+    max-height: auto;
 }
 
 .homeImage img {
@@ -315,13 +319,14 @@ h3 {
     margin: 0 auto;
 }
 
-.homeNav {
+/* .homeNav {
     text-decoration: none;
     font-size: 30px;
-}
+} */
 
 .homeNav ul {
     list-style-type: none;
+    text-align: center;
 }
 
 .blogImage {
@@ -341,8 +346,7 @@ h3 {
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    padding: 10px 0px;
-    max-height: 100px;
+    padding: 10px 0;
     gap: 20px;
     width: 100%;
     max-width: 100%;
@@ -354,24 +358,26 @@ h3 {
     width: 100%;
     max-width: 80px;
     height: auto;
-    -webkit-transform: scale(1);  /* Force Safari to render correctly */
+    /* -webkit-transform: scale(1); */
     flex: 1;
     min-width: 0;
     object-fit: contain;
+    padding: 16px auto;
 }
 
 #substack-icon {
     width: 70%;
     margin: auto;
+    padding: 0px;
 }
 
-@media (max-width: 787px) {
+@media (max-width: 600px) {
     .contactDiv {
         gap: 10px;
     }
-    .homeImage img {
+    /* .homeImage img {
         aspect-ratio: 1/1;
-    }
+    } */
 }
 
 /* #bell-icon {
@@ -523,7 +529,7 @@ h3 {
     .homeImage img {
         width: 100%;
         padding: 0px;
-        aspect-ratio: 1.4/1;
+        /* aspect-ratio: 1.4/1; */
     }
 
     .listenTitle {
@@ -584,6 +590,11 @@ h3 {
     .press-kit-icon {
         min-width: 40px;
     }
+    
+    .homePageSize {
+        width: 100%;
+        margin: auto;
+    }
 
   }
 
@@ -607,3 +618,144 @@ h3 {
   .substack-watermark {
     display: none;
   }
+
+/* Add new class for home page specific styling */
+/* .home-page-body {
+    overflow: hidden;
+} */
+
+/* Modify existing homeImage class to be more specific */
+.home-container .homeImage {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+}
+
+.home-container .homeImage a {
+    height: 100%; /* Make anchor tag fill the container height */
+    display: flex; /* Make anchor a flex container */
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Remove any default margins */
+    padding: 0; /* Remove any default padding */
+    /* Debug properties to see the anchor */
+}
+
+.home-container .homeImage img {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.home-container .homeNav {
+    text-decoration: none;
+    font-size: min(4vh, 24px);
+}
+
+.home-container .homeNav ul {
+    list-style-type: none;
+    margin: 2vh 0;
+}
+
+/* New container class that only affects home page */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh;
+    height: auto;
+    /* max-height: 100vh; */
+    min-height: 100dvh;
+    box-sizing: border-box;
+    gap: 1vh;
+}
+
+.home-container .service-logos {
+    margin-top: auto;
+}
+
+.home-container .contactDiv {
+    /* max-height: 10vh; */
+    height: auto;
+}
+
+.listen-logos {
+    display: flex;
+    flex-direction: row; /* Ensure items are in a row */
+    justify-content: space-between; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    flex-wrap: wrap; /* Allow items to wrap if necessary */
+    gap: 1vw;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 20rem;
+}
+
+.listen-logos img {
+    width: 40px; /* Set a specific width for all logos */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure it doesn't exceed the container */
+    object-fit: contain; /* Ensure the image fits within its dimensions */
+}
+
+@media (max-width: 950px) {
+    .home-container .homeImage {
+        height: auto;
+    }
+    
+    .home-container .substack-container {
+        max-height: auto;
+    }
+
+    .home-container .homeNav {
+        font-size: max(2.5vh, 20px);
+    }
+}
+
+@media (max-width: 600px) {
+    .home-container .homeImage img {
+        height: auto;
+        min-height: 30px;
+        object-fit: inherit;
+    }
+    .home-container .substack-container {
+        min-height: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Make substack container responsive */
+.home-container .substack-container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container .substack-container iframe {
+    max-width: 100%;
+    max-height: auto;
+    width: auto;
+    height: auto;
+}
+
+/* Adjust service logos size */
+.home-container .service-logos {
+    max-height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

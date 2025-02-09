@@ -36,7 +36,9 @@ function toggleAuthorNote() {
 <ul class="releaseGrid">
   {% for post in site.categories.listen %}
     <li>
-      <a href="{{ post.url }}"><img class="releaseListImage" src="{{ post.coverPath }}" alt="{{ post.title }}"></a>
+      <a href="{{ post.url }}">
+        <img class="releaseListImage" loading="lazy" src="https://files.guesst.net/file/guesst-files/album-art/{{ post.songTitle | replace: '?', '' | replace: '!', '' | replace: "'", '%27' | replace: ',', '' | replace: ' ', '%20' | replace: '(', '%28' | replace: ')', '%29' | replace: '/', '%3A' }}.jpg" alt="{{ post.title }}">
+      </a>
     </li>
   {% endfor %}
 </ul>

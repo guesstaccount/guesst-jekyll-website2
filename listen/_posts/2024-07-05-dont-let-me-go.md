@@ -1,7 +1,7 @@
 ---
 title: guesst // dont let me go (Aggressive Lifeboat wkris6.2.als)
 layout: listen
-songTitle: dont let me go (Aggressive Lifeboat wkris6.2.als)
+songTitle: dont let me go
 artist: guesst
 coverPath: https://files.guesst.net/file/guesst-files/album-art/dont-let-me-go-cover.jpeg
 download: https://files.guesst.net/file/guesst-files/dont-let-me-go-guesst.zip

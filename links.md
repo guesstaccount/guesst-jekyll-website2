@@ -42,7 +42,7 @@ nerd.
     {% assign color = "#1ED760" %}
     {% assign logo = "spotify-logo.svg" %}
   {% else %}
-    {% assign color = "blue" %}
+    {% assign color = "#00DFFF" %}
     {% assign logo = "" %}
   {% endif %}
 

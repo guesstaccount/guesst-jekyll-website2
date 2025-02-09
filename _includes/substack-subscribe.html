@@ -2,10 +2,15 @@
 <iframe id="substack-iframe" src="https://guesst.substack.com/embed" width="100%" height="120" style="border:0px solid #222222; background:#222222;" frameborder="0" scrolling="no"></iframe>
 <br>
 
-<script>
+<!-- <script>
     setTimeout(() => {
         const iframe = document.getElementById('substack-iframe');
         const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+        const embedInner = iframeDocument.querySelector('.embed-page-inner');
+        if (embedInner) {
+            embedInner.style.width = '110%';
+            embedInner.style.marginLeft = '-5%';
+        }
         document.querySelector('.substack-watermark').style.display = 'none';
     }, 1000);
-</script>
+</script> -->
