@@ -32,21 +32,30 @@ nerd.
   {% if link.url contains "youtube" %}
     {% assign color = "red" %}
     {% assign logo = "youtube-logo.svg" %}
+    {% assign text_color = "black" %}
   {% elsif link.url contains "soundcloud" %}
     {% assign color = "#ff7700" %}
     {% assign logo = "soundcloud-logo.svg" %}
+    {% assign text_color = "black" %}
   {% elsif link.url contains "discord" %}
     {% assign color = "purple" %}
     {% assign logo = "discord-logo.svg" %}
+    {% assign text_color = "black" %}
   {% elsif link.url contains "spotify" %}
     {% assign color = "#1ED760" %}
     {% assign logo = "spotify-logo.svg" %}
+    {% assign text_color = "black" %}
+  {% elsif link.url contains "mixcloud" %}
+    {% assign color = "#5000FF" %}
+    {% assign logo = "mixcloud-logo.svg" %}
+    {% assign text_color = "white" %}
   {% else %}
     {% assign color = "#00DFFF" %}
     {% assign logo = "" %}
+    {% assign text_color = "black" %}
   {% endif %}
 
-  <a href="{{ link.url }}" class="dlButton" style="background-color: {{ color }};">
+  <a href="{{ link.url }}" class="dlButton" style="background-color: {{ color }}; color: {{ text_color }};">
     {% if logo != "" %}
       <img src="{{ site.baseurl }}/assets/images/{{ logo }}" alt="{{ link.title }} logo">
     {% endif %}
