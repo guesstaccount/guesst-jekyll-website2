@@ -18,7 +18,9 @@ i am well acquainted with standard club setup, but i can play on any hardware, a
 
 <!-- <iframe width="100%" height="315" src="https://www.youtube.com/embed/nh8yw1Q_FH8" title="T.P.Y.K Sessions Ep. 001 - guesst" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/mJNu5muw3mE" title="guesst - morning dnb set" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/L8XvVkfop9w" title="guesst x blesstonio @ the whistler chicago" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<!-- <iframe width="100%" height="315" src="https://www.youtube.com/embed/mJNu5muw3mE" title="guesst - morning dnb set" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/lu2GbJZIZk4?si=twPmUAsjhbal3ste" title="guesst on stankbugz radio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -28,7 +30,9 @@ electronic? pop? emo? how abouttttt... all of the above. you can expect a guesst
 
 {% include email.html %}
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/MGEBhwZxif0?si=0LZpTxoM4EIw-YRz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/3tHq9P9UojY" title="guesst @ color club" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/MGEBhwZxif0?si=0LZpTxoM4EIw-YRz" title="guesst @ cinecity studios" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## need a whole lineup?
 
@@ -38,7 +42,10 @@ i have connections with countless artists across genres who can play at notice. 
 
 ## crowd
 
-im new to chicago, so i don't have a full grasp yet of my pull in this city, but historically i have been able to bring **15-20** people to shows. on a bill with some of my other performer contacts, i think we can bring about **30**.
+in chicago, i can bring **15-20** people to shows as of now (growing). on a bill with some of my other performer contacts, i think we can bring about **30**. 
+
+spotify audience stats - US - 03/18/2025: 
+![Spotify Audience Stats - US - 03/18/2025](https://files.guesst.net/file/guesst-files/misc-web-images/s4a-location-20250318.jpeg){: .blogImage}
 
 <!-- <div class="pic-grid">
   {% for media in site.data.epkphotos %}
