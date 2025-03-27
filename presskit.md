@@ -10,11 +10,9 @@ title: presskit 📘
 
 ## dj presskit
 
-i am well acquainted with standard club setup, but i can play on any hardware, as well as bring my own if needed.
+i am well acquainted with standard club setup, but i can play on any hardware, as well as bring my own if needed. {% include email.html %}
 
-{: .carrotList }
-
-{% include email.html %}
+<iframe width="100%" height="60" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2Fguesstaccount%2Fguesst-the-native-chicago-15-mar-2025%2F" frameborder="0" ></iframe>
 
 <!-- <iframe width="100%" height="315" src="https://www.youtube.com/embed/nh8yw1Q_FH8" title="T.P.Y.K Sessions Ep. 001 - guesst" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
 
@@ -26,9 +24,7 @@ i am well acquainted with standard club setup, but i can play on any hardware, a
 
 ## guesst is a live performer
 
-electronic? pop? emo? how abouttttt... all of the above. you can expect a guesst vocal performance show to have 100% original works + flips and remixes in at least six genres.
-
-{% include email.html %}
+electronic? pop? emo? how abouttttt... all of the above. you can expect a guesst vocal performance show to have 100% original works + flips and remixes in at least six genres. {% include email.html %}
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/3tHq9P9UojY" title="guesst @ color club" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
