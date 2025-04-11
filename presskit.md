@@ -36,9 +36,11 @@ i have connections with countless artists across genres who can play at notice. 
 
 {% include email.html %}
 
-## crowd
-
-in chicago, i can bring **15-20** people to shows as of now (growing). on a bill with some of my other performer contacts, i think we can bring about **30**. 
+## noteable shows
+- opened for [umru](https://soundcloud.com/umru) @ [bookclub](bookclubchi)
+- [subculture party la](https://www.instagram.com/p/CuhxbLIP-6Q/)
+- bass canyon space dome (as wilsonlikethevolleyball)
+- opened for mitis (as wilsonlikethevolleyball) at STAGE Nightclub Seattle
 
 spotify audience stats - US - 03/18/2025: 
 ![Spotify Audience Stats - US - 03/18/2025](https://files.guesst.net/file/guesst-files/misc-web-images/s4a-location-20250318.jpeg){: .blogImage}

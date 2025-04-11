@@ -1,32 +1,23 @@
 ---
-layout: home4
+layout: mainLinks
 title: home 🪐
 hide_nav: true
 ---
 
 <div class="home-container">
-    <img class="guesst-text-logo" src="{{ site.baseurl }}/assets/images/guesst-text-logo.svg" alt="">
-    <div class="homeImage">
-        <a href="/listen">
-            <img src="{{ site.baseurl }}/assets/images/guesst-main-page.jpg" alt="image of guessts face">
+    {% assign latest_release = site.categories.listen | first %}
+    <div class="latest-release">
+        <a href="{{ latest_release.url }}">
+            <img src="https://files.guesst.net/file/guesst-files/album-art/{{ latest_release.songTitle | replace: '?', '' | replace: '!', '' | replace: "'", '%27' | replace: ',', '' | replace: ' ', '%20' | replace: '(', '%28' | replace: ')', '%29' | replace: '/', '%3A' }}.jpg" alt="{{ latest_release.title }}" class="latest-release-image">
         </a>
     </div>
 
-    <div class="homeNav">
-        <ul>
-            {% for nav in site.data.nav %}
-                {% if nav.name != "home" %}
-                    <li>
-                        <a href="{{ nav.link }}" 
-                           {% if nav.name == "blog" %}target="_blank" rel="noopener noreferrer"{% endif %}>
-                            {{ nav.name }}
-                        </a>
-                    </li>
-                {% endif %}
-            {% endfor %}
-        </ul>
+    <div class="bit-widget-wrapper">
+        <!-- Widget will be injected here by JavaScript -->
     </div>
 
+    {% include bit-widget.html %}
+    
     {% include substack-subscribe.html %}
 
     {% include service-logos.html %}
