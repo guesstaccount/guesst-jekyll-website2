@@ -5,10 +5,15 @@ hide_nav: true
 ---
 
 <div class="home-container">
-    {% assign latest_release = site.categories.listen | first %}
+    <!-- {% assign latest_release = site.categories.listen | first %}
     <div class="latest-release">
         <a href="{{ latest_release.url }}">
             <img src="https://files.guesst.net/file/guesst-files/album-art/{{ latest_release.songTitle | replace: '?', '' | replace: '!', '' | replace: "'", '%27' | replace: ',', '' | replace: ' ', '%20' | replace: '(', '%28' | replace: ')', '%29' | replace: '/', '%3A' }}.jpg" alt="{{ latest_release.title }}" class="latest-release-image">
+        </a>
+    </div> -->
+    <div class="latest-release">
+        <a href="https://song.link/https://soundcloud.com/guesstaccount/glue5-stank-remix2">
+            <img src="https://files.guesst.net/file/guesst-files/album-art/glue%20stankbugz%20edit%20cover%20art%20Medium.jpeg" alt="" class="latest-release-image">
         </a>
     </div>
 
