@@ -7,13 +7,14 @@
 }
 
 .homePageSize {
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
 .logo {
     padding: 5%;
-    width: 6rem;
+    width: 8rem;
+    /* filter: brightness(0); */
 }
 
 .authorNoteButton {
@@ -158,11 +159,6 @@ ul {
 
 .subtitle {
     justify-self: end; /* Aligns the subtitle to the end (right) of the grid area */
-}
-
-.logo {
-    /* Keeps the logo centered; it's automatically centered by justify-items */
-    padding: 0 20px; /* Optional: adds padding on both sides */
 }
 
 .logo img {
@@ -351,19 +347,28 @@ h3 {
     width: 100%;
     max-width: 100%;
     box-sizing: border-box;
+    /* filter: brightness(0); */
 }
 
 .contactDiv img {
     display: block;
     width: 100%;
     max-width: 80px;
+    min-width: 20px;
     height: auto;
-    /* -webkit-transform: scale(1); */
+    -webkit-transform: scale(1);
     flex: 1;
-    min-width: 0;
+    /* min-width: 0; */
     object-fit: contain;
-    padding: 16px auto;
+    margin: 16px auto;
+    /* filter: brightness(0); */
 }
+
+/* .discord-icon {
+    min-width: 40px;
+    min-height: 40px;
+    aspect-ratio: 1/1;
+} */
 
 #substack-icon {
     width: 70%;
@@ -761,8 +766,8 @@ h3 {
 }
 
 .latest-release {
-    width: 100%;
-    max-width: 500px;
+    width: 80%;
+    max-width: 400px;
     margin: 20px auto;
 }
 
@@ -770,6 +775,19 @@ h3 {
     width: 100%;
     height: auto;
     display: block;
+}
+
+.bit-mail-signup {
+    border: none;
+    transform: scale(0.8);
+}
+
+.bit-mail-signup iframe {
+    border: none;
+}
+
+.bodyContainer iframe {
+    margin: 10px 0;
 }
 
 .home-container {
@@ -782,3 +800,26 @@ h3 {
     max-width: 800px;
     margin: 0 auto;
 }
+
+/* Safari-specific fix for Bandsintown widget */
+/* @media not all and (min-resolution:.001dpcm) { 
+    @supports (-webkit-appearance:none) {
+        .bit-widget-container {
+            width: 100% !important;
+            max-width: 800px !important;
+            margin: 0 auto !important;
+        }
+    }
+} */
+
+/* Safari-specific fix for Discord icon
+@media not all and (min-resolution:.001dpcm) { 
+    @supports (-webkit-appearance:none) {
+        .discord-icon {
+            width: 100%;
+            max-width: 80px;
+            height: auto;
+            flex: 1;
+        }
+    }
+} */

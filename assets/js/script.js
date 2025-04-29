@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
     picGrid();
 
     albumArtB2();
+    addTargetToNoteableShows();
 });
 
 function convertToImage() {
@@ -313,3 +314,17 @@ function albumArtB2() {
       });
   }
 }
+
+function addTargetToNoteableShows() {
+    if (window.location.pathname.includes('/presskit')) {
+        const noteableShows = document.querySelector('.noteable-shows');
+        if (noteableShows) {
+            const links = noteableShows.querySelectorAll('a');
+            links.forEach(link => {
+                link.setAttribute('target', '_blank');
+                link.setAttribute('rel', 'noopener noreferrer');
+            });
+        }
+    }
+}
+

@@ -47,7 +47,7 @@
 	  data-sold-out-button-border-color="#4A4A4A"
 	  data-sold-out-button-clickable="true"
 	  
-	  data-event-rsvp-position="left"
+	  data-event-rsvp-position="hidden"
 	  data-event-rsvp-cta-size="small"
 	  data-event-rsvp-only-show-icon=""
 	  data-event-rsvp-text="REMIND ME"
@@ -60,7 +60,7 @@
 	  
 	  data-follow-section-position="hidden"
 	  data-follow-section-alignment="center"
-	  data-follow-section-header-text="follow on bandsintown"
+	  data-follow-section-header-text=""
 	  data-follow-section-cta-size="size"
 	  data-follow-section-cta-text="FOLLOW"
 	  data-follow-section-cta-icon="true"
@@ -92,7 +92,7 @@
 	  data-optin-cta-border-color=""
 	  
 	  data-language="en"
-	  data-layout-breakpoint="900"
+	  data-layout-breakpoint="800"
 	  data-app-id=""
 	  data-affil-code=""
 	  data-bit-logo-position="hidden"
@@ -100,41 +100,5 @@
 	  
 	  ></a>
 </div>
-
-<script>
-  function updateLayoutBreakpoint() {
-    console.log('this ran', window.innerWidth);
-    const bitWidget = document.querySelector('.bit-widget-initializer');
-    if (!bitWidget) {
-      console.log('Widget not found yet');
-      return;
-    }
-    
-    if (window.innerWidth < 953) {
-      bitWidget.removeAttribute('data-layout-breakpoint');
-    } else {
-      bitWidget.setAttribute('data-layout-breakpoint', '100');
-    }
-  }
-
-  // Function to check if widget exists and initialize
-  function initializeWidget() {
-    const bitWidget = document.querySelector('.bit-widget-initializer');
-    if (bitWidget) {
-      // Widget found, set up resize listener
-      updateLayoutBreakpoint();
-      window.addEventListener('resize', updateLayoutBreakpoint);
-    } else {
-      // Widget not found yet, try again in a moment
-      setTimeout(initializeWidget, 100);
-    }
-  }
-
-  // Start checking for widget when DOM is loaded
-  document.addEventListener('DOMContentLoaded', initializeWidget);
-  
-  // Also run on window load in case DOMContentLoaded already fired
-  window.addEventListener('load', initializeWidget);
-</script>
 
 <!-- <div id="seated-55fdf2c0" data-artist-id="2d4cf45a-4c89-4c62-ae7a-6616a054f59b" data-css-version="3"></div><script src="https://widget.seated.com/app.js"></script> -->
