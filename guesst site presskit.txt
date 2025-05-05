@@ -1,0 +1,21 @@
+i want to have a container with two tabs:
+- dj
+- live performer
+
+the tabs are selectable and show which tab is selected when you are in it. 
+
+
+/// dj tab ///
+when the dj tab is selected it shows some text, and then a bunch of genre buttons. it shows a button for each genres that is available as listed in each element of the "dj-sets.yml"
+
+example entry:
+
+- title: tpyk sessions
+  url: https://www.youtube.com/embed/nh8yw1Q_FH8
+  genre: mixed edm, bass house, dubstep, drum n bass
+
+when the user selects a genre on the site, all dj sets that contain that genre show up.
+
+
+/// performer tab ///
+when the performer tab is selected it it shows 

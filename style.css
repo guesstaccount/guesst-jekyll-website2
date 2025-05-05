@@ -775,6 +775,8 @@ h3 {
     width: 100%;
     height: auto;
     display: block;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
 .bit-mail-signup {
