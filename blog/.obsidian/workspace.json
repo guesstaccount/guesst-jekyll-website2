@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7aed2ddb16eac490",
+        "id": "c44b44cc217021d8",
         "type": "tabs",
         "children": [
           {
-            "id": "fd798886f551d105",
+            "id": "75f27898fae1c5cd",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.9"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -161,7 +159,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fd798886f551d105",
+  "active": "75f27898fae1c5cd",
   "lastOpenFiles": [
     "_posts/2024-09-24-success-as-a-function-of-time.md",
     "_posts/2024-12-06-test.md",
