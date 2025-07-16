@@ -83,12 +83,12 @@ title: presskit 📘
 }
 
 .tab-button {
-  padding: 10px 20px;
+  padding: 6px 10px;
   background: transparent;
   border: 2px solid #00DFFF;
   color: #00DFFF;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 12px;
   transition: all 0.3s ease;
 }
 
