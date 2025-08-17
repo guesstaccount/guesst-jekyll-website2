@@ -20,9 +20,11 @@ title: presskit 📘
 
     <p>i am well acquainted with standard club setup, but i can play on any hardware, as well as bring my own if needed. {% include email.html %}</p>
 
-    <iframe width="100%" height="315" src="https://www.youtube.com/embed/L8XvVkfop9w" title="guesst x blesstonio @ the whistler chicago" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/lu2GbJZIZk4?si=twPmUAsjhbal3ste" title="guesst on stankbugz radio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/tsocuZQhPDg?si=0joWM3IEaMHRKQ7r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/L8XvVkfop9w" title="guesst x blesstonio @ the whistler chicago" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/iJDIIPz80VM?si=L3Fp0ZgRh4GM8p0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -42,7 +44,7 @@ title: presskit 📘
 
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/MGEBhwZxif0?si=0LZpTxoM4EIw-YRz" title="guesst @ cinecity studios" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-    <h2>featured tracks</h2>
+    <h2>featured liveshow tracks</h2>
 
     <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1988027584&color=%235fcaf7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
   </div>
@@ -50,8 +52,11 @@ title: presskit 📘
 
 <h2>noteable shows</h2>
 - [subculture party la](https://www.instagram.com/p/CuhxbLIP-6Q/)
-- <a href="#noteableshows" onclick="openLightbox('https://files.guesst.net/file/guesst-files/press-kit/wltv-at-space-dome-bass-canyon.jpeg'); return false;">bass canyon</a> space dome (as wilsonlikethevolleyball)
+- headlined [transilience](https://www.instagram.com/p/DLkn_LbMHnd/) trans festival afterparty.
 - opened for [umru](https://soundcloud.com/umru) @ [bookclub](bookclubchi)
+- played [fremont fridays](https://www.instagram.com/fremontfridays/) festival in seattle.
+- <a href="#noteableshows" onclick="openLightbox('https://files.guesst.net/file/guesst-files/press-kit/wltv-at-space-dome-bass-canyon.jpeg'); return false;">bass canyon</a> space dome (as wilsonlikethevolleyball)
+- <a href="#noteableshows" onclick="openLightbox('https://files.guesst.net/file/guesst-files/press-kit/CHBP_New Additions.jpeg'); return false;">capitol hill block party</a> in seattle
 - opened for [mitis](https://soundcloud.com/mitis) (as wilsonlikethevolleyball) at STAGE Nightclub Seattle
 {: .noteable-shows .carrotList}
 
@@ -83,12 +88,12 @@ title: presskit 📘
 }
 
 .tab-button {
-  padding: 6px 10px;
+  padding: 10px 20px;
   background: transparent;
   border: 2px solid #00DFFF;
   color: #00DFFF;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 16px;
   transition: all 0.3s ease;
 }
 
