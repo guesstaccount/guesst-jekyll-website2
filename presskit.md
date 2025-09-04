@@ -20,13 +20,13 @@ title: presskit 📘
 
     <p>i am well acquainted with standard club setup, but i can play on any hardware, as well as bring my own if needed. {% include email.html %}</p>
 
-    <iframe width="100%" height="315" src="https://www.youtube.com/embed/lu2GbJZIZk4?si=twPmUAsjhbal3ste" title="guesst on stankbugz radio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/tsocuZQhPDg?si=0joWM3IEaMHRKQ7r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/L8XvVkfop9w" title="guesst x blesstonio @ the whistler chicago" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/iJDIIPz80VM?si=L3Fp0ZgRh4GM8p0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/lu2GbJZIZk4?si=twPmUAsjhbal3ste" title="guesst on stankbugz radio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     <iframe width="100%" height="60" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2Fguesstaccount%2Fguesst-the-native-chicago-15-mar-2025%2F" frameborder="0" ></iframe>
 
