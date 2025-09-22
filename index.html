@@ -1,32 +1,17 @@
 ---
-layout: home5
+layout: white-home
 title: home 🪐
 hide_nav: true
 ---
-
-<div class="latest-release">
-    <a href="https://song.link/https://soundcloud.com/guesstaccount/glue5-stank-remix2">
-        <img src="https://files.guesst.net/file/guesst-files/album-art/glue%20stankbugz%20edit%20cover%20art%20Medium.jpeg" alt="" class="latest-release-image">
-    </a>
+<div class="stripe">
 </div>
 
-<div class="bit-widget-wrapper">
-    <!-- Widget will be injected here by JavaScript -->
+<div class="stripe">
+    <div class="hero-image">
+        <img class="hero-blocks" src="assets/images/hero.jpg">
+    </div>
 </div>
 
-<br>
-{% include bit-mail-signup.html %}
-<br>
-{% include bit-widget.html %}
-<br>
-{% include service-logos.html %}
-<br>
-<!-- <div class="home-container"> -->
-    <!-- {% assign latest_release = site.categories.listen | first %}
-    <div class="latest-release">
-        <a href="{{ latest_release.url }}">
-            <img src="https://files.guesst.net/file/guesst-files/album-art/{{ latest_release.songTitle | replace: '?', '' | replace: '!', '' | replace: "'", '%27' | replace: ',', '' | replace: ' ', '%20' | replace: '(', '%28' | replace: ')', '%29' | replace: '/', '%3A' }}.jpg" alt="{{ latest_release.title }}" class="latest-release-image">
-        </a>
-    </div> -->
-    
-<!-- </div> -->
+<div class="stripe">
+    {% include nav.html %}
+</div>

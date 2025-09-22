@@ -1,37 +1,53 @@
-/* make logos black */
-.guesst-text-logo, .logo {
-    filter: invert(100%) saturate(0) brightness(0);
-}
-
-
-.white-logo-bar {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    margin: 20px;
-    width: 100%;
-    height: 80px;
-}
-
-.logo-container, .text-logo-container {
-display: flex;
-/* align-items: center; */
-}
-
-.text-logo-container {
-    justify-content: flex-end;
-}
-
-.logo {
-    height: 100%;
-    max-width: 100%;
-    filter: invert(100%) saturate(0) brightness(0);
+* {
+    box-sizing: border-box;
 }
 
 .top-bar {
+    width: 100%;
+}
+
+.white-logo-bar {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    max-width: 100%;
 }
+
+.guesstlogo img {
+    height: 80px;
+}
+
+.guesstlogo, .guesstLogoText {
+    filter: invert(100%) saturate(0) brightness(0);
+}
+
+/* .top-bar {
+    display: flex;
+    flex-direction: row;
+} */
+
+/* .guesst-text-logo, .logo {
+    filter: invert(100%) saturate(0) brightness(0);
+} */
+
+/* .guesst-text-logo, .logo img {
+    height: 100%;
+    width: auto;
+} */
+
+/* .logo-container, .text-logo-container {
+display: flex;
+} */
+
+/* .logo {
+    
+} */
+
+/* .text-logo-container {
+    justify-content: flex-end;
+} */
 
 .mainSectionHome {
     display: flex;
@@ -107,6 +123,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
+    max-width: 100%;
 }
 
 a {
@@ -115,8 +132,11 @@ a {
 
 @media (max-width: 768px) {
     .white-logo-bar {
+        padding: 10px;
+    }
+
+    .guesstlogo img {
         height: 50px;
-        margin: 10px;
     }
 
     .exclude-icon {

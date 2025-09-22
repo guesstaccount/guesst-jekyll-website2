@@ -1,6 +1,6 @@
 ---
 layout: white-epk
-title: my thoughts on rates
+title: rates
 ---
 
 # my thoughts on rates
@@ -40,7 +40,13 @@ below are some types of work that i can and would do for people and some rates t
 - **album art:** *$100 per cover art*
 - **show poster:** *$100 per poster* 
 
-make me an offer. worst i can say is no! :) 
+\*pls note i dont actually really like to work locked into *only* mixing **or** mastering **or** production etc. 
+
+if we get in the session for “mixing” and then we are like “yo this arrangement should be slightly different” im not gonna charge more / only do mixing because im not allowed to do anything else. 
+
+as a person who has never really done shit traditionally, i always kinda just show up and take it from where it is to where it needs to be using whatever skills i need to do to accompllish that. these rates are for those who only want something specific or simply just so folks can get an idea of general cost based on the workloud.
+
+[make me an offer. worst i can say is no! :)](mailt&#111;&#58;&#104;ell&#37;6F&#64;%&#54;&#55;&#117;e&#115;%&#55;&#51;t&#46;net)
 
 <br>
 <br>
