@@ -23,32 +23,6 @@
     filter: invert(100%) saturate(0) brightness(0);
 }
 
-/* .top-bar {
-    display: flex;
-    flex-direction: row;
-} */
-
-/* .guesst-text-logo, .logo {
-    filter: invert(100%) saturate(0) brightness(0);
-} */
-
-/* .guesst-text-logo, .logo img {
-    height: 100%;
-    width: auto;
-} */
-
-/* .logo-container, .text-logo-container {
-display: flex;
-} */
-
-/* .logo {
-    
-} */
-
-/* .text-logo-container {
-    justify-content: flex-end;
-} */
-
 .mainSectionHome {
     display: flex;
     flex-direction: row;
@@ -215,4 +189,14 @@ a {
 
 .clout-table {
     filter: invert(100%) saturate(0) brightness(0);
+}
+
+/* portfolio */
+
+.portfolio-grid li {
+    list-style-type: none;
+}
+
+.portfolio-grid {
+    padding: 0px;
 }
