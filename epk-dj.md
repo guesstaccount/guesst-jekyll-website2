@@ -1,6 +1,6 @@
 ---
 layout: white-epk
-title: epk dj
+title: epk
 ---
 
 <div class="talking">
