@@ -12,6 +12,12 @@
         <link rel="alternate" type="application/rss+xml" title="new music feed" href="{{ site.url }}/new_music.xml" />
         <script src="/assets/js/script.js"></script>
         <link rel="stylesheet" type="text/css" href="/style-white.css?v={{ site.time | date: '%s' }}">
+        <!-- open graph tags -->
+        <meta property="og:title" content="guesst - epk" />
+        <meta property="og:description" content="stats, dj sets, and music samples for booking opportunities for guesst." />
+        <meta property="og:image" content="{{ site.url }}/assets/images/guesst-logo-2024-SQUARE.png" />
+        <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+        <meta property="og:type" content="website" /> <!-- or "article", "product", etc. -->
         <!-- ?v={{ site.time | date: '%s' }} -->
     </head>
     <body>
