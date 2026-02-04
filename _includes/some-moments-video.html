@@ -1,0 +1,71 @@
+<div class="viddiv">
+    <video autoplay muted loop class="video-background">
+        <source src="../assets/video/some-moments.mov" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <button id="muteUnmuteBtn" class="mute-button" onclick="toggleMute()">Unmute</button>
+</div>
+
+<script type="text/javascript">
+    var vid = document.querySelector('.video-background');
+    
+    function toggleMute() {
+        if (vid.muted) {
+            vid.muted = false;
+            document.getElementById('muteUnmuteBtn').innerHTML='Mute';
+        } else {
+            vid.muted = true;
+            document.getElementById('muteUnmuteBtn').innerHTML='Unmute';
+        }
+    }
+</script>
+
+<style>
+    video {
+        width: 100%;
+        height: 50%;
+        object-fit: fill;
+    }
+
+    .viddiv {
+        /* Add any other styles as needed */
+        position: relative;
+    }
+
+    .mute-button  {
+        position: absolute;
+        bottom: 20px;
+        right: 5px;
+        background: #fff;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+</style>
+
+<!-- <style>
+    .content-area {
+        height: 500px; /* Adjust this value according to your requirement */
+        position: relative;
+        z-index: 1; /* This ensures the content appears above the video, adjust as needed */
+    }
+    
+   /* Center the video */
+   .video-background {
+       position: absolute; 
+       top: 0; left: 50%; 
+       min-width: 100%; min-height: 100%;
+       transform:translateX(-50%);
+       z-index: -999;
+   }
+    /* Style the mute/unmute button */
+   .mute-button {
+       position: fixed;
+       bottom: 20px;
+       right: 20px;
+       background: #fff;
+       padding: 5px 10px;
+       cursor: pointer;
+       z-index: 999;
+   }
+</style> -->

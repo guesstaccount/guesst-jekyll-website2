@@ -1,0 +1,30 @@
+<div class="container">
+    <!-- Section Heading -->
+    <h2>Events and Venues</h2>
+
+    {% assign locations = site.data.events-venues | group_by: 'city' %}
+
+    <div class="row events-venues-row">
+        {% for city in locations %}
+        <div class="events-group">
+            <h3>{{ city.name }}</h3>
+
+            <!-- Start Row for Columns -->
+            {% for location in city.items %}
+            <p>
+                <a href="{{ location.url }}" target="_blank" rel="noopener noreferrer nofollow">{{ location.title }}</a>
+            </p>
+            {% endfor %}
+            <!-- End Row -->
+
+        </div>
+        {% endfor %}
+    </div>
+
+</div>
+
+<style>
+    p {
+        margin: 0;
+    }
+</style>

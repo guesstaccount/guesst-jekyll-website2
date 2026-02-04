@@ -81,10 +81,6 @@
 .mainSection img {
     width: 100%;
 }
-
-/* .mainSectionHome {
-    
-} */
   
 body {
     background-color: #ffffff;
@@ -104,7 +100,25 @@ a {
     color: #00DFFF;
 }
 
+.events-venues-row {
+    column-count: 2;
+    
+    & h3 {
+       margin-top: 0px;
+    }
+}
+
+.events-group {
+    break-inside: avoid;
+
+    margin-bottom: 20px;
+}
+
 @media (max-width: 768px) {
+    .events-venues-row {
+        column-count: 1;
+    }
+
     .white-logo-bar {
         padding: 10px;
     }

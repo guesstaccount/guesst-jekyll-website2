@@ -1,8 +1,26 @@
 <table class="clout-table" style="width: 100%; border-collapse: collapse; margin-top: 20px;">
     <tbody>
+    {% for clout_item in site.data.clout-table %}
+    <tr>
+        <td style="border: 1px solid #ddd; padding: 8px;">
+            <a href="{{ clout_item.url }}" target="_blank" rel="noopener noreferrer">
+                <img class="press-kit-icon" src="{{ site.baseurl }}/assets/images/{{ clout_item.icon }}">
+            </a>
+        </td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><a href="{{ clout_item.url }}" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:black;">{{ clout_item.followers }}</a></td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+
+
+
+<!-- <table class="clout-table" style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+    <tbody>
         <tr>
-            <td style="border: 1px solid #ddd; padding: 8px;"><a href="spotify:artist:6JN0LuZjEtRULBROXulK81" target="_blank" rel="noopener noreferrer"><img class="press-kit-icon" src="../assets/images/spotify-logo.svg"></a></td>
-            <td style="border: 1px solid #ddd; padding: 8px;"><a href="spotify:artist:6JN0LuZjEtRULBROXulK81" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:black;">removed in protest of military investments</a></td>
+            <td style="border: 1px solid #ddd; padding: 8px;"><a href="https://open.spotify.com/artist/6JN0LuZjEtRULBROXulK81" target="_blank" rel="noopener noreferrer"><img class="press-kit-icon" src="../assets/images/spotify-logo.svg"></a></td>
+            <td style="border: 1px solid #ddd; padding: 8px;"><a href="https://www.youtube.com/watch?v=VtTNAiT0kUI" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:black;">removed in protest of military investments</a></td>
         </tr>
         <tr>
             <td style="border: 1px solid #ddd; padding: 8px;">
@@ -11,7 +29,17 @@
                 </a>
             </td>
             <td style="border: 1px solid #ddd; padding: 8px;">
-              <a href="https://youtube.com/guesstaccount" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:black;">1104 subscribers</a>
+              <a href="https://youtube.com/guesstaccount" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:black;">1,136 subscribers</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">
+                <a href="https://instagram.com/guesstaccount" target="_blank" rel="noopener noreferrer">
+                    <img class="press-kit-icon" src="../assets/images/instagram.svg">
+                </a>
+            </td>
+            <td style="border: 1px solid #ddd; padding: 8px;">
+              <a href="https://instagram.com/guesstaccount" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:black;">1,890 followers</a>
             </td>
         </tr>
         <tr>
@@ -20,7 +48,8 @@
                     <img class="press-kit-icon" src="../assets/images/soundcloud-logo.svg">
                 </a>
             </td>
-            <td style="border: 1px solid #ddd; padding: 8px;"><a href="https://soundcloud.com/guesstaccount" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:black;">787 followers</a></td>
+            <td style="border: 1px solid #ddd; padding: 8px;"><a href="https://soundcloud.com/guesstaccount" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:black;">Followers
+                831 followers</a></td>
         </tr>
         <tr>
             <td style="border: 1px solid #ddd; padding: 8px;">
@@ -30,5 +59,13 @@
             </td>
             <td style="border: 1px solid #ddd; padding: 8px;"><a href="https://www.bandsintown.com/artist-rsvp/15554561-guesst" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:black;">188 contacts</a></td>
         </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">
+                <a href="https://www.bandsintown.com/a/15554561-guesst" target="_blank" rel="noopener noreferrer">
+                    <img class="press-kit-icon" src="./assets/images/bit-icon.svg">
+                </a>
+            </td>
+            <td style="border: 1px solid #ddd; padding: 8px;"><a href="https://www.bandsintown.com/a/15554561-guesst" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:white;">119 followers</a></td>
+        </tr>
     </tbody>
-</table>
+</table> -->

@@ -21,6 +21,7 @@
         <!-- ?v={{ site.time | date: '%s' }} -->
     </head>
     <body>
+        {% include some-moments-video.html %}
         <section class="top-bar">
             {% include white-logo-bar.html %}
         </section>
@@ -28,7 +29,12 @@
             <!-- {% unless page.hide_nav %}
                 {% include nav.html %}  
             {% endunless %} -->
-            {{ content }}
+            <div class="talking">        
+                {{ content }}
+                <br>
+                <br>
+                <br>
+                </div>
         </section>
         <!-- <section class="bitmail">
             {% include bit-mail-signup.html %}
