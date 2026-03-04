@@ -594,7 +594,7 @@ its good to know that every day i grow
 
 you've made it to the end!! thank you for coming i really appreciate you. here is a link to a little care package with all the music and some random smatterings of files that i was able to find relating to the release of this project... music videos, text posts for release, images from that era.
 
-[download here :)](https://files.guesst.net/file/guesst-files/transfer/never%20guessed%20that%20i%27d%20spend%20energy%20on%20being%20small%20listening%20party%20care%20package.zip)
+[download here :)](https://files.guesst.net/file/guesst-files/music/never%20guessed%20that%20i%27d%20spend%20energy%20on%20being%20small%20listening%20party%20care%20package.zip)
 
 <style>
     img {
