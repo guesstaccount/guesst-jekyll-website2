@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>guesst - {{ page.title }}</title>
+        <link rel="icon" type="image/svg" href="../assets/images/guesst-logo-2024.svg" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Share+Tech+Mono&display=swap" rel="stylesheet" crossorigin="anonymous">
+        <link rel="alternate" type="application/rss+xml" title="blog feed" href="{{ site.url }}/feed.xml" />
+        <link rel="alternate" type="application/rss+xml" title="new music feed" href="{{ site.url }}/new_music.xml" />
+        <script src="/assets/js/script.js"></script>
+        <link rel="stylesheet" type="text/css" href="/style-white.css?v={{ site.time | date: '%s' }}">
+        <!-- open graph tags -->
+        <meta property="og:title" content="guesst - epk" />
+        <meta property="og:description" content="stats, dj sets, and music samples for booking opportunities for guesst." />
+        <meta property="og:image" content="{{ site.url }}/assets/images/guesst-logo-2024-SQUARE.png" />
+        <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+        <meta property="og:type" content="website" /> <!-- or "article", "product", etc. -->
+        <!-- ?v={{ site.time | date: '%s' }} -->
+    </head>
+    <body>
+        <section class="top-bar">
+            {% include white-logo-bar.html %}
+        </section>
+        <section class="{{ page.layout }} mainSection">
+            <!-- {% unless page.hide_nav %}
+                {% include nav.html %}  
+            {% endunless %} -->
+            <div class="talking">        
+                {{ content }}
+                <br>
+                <br>
+                <br>
+                </div>
+        </section>
+        <!-- <section class="bitmail">
+            {% include bit-mail-signup.html %}
+        </section> -->
+            <div class="service-logos">
+                {% include service-logos.html %}
+            </div>
+    </body>
+</html>

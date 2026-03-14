@@ -1,5 +1,5 @@
 ---
-layout: white-epk
+layout: white-basic
 title: rates
 ---
 
